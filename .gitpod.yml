@@ -10,3 +10,6 @@ vscode:
     - eventyret.bootstrap-4-cdn-snippet
     - kevinglasson.cornflakes-linter
     - hookyqr.beautify
+
+ports:
+    - port: 8080

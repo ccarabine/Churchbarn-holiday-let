@@ -7,37 +7,37 @@
   /* padding and border are included in the width and height*/
 }
 
-body {
+.container {
 
-   
-   
-  background-image: url("../../assets/images/heroimage.JPG");
-  background-size: cover;
- background-position: center center;
+background: url("../../assets/images/heroimage.JPG");
+  background-size:cover;
+  height:900px;
+  background-position: center center;
   background-repeat: no-repeat;  /* Do not repeat the image */
- /* height: 50vh;*/
- 
-}
+  background-color: grey;
 
+}
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 5fr 5fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.5fr 2fr 2fr 2fr 1.5fr 0.5fr ;
   /*height: 100vh;*/
   /*margin: 2em;*/
   grid-template-areas:
-    "header header header header"
-    "nav nav nav nav"
-    "lcontent lcontent rcontent rcontent"
-    "lcontent2 lcontent2 rcontent2 rcontent2"
-    "footer footer footer footer";
-
+    "header"
+    "nav"
+    "lcontent" 
+    "rcontent" 
+    "lcontent2" 
+    "rcontent2" 
+    "footer";
+  
 }
 
 .main-head {
   grid-area: header;
-   color: red;
+  color: red;
   text-transform: uppercase;
   padding: 20px 40px;
   text-align: center;
@@ -52,23 +52,26 @@ body {
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-right: 30px;
- 
+
 }
 
-  
 
-.navbar ul { /* change text to hortizonal and remove bullets*/
+
+.navbar ul {
+  /* change text to hortizonal and remove bullets*/
   display: flex;
   justify-content: center;
   list-style-type: none;
 
-  
+
 }
+
 .navbar ul li a {
+  /* added space between links and remove underline*/
   padding-right: 25px !important;
   padding-left: 25px !important;
   text-decoration: none;
-  }
+}
 
 /* Change the color of links on hover */
 .navbar a:hover {
@@ -102,14 +105,13 @@ section.rcontent2 {
 footer.main-footer {
   grid-area: footer;
   background-color: grey;
- }
+}
 
-
-/*
-@media (min-width: 500px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {
   .wrapper {
-    grid-template-columns: 1fr 1fr ;
-    
+    grid-template-columns: 1fr 1fr;
+
     grid-template-areas:
       "header header"
       "nav nav"
@@ -117,32 +119,35 @@ footer.main-footer {
       "lcontent rcontent"
       "lcontent rcontent"
       "footer footer";
-      text-align: center;
+    text-align: center;
   }
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-  }
-}
 
-@media (min-width;700px){
-  .wrapper{
-    grid-template-columns:1fr 1fr 1fr 1fr;
+  
+
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr auto auto 1fr;
     grid-template-areas:
-    "header header header header"
-    "nav nav nav nav"
-    "lcontent rcontent"
-    "lcontent rcontent"
- 
-    "footer footer footer footer";
+      "header header header header"
+      "nav nav nav nav"
+      "lcontent rcontent"
+      "lcontent rcontent"
+
+      "footer footer footer footer";
   }
-  nav ul{
+
+  nav ul {
     flex-direction: column;
   }
 }
 
-@media (min-width; 700px) {
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+/*@media only screen and (min-width: 992px) {
+
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -151,8 +156,8 @@ footer.main-footer {
     grid-template-areas:
       "header header header header"
       "nav nav nav nav"
-      "lcontent rcontent"
-      "lcontent rcontent"
+      "lcontent rcontent lcontent rcontent"
+      "lcontent rcontent lcontent rcontent"
       "footer footer footer footer";
     text-align: center;
   }
@@ -161,18 +166,5 @@ footer.main-footer {
     flex-direction: column;
   }
 
-  .nav {
-    grid-template columns: none 1fr 1fr none;
-    text-align: center;
-  }
-
-  .main-head {
-    grid-area: header;
-    grid-template columns: none 1fr 1fr none;
-    color: red;
-    text-transform: uppercase;
-    padding: 16px 40px;
-    text-align: center;
-    align-items: center;
-  }
-}*/
+ 
+}

@@ -1,98 +1,178 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Noto+Sans+TC:wght@500&display=swap');
 
 * {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* padding and border are included in the width and height*/
 }
 
-body{   
-        background-image: url("../images/Heroimage.JPG");
-        background-size:cover;
-        background-position: center center; 
-        background-repeat: no-repeat; /* Do not repeat the image */
-        height:100vh;
-          
+body {
+
+   
+   
+  background-image: url("../../assets/images/heroimage.JPG");
+  background-size: cover;
+ background-position: center center;
+  background-repeat: no-repeat;  /* Do not repeat the image */
+ /* height: 50vh;*/
+ 
 }
 
-.header{
-	
-	 	height: 70px;
-	 	font-family: sans-serif;
 
-	 	display: flex;
-	 	flex-wrap:wrap
-	 	align-items: center;
-        
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 5fr 5fr 1fr;
+  /*height: 100vh;*/
+  /*margin: 2em;*/
+  grid-template-areas:
+    "header header header header"
+    "nav nav nav nav"
+    "lcontent lcontent rcontent rcontent"
+    "lcontent2 lcontent2 rcontent2 rcontent2"
+    "footer footer footer footer";
+
 }
-.header-title{
-    color:rgb(127, 106, 167);
-      text-transform: uppercase;
+
+.main-head {
+  grid-area: header;
+   color: red;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  text-align: center;
+  align-items: center;
+}
+
+
+.navbar {
+  grid-area: nav;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-right: 30px;
+ 
+}
+
+  
+
+.navbar ul { /* change text to hortizonal and remove bullets*/
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+
+  
+}
+.navbar ul li a {
+  padding-right: 25px !important;
+  padding-left: 25px !important;
+  text-decoration: none;
+  }
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  color: pink;
+}
+
+/* Add an active class to highlight the current page */
+.navbar a.active {
+  background-color: #aa0404;
+  color: yellow;
+}
+
+
+
+section.lcontent {
+  grid-area: lcontent;
+}
+
+section.rcontent {
+  grid-area: rcontent;
+}
+
+section.lcontent2 {
+  grid-area: lcontent2;
+}
+
+section.rcontent2 {
+  grid-area: rcontent2;
+}
+
+footer.main-footer {
+  grid-area: footer;
+  background-color: grey;
+ }
+
+
+/*
+@media (min-width: 500px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr ;
+    
+    grid-template-areas:
+      "header header"
+      "nav nav"
+      "lcontent rcontent"
+      "lcontent rcontent"
+      "lcontent rcontent"
+      "footer footer";
+      text-align: center;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width;700px){
+  .wrapper{
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto auto 1fr;
+    grid-template-areas:
+    "header header header header"
+    "nav nav nav nav"
+    "lcontent rcontent"
+    "lcontent rcontent"
+ 
+    "footer footer footer footer";
+  }
+  nav ul{
+    flex-direction: column;
+  }
+}
+
+@media (min-width; 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr fr 1fr;
+
+    grid-template-areas:
+      "header header header header"
+      "nav nav nav nav"
+      "lcontent rcontent"
+      "lcontent rcontent"
+      "footer footer footer footer";
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  .nav {
+    grid-template columns: none 1fr 1fr none;
+    text-align: center;
+  }
+
+  .main-head {
+    grid-area: header;
+    grid-template columns: none 1fr 1fr none;
+    color: red;
+    text-transform: uppercase;
     padding: 16px 40px;
     text-align: center;
     align-items: center;
-}
-
-.nav{
-  
-    align-items: center;
-text-decoration:none;}
-
-.nav ul{
-    display: flex;
-    justify-content: center;
-    
-}
-
-.nav ul li{
-    text-transform: uppercase;
-    padding: 10px 20px;
-    
-    font-size: 20px;
-    list-style-type: none;
-   
-    cursor: pointer;
-}
-/* unvisited link */
-a:link {
-    color:rgb(127, 106, 167);
-    text-decoration:none;
-}
-
-/* visited link */
-a:visited {
-    color:rgb(127, 106, 167);
-    text-decoration:none;
-}
-/*
-.nav-list a{
-    text-decoration:none;
-    color:inherit;
-   
-    letter-spacing:4px;
-    text-transform: uppercase;
-}
-.nav-list li{
-    float :right;
-   
-      list-style-type: none;
-      margin-right : 30px;
-  
-}
-   
-
- /* Change the color of links on hover 
-.nav-list a:hover {
-       color: black;
   }
-  
-  /* Add an active class to highlight the current page 
-.nav-list a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-
-
-
-
+}*/

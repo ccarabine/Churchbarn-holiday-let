@@ -65,6 +65,8 @@ body {
 
 .social-networks>li {
   display: inline;
+  font-size:160%;
+ 
 }
 
 .social-networks li a i:hover {
@@ -74,32 +76,55 @@ body {
 
 footer{ 
   height: 50px;
-  background-color: orange;
+  background-color: darkgray;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
   grid-gap: 1rem;
   text-align:center;
-  justify-content:center;
-   padding: 20px;
+ 
+  padding:15px;
+  
 }
+
+
 /*The barn Styling section */
 .barn-container {
-  
-  flex:1;
-  
-}
-.barn-wrapper {
+    flex:1;
+  }
+
+  .barn-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr auto;
+    min-height: 100%;
+    grid-template-areas:
+      
+  /*      "lcontent lcontent rcontent rcontent"
+      "lcontent2 lcontent2 lcontent2 rcontent2"*/
+      "lcontent3 lcontent3 rcontent3 rcontent3"
+      "lcontent4 lcontent4 rcontent4 rcontent4";
+  }
+.features-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto 1fr 1fr 1f 1fr 1fr auto;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   min-height: 100%;
+  text-align: center;
+  margin-top:50px;
+
   grid-template-areas:
+    "features1, features2, features3, features4"
     
-    "lcontent lcontent rcontent rcontent"
-    "lcontent2 lcontent2 lcontent2 rcontent2"
-    "lcontent3 lcontent3 rcontent3 rcontent3"
-    "lcontent4 lcontent4 rcontent4 rcontent4"
     
+}
+.features-title{
+  margin-top:50px;
+  font-size:150%;
+  text-align:center;
+}
+.list > li
+{
+  text-align: center;
 }
 img {
   border: 5px solid #555;
@@ -109,9 +134,22 @@ img {
 section {
   /*centers content*/
   height: 600px;
-  border: 1px solid #2d2d2d;
+ /* border: 1px solid #2d2d2d;*/
   text-align: center;
 }
+section h1{
+  color:pink;
+  margin-bottom:20px;
+}
+
+.barn-image {
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 section p{
   margin:25px 200px;
 padding:50px;
@@ -123,8 +161,17 @@ li{
   list-style-type: none;
     margin-bottom:10px;
 
-}
-section.lcontent {
+
+  }
+  div.feature1 {grid-template-areas: feature1;  }
+  div.feature2 {grid-template-areas: feature2;  }
+  div.feature3 {grid-template-areas: feature3;  }
+  div.feature4 {grid-template-areas: feature4;  }
+  div.feature5 {grid-template-areas: feature5;  }
+   
+    
+  
+  section.lcontent {
   grid-area: lcontent;
 }
 
@@ -138,6 +185,9 @@ section.lcontent2 {
 
 section.rcontent2 {
   grid-area: rcontent2;
+  padding: 50px;
+  background-color: gray;
+  margin:0px 120px;
 }
 
 section.lcontent3 {

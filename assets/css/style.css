@@ -78,6 +78,10 @@ body {
   color: yellow;
 }
 
+.h1-title{
+  text-align: center;
+  padding:10px
+}
 
 .h2-title {
   text-align: center;
@@ -89,8 +93,9 @@ body {
   padding:5px
 }
 .social-networks>li {
-  display: inline;
+  display: inline; /* change the direction of the icons from V to H*/
   font-size: 160%;
+  padding:20px;
 
 }
 
@@ -100,11 +105,10 @@ body {
 }
 
 footer {
-  height: 50px;
   background-color: #8bafbb;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
-  grid-gap: 1rem;
+
   text-align: center;
 
   padding: 15px;
@@ -263,10 +267,79 @@ section.rcontent4 {
   grid-area: rcontent4;
 }
 
+/* Contact us styling*/
+.contact-container{
+  flex:1;}
+
+.contact-wrapper{
+  flex:1;
+  width:900px;
+height:600px;
+background:#697d96;
+  border-radius:5px;
+margin :20px auto; /* centers the contact us section*/
+box-shadow:0 0 20px #58595b;
+box-sizing:border-box;
+padding:40px;
+}
+
+input[type="date"]:before{ /* to put the date place holder in*/
+  color:#58595b;
+  content:attr(placeholder);
+}
 
 
+p{
+  margin :20px auto
+  text-align: center;
+  letter-spacing: 1px;  
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: white;
+}
+.input, .msg .area{ /* styling for the input and msg and area fields*/
+  width:100%;
+  padding:10px;
+  box-sizing:border-box;
+  margin-bottom:25px;
+  border:2px solid #58595b;
+  font-size:15px;
+  border-radius:5px;
+  outline:none;
+  
+}
 
+.login .input{
+width: 45%;
+float:left;
+margin-right:4%;
+}
 
+.login .input:last-child{ /*last input make margin right 0 */
+  margin-right: 0;
+}
+
+.msg .area{  /* height of the message box*/
+  height: 200px;
+}
+
+.btn{
+  width: 250px;
+  background: #486255;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 0 50px 50px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #486255;
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /*@media only screen and (min-width: 600px) {
   .wrapper {

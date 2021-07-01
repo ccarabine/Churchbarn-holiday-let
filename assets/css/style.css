@@ -11,22 +11,27 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+ color:#58595b;
 }
+
+
 .container {
-  background: url("../../assets/images/heroimage.JPG");
-  background-size: cover;
-  flex:1;
+  
+  
+  flex: 1;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .main-head {
-  grid-area: header;
-  color: red;
+  
+  color:#58595b;
   text-transform: uppercase;
   padding: 20px 40px;
   text-align: center;
   align-items: center;
+  background-color:white;
+  
 }
 
 
@@ -37,9 +42,18 @@ body {
 .navbar ul {
   /* change text to ,center, hortizonal and remove bullets*/
   display: flex;
+  position:relative;
+  margin:0;
   justify-content: center;
+  
   list-style-type: none;
+  line-height: 22px;
+  padding:20px 5px 20px 5px;
   margin-bottom: 30px;
+  border-top: 1px solid #8bafbb;
+  border-bottom: 1px solid #8bafbb;
+
+
 }
 
 .navbar ul li a {
@@ -54,7 +68,8 @@ body {
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  color: pink;
+  color: #8bafbb;
+  text-decoration: underline;
 }
 
 /* Add an active class to highlight the current page */
@@ -65,8 +80,8 @@ body {
 
 .social-networks>li {
   display: inline;
-  font-size:160%;
- 
+  font-size: 160%;
+
 }
 
 .social-networks li a i:hover {
@@ -74,72 +89,78 @@ body {
   transform: scale(1.2);
 }
 
-footer{ 
+footer {
   height: 50px;
-  background-color: darkgray;
+  background-color: #8bafbb;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
   grid-gap: 1rem;
-  text-align:center;
- 
-  padding:15px;
-  
+  text-align: center;
+
+  padding: 15px;
+
 }
 
 
 /*The barn Styling section */
 .barn-container {
-    flex:1;
-  }
+  flex: 1;
+}
 
-  .barn-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr auto;
-    min-height: 100%;
-    grid-template-areas:
-      
-  /*      "lcontent lcontent rcontent rcontent"
+.barn-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  min-height: 100%;
+  grid-template-areas:
+
+    /*      "lcontent lcontent rcontent rcontent"
       "lcontent2 lcontent2 lcontent2 rcontent2"*/
-      "lcontent3 lcontent3 rcontent3 rcontent3"
-      "lcontent4 lcontent4 rcontent4 rcontent4";
-  }
+    "lcontent3 lcontent3 rcontent3 rcontent3"
+    "lcontent4 lcontent4 rcontent4 rcontent4";
+}
+
 .features-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   min-height: 100%;
-  text-align: center;
-  margin-top:50px;
 
+  /*margin-top: 50px 50px;
+  padding-left: 250px;*/
+  padding:50px 100px 100px 250px;
   grid-template-areas:
     "features1, features2, features3, features4"
-    
-    
+
+
 }
-.features-title{
-  margin-top:50px;
-  font-size:150%;
-  text-align:center;
-}
-.list > li
-{
+
+.features-title {
+  margin-top: 50px;
+  font-size: 150%;
   text-align: center;
 }
+
+.list>li {
+
+  text-align: left;
+}
+
 img {
-  border: 5px solid #555;
+  /*border: 5px solid #555;*/
   padding: 5px;
 }
 
 section {
   /*centers content*/
   height: 600px;
- /* border: 1px solid #2d2d2d;*/
+  /* border: 1px solid #2d2d2d;*/
   text-align: center;
 }
-section h1{
-  color:pink;
-  margin-bottom:20px;
+
+section h1 {
+  color: pink;
+  margin-bottom: 20px;
 }
 
 .barn-image {
@@ -150,28 +171,43 @@ section h1{
   width: 50%;
 }
 
-section p{
-  margin:25px 200px;
-padding:50px;
- align-content: center;
+section p {
+  margin: 25px 200px;
+  padding: 50px;
+  align-content: center;
 }
 
-li{
-  text-align:left;
+li {
+  text-align: left;
   list-style-type: none;
-    margin-bottom:10px;
+  margin-bottom: 10px;
 
 
-  }
-  div.feature1 {grid-template-areas: feature1;  }
-  div.feature2 {grid-template-areas: feature2;  }
-  div.feature3 {grid-template-areas: feature3;  }
-  div.feature4 {grid-template-areas: feature4;  }
-  div.feature5 {grid-template-areas: feature5;  }
-   
-    
-  
-  section.lcontent {
+}
+
+div.feature1 {
+  grid-template-areas: feature1;
+}
+
+div.feature2 {
+  grid-template-areas: feature2;
+}
+
+div.feature3 {
+  grid-template-areas: feature3;
+}
+
+div.feature4 {
+  grid-template-areas: feature4;
+}
+
+div.feature5 {
+  grid-template-areas: feature5;
+}
+
+
+
+section.lcontent {
   grid-area: lcontent;
 }
 
@@ -187,7 +223,7 @@ section.rcontent2 {
   grid-area: rcontent2;
   padding: 50px;
   background-color: gray;
-  margin:0px 120px;
+  margin: 0px 120px;
 }
 
 section.lcontent3 {

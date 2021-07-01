@@ -11,5 +11,4 @@ vscode:
     - kevinglasson.cornflakes-linter
     - hookyqr.beautify
 
-ports:
-    - port: 8080
+

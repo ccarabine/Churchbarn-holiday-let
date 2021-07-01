@@ -14,7 +14,20 @@ body {
  color:#58595b;
 }
 
+.h1-title{
+  text-align: center;
+  padding:10px
+}
 
+.h2-title {
+  text-align: center;
+  padding:5px
+}
+
+.h4-title {
+  text-align: center;
+  padding:5px
+}
 .container {
   
   
@@ -78,20 +91,7 @@ body {
   color: yellow;
 }
 
-.h1-title{
-  text-align: center;
-  padding:10px
-}
 
-.h2-title {
-  text-align: center;
-  padding:5px
-}
-
-.h4-title {
-  text-align: center;
-  padding:5px
-}
 .social-networks>li {
   display: inline; /* change the direction of the icons from V to H*/
   font-size: 160%;
@@ -275,7 +275,7 @@ section.rcontent4 {
   flex:1;
   width:900px;
 height:600px;
-background:#697d96;
+background:#72acb3;
   border-radius:5px;
 margin :20px auto; /* centers the contact us section*/
 box-shadow:0 0 20px #58595b;
@@ -289,8 +289,8 @@ input[type="date"]:before{ /* to put the date place holder in*/
 }
 
 
-p{
-  margin :20px auto
+.contact-wrapper p{
+  margin :20px auto;
   text-align: center;
   letter-spacing: 1px;  
   font-size: 45px;
@@ -325,13 +325,13 @@ margin-right:4%;
 
 .btn{
   width: 250px;
-  background: #486255;
-  height: 50px;
+  background:#697d96;
+    height: 50px;
   line-height: 50px;
   text-align: center;
   border-radius: 5px;
-  margin: 0 0 50px 50px;
-  color: #fff;
+ margin: 0 0 100px 100px;
+  color: white;
   text-transform: uppercase;
   cursor: pointer;
 }

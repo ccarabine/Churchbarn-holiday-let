@@ -78,6 +78,16 @@ body {
   color: yellow;
 }
 
+
+.h2-title {
+  text-align: center;
+  padding:5px
+}
+
+.h4-title {
+  text-align: center;
+  padding:5px
+}
 .social-networks>li {
   display: inline;
   font-size: 160%;
@@ -103,6 +113,7 @@ footer {
 
 
 /*The barn Styling section */
+
 .barn-container {
   flex: 1;
 }
@@ -112,7 +123,9 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto;
   min-height: 100%;
-  grid-template-areas:
+ 
+   grid-template-areas:
+ 
 
     /*      "lcontent lcontent rcontent rcontent"
       "lcontent2 lcontent2 lcontent2 rcontent2"*/
@@ -125,7 +138,9 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   min-height: 100%;
-
+  background-color:#8bafbb;
+  color:white;
+  margin:10px;
   /*margin-top: 50px 50px;
   padding-left: 250px;*/
   padding:50px 100px 100px 250px;
@@ -136,9 +151,12 @@ footer {
 }
 
 .features-title {
-  margin-top: 50px;
+
   font-size: 150%;
   text-align: center;
+  background-color:#8bafbb;
+  color:white;
+  margin:10px 10px 10px, 10px;
 }
 
 .list>li {
@@ -159,15 +177,17 @@ section {
 }
 
 section h1 {
-  color: pink;
+  color: #58595b;
   margin-bottom: 20px;
 }
 
-.barn-image {
+.main-images {
   border-radius: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom:35px;
+  margin-top:35px;
   width: 50%;
 }
 
@@ -187,6 +207,7 @@ li {
 
 div.feature1 {
   grid-template-areas: feature1;
+  background-color:white;
 }
 
 div.feature2 {

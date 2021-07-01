@@ -11,40 +11,48 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
- color:#58595b;
+  color: #58595b;
 }
 
-.h1-title{
+/*header styling*/
+.h1-title {
   text-align: center;
-  padding:10px
+  padding: 10px
 }
 
 .h2-title {
   text-align: center;
-  padding:5px
+  padding: 5px
 }
 
 .h4-title {
   text-align: center;
-  padding:5px
-}
-.container {
-  
-  
-  flex: 1;
-  background-position: center center;
-  background-repeat: no-repeat;
+  padding: 5px
 }
 
+/*styling for hero image on home page and barn page*/
+.main-images {
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  }
+
+/*.container {
+  flex: 1;
+}*/
+
 .main-head {
-  
-  color:#58595b;
+
+  color: #58595b;
   text-transform: uppercase;
   padding: 20px 40px;
   text-align: center;
   align-items: center;
-  background-color:white;
-  
+  background-color: white;
+
 }
 
 
@@ -55,13 +63,13 @@ body {
 .navbar ul {
   /* change text to ,center, hortizonal and remove bullets*/
   display: flex;
-  position:relative;
-  margin:0;
+  position: relative;
+  margin: 0;
   justify-content: center;
-  
+
   list-style-type: none;
   line-height: 22px;
-  padding:20px 5px 20px 5px;
+  padding: 20px 5px 20px 5px;
   margin-bottom: 30px;
   border-top: 1px solid #8bafbb;
   border-bottom: 1px solid #8bafbb;
@@ -93,9 +101,10 @@ body {
 
 
 .social-networks>li {
-  display: inline; /* change the direction of the icons from V to H*/
+  display: inline;
+  /* change the direction of the icons from V to H*/
   font-size: 160%;
-  padding:20px;
+  padding: 20px;
 
 }
 
@@ -108,33 +117,43 @@ footer {
   background-color: #8bafbb;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
-
   text-align: center;
-
   padding: 15px;
-
 }
 
+/* unvisited link */
+a:link {
+  color: #58595b;
+}
+
+/* visited link */
+a:visited {
+  color: #58595b;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
 
 /*The barn Styling section */
 
-.barn-container {
-  flex: 1;
-}
-
 .barn-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   min-height: 100%;
- 
-   grid-template-areas:
- 
-
-    /*      "lcontent lcontent rcontent rcontent"
-      "lcontent2 lcontent2 lcontent2 rcontent2"*/
-    "lcontent3 lcontent3 rcontent3 rcontent3"
-    "lcontent4 lcontent4 rcontent4 rcontent4";
+gap:1em;
+  grid-template-areas:
+    "lcontent1 rcontent1"
+    "lcontent2 rcontent2"
+    "lcontent3 rcontent3"
+   /* "lcontent4 lcontent4 rcontent4 rcontent4";*/
 }
 
 .features-wrapper {
@@ -142,35 +161,34 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   min-height: 100%;
-  background-color:#8bafbb;
-  color:white;
-  margin:10px;
-  /*margin-top: 50px 50px;
-  padding-left: 250px;*/
-  padding:50px 100px 100px 250px;
+  background-color: #8bafbb;
+  color: white;
+  margin: 10px;
+  padding: 20px 150px 20px 150px;
   grid-template-areas:
     "features1, features2, features3, features4"
-
-
 }
 
 .features-title {
 
   font-size: 150%;
   text-align: center;
-  background-color:#8bafbb;
-  color:white;
-  margin:10px 10px 10px, 10px;
+  background-color: #8bafbb;
+  color: white;
+  margin: 10px 10px ;
 }
 
 .list>li {
-
   text-align: left;
 }
 
-img {
-  /*border: 5px solid #555;*/
-  padding: 5px;
+.barn-images{
+  border-radius: 10px;
+   margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-top: 5px;
+
 }
 
 section {
@@ -180,24 +198,11 @@ section {
   text-align: center;
 }
 
-section h1 {
-  color: #58595b;
-  margin-bottom: 20px;
-}
 
-.main-images {
-  border-radius: 25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom:35px;
-  margin-top:35px;
-  width: 50%;
-}
 
 section p {
-  margin: 25px 200px;
-  padding: 50px;
+  margin: 0px 150px 0px 150px;
+  padding: 0px;
   align-content: center;
 }
 
@@ -211,7 +216,7 @@ li {
 
 div.feature1 {
   grid-template-areas: feature1;
-  background-color:white;
+  
 }
 
 div.feature2 {
@@ -232,12 +237,12 @@ div.feature5 {
 
 
 
-section.lcontent {
-  grid-area: lcontent;
+section.lcontent1 {
+  grid-area: lcontent1;
 }
 
-section.rcontent {
-  grid-area: rcontent;
+section.rcontent1 {
+  grid-area: rcontent1;
 }
 
 section.lcontent2 {
@@ -246,9 +251,6 @@ section.lcontent2 {
 
 section.rcontent2 {
   grid-area: rcontent2;
-  padding: 50px;
-  background-color: gray;
-  margin: 0px 120px;
 }
 
 section.lcontent3 {
@@ -258,7 +260,7 @@ section.lcontent3 {
 section.rcontent3 {
   grid-area: rcontent3;
 }
-
+/*
 section.lcontent4 {
   grid-area: lcontent4;
 }
@@ -268,78 +270,85 @@ section.rcontent4 {
 }
 
 /* Contact us styling*/
-.contact-container{
-  flex:1;}
 
-.contact-wrapper{
-  flex:1;
-  width:900px;
-height:600px;
-background:#72acb3;
-  border-radius:5px;
-margin :20px auto; /* centers the contact us section*/
-box-shadow:0 0 20px #58595b;
-box-sizing:border-box;
-padding:40px;
+
+.contact-wrapper {
+  flex: 1;
+  width: 900px;
+  height: 600px;
+  background: #72acb3;
+  border-radius: 5px;
+  margin: 20px auto;
+  /* centers the contact us section*/
+  box-shadow: 0 0 20px #58595b;
+  box-sizing: border-box;
+  padding: 40px;
 }
 
-input[type="date"]:before{ /* to put the date place holder in*/
-  color:#58595b;
-  content:attr(placeholder);
+input[type="date"]:before {
+  /* to put the date place holder in*/
+  color: #58595b;
+  content: attr(placeholder);
 }
 
 
-.contact-wrapper p{
-  margin :20px auto;
+.contact-wrapper p {
+  margin: 20px auto;
   text-align: center;
-  letter-spacing: 1px;  
+  letter-spacing: 1px;
   font-size: 45px;
   margin-bottom: 20px;
   color: white;
 }
-.input, .msg .area{ /* styling for the input and msg and area fields*/
-  width:100%;
-  padding:10px;
-  box-sizing:border-box;
-  margin-bottom:25px;
-  border:2px solid #58595b;
-  font-size:15px;
-  border-radius:5px;
-  outline:none;
-  
+
+.input,
+.msg .area {
+  /* styling for the input and msg and area fields*/
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #58595b;
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+
 }
 
-.login .input{
-width: 45%;
-float:left;
-margin-right:4%;
+.login .input {
+  width: 45%;
+  float: left;
+  margin-right: 4%;
 }
 
-.login .input:last-child{ /*last input make margin right 0 */
+.login .input:last-child {
+  /*last input make margin right 0 */
   margin-right: 0;
 }
 
-.msg .area{  /* height of the message box*/
+.msg .area {
+  /* height of the message box*/
   height: 200px;
 }
 
-.btn{
+.btn {
   width: 250px;
-  background:#697d96;
-    height: 50px;
+  background: #697d96;
+  height: 50px;
   line-height: 50px;
   text-align: center;
   border-radius: 5px;
- margin: 0 0 100px 100px;
+  margin: 0 0 100px 100px;
   color: white;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .input:focus,
-.msg .area:focus{
+.msg .area:focus {
   border: 2px solid #486255;
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /*@media only screen and (min-width: 600px) {
   .wrapper {

@@ -1,3 +1,4 @@
 # Church Barn Holiday Let
 Church Barn Holiday let is a site that helps the consumer to get in touch with the owners directly to book accomadation for their holiday.  The site will target .... who are looking to hire a holiday cottage in the Perranuthnoe, Cornwall area.
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+
+## Features

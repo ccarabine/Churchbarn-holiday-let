@@ -5,23 +5,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
   /* padding and border are included in the width and height*/
 }
 
 body {
-  background-color:rgb(255, 255, 255);
-  font-family: 'Open Sans', sans-serif;
-  min-height: 100vh;
-  display: flex;   /*makes the entire body of page a flex container 100% of the viewport's height*/
+  background-color: rgb(255, 255, 255);
+  font-family: Open Sans, sans-serif;
+  /*min-height: 100vh;*/
+  display: flex;
+  /*makes the entire body of page a flex container 100% of the viewport's height*/
   flex-direction: column;
+min-height:100vh;
   color: #58595b;
+  font-size: 16px;
 }
 
 /*header styling*/
 .h1-title {
   text-align: center;
   padding: 10px;
-  margin-top:50px;
+  margin-top: 50px;
 }
 
 .h2-title {
@@ -31,34 +35,22 @@ body {
 
 .h4-title {
   text-align: center;
-  padding: 5px
+  padding: 5px;
 }
-.line{
-  justify-content: center;
 
-  list-style-type: none;
-  line-height: 22px;
-  padding: 20px 5px 20px 5px;
-  margin-bottom: 30px;
- /* border-top: 1px solid #8bafbb;*/
-  border-bottom: 1px solid #8bafbb;
-}
 /*styling for hero image on home page and barn page*/
 .main-images {
   border-radius: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 35px;
-  margin-top: 35px;
-  }
+  display: flex;
+margin: 35px auto;
+ 
+}
 
 .main-head {
- 
   text-transform: uppercase;
   /*padding: 20px 40px;*/
   text-align: center;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
 
@@ -75,18 +67,18 @@ body {
 
   list-style-type: none;
   line-height: 22px;
-  padding: 20px 5px 20px 5px;
+  padding: 20px 5px;
   margin-bottom: 30px;
   border-top: 1px solid #8bafbb;
   border-bottom: 1px solid #8bafbb;
-  
+
 
 }
 
 .navbar ul li a {
   /* added space between links and remove underline*/
-  padding-right: 25px !important;
-  padding-left: 25px !important;
+  padding: 0px 25px !important;
+
   text-decoration: none;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -100,11 +92,8 @@ body {
   text-decoration: underline;
 }
 
-/* Add an active class to highlight the current page */
-.navbar a.active {
-  background-color: #aa0404;
-  color: yellow;
-}
+
+
 /* unvisited link */
 a:link {
   color: #58595b;
@@ -115,38 +104,39 @@ a:visited {
   color: #58595b;
 }
 
-/* mouse over link */
-a:hover {
-  color: red;
-}
 
-/* selected link */
-a:active {
-  color: yellow;
-}
+
+
 
 /* Footer */
-.ft-container{
+footer {
+  background-color: #8bafbb;
+  }
+
+.ft-container {
   flex: 1;
-}
-.ft-main{
-  padding:1.25rem 1.875rem;
-  display:flex;
-  flex-wrap:wrap;
-}
-.ft-main-items{
-  padding:1.25rem ;
-  min-width:12.5rem;
   
 }
+
+.ft-main {
+  /*padding:1.25rem 1.875rem;*/
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+.ft-main-item {
+  padding: 1.25rem;
+ /* min-width: 12.5rem;*/
+ }
 
 
 .ft-social {
   display: flex;
   justify-content: center;
-/*
+  /*
   padding-top: 1.25rem;*/
 }
+
 .ft-social li {
   margin: 0.5rem;
   font-size: 1.25rem;
@@ -155,67 +145,66 @@ a:active {
 
 .ft-main-item li a i:hover {
   color: #799e82;
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 
-footer {
-  background-color: #8bafbb;
-}
+
 
 /*The barn Styling section */
 .barn-intro {
-  margin:50px 300px;
+  margin: 50px 300px;
 }
+
 .barn-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr 1fr 1fr;
- /* min-height: 100%;
-gap:1em;*/
+  min-height: 100%;
+  gap: 1em;
   grid-template-areas:
     "lcontent1 rcontent1"
     "lcontent2 rcontent2"
     "lcontent3 rcontent3"
-   /* "lcontent4 lcontent4 rcontent4 rcontent4";*/
+
 }
 
 .barn-features-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
- background-color: #e7ecf2;
+  background-color: #e7ecf2;
   color: 58595b;
   margin: 0px 400px;
-  padding: 20px 150px 20px 150px;
+  /*padding: 20px 150px 20px 150px;*/
+  padding: 20px;
   grid-template-areas:
     "features1, features2, features3, features4"
 }
 
 .barn-features-title {
-
-  font-size: 150%;
   text-align: center;
   background-color: #e7ecf2;
   color: 58595b;
-  margin: 5px 400px ;
+  margin: 5px 400px;
 }
 
 .list>li {
   text-align: left;
+  list-style-type: none;
 }
 
-.barn-images{
+.barn-images {
   border-radius: 10px;
-   margin-left: auto;
+  margin-left: auto 5px;
   margin-right: auto;
-  margin-bottom: 0px;
-  margin-top: 5px;
+
+
 
 }
 
 section {
   /*centers content*/
-/*
+  /*
    border: 1px solid #2d2d2d;*/
   text-align: center;
 }
@@ -223,14 +212,14 @@ section {
 
 
 .barn-text {
-  margin: 0px 200px ;
+  margin: 0px 200px;
 
   align-content: center;
 }
 
 div.feature1 {
   grid-template-areas: feature1;
-  
+
 }
 
 div.feature2 {
@@ -355,64 +344,54 @@ input[type="date"]:before {
   border: 2px solid #486255;
 }
 
-@media only screen and (min-width: 29.8125rem /*477px*/) {
+
+
+@media only screen and (min-width: 400px)
+
+
+  {
   .ft-main {
-      justify-content: space-around;
+    justify-content: space-around;
   }
 }
-@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+
+
+@media only screen and (max-width: 800px) {
+  .barn-intro {
+    margin: 20px 20px;
+  }
+
   .ft-main {
-      justify-content: space-evenly;
+    justify-content: space-around;
   }
-}
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/*media only screen and (min-width: 600px) {
- footer{ font-size: 10px}
-  }*/
 
-  
 
-/* Medium devices (landscape tablets, 768px and up) */
-/*@media only screen and (min-width: 768px) {
-  .wrapper {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr auto auto 1fr;
+
+  .barn-features-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px 200px;
     grid-template-areas:
-      "header header header header"
-      "nav nav nav nav"
-      "lcontent rcontent"
-      "lcontent rcontent"
-
-      "footer footer footer footer";
+      "features1"
+      "features2"
+      "features3"
+      "features4"
   }
 
-  nav ul {
-    flex-direction: column;
-  }
-}
-
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-/*@media only screen and (min-width: 992px) {
-
-  .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 5fr fr 1fr;
-
+  .barn-wrapper {
+    grid-template-columns: repeat(6, 1fr);
+    margin:0 200px;
     grid-template-areas:
-      "header header header header"
-      "nav nav nav nav"
-      "lcontent rcontent lcontent rcontent"
-      "lcontent rcontent lcontent rcontent"
-      "footer footer footer footer";
-    text-align: center;
+      "lcontent1"
+      "rcontent1"
+      "lcontent2"
+      "rcontent2"
+      "lcontent3"
+      "rcontent3"
   }
 
-  nav ul {
-    flex-direction: column;
+  .barn-text {
+    margin: 0px 20px;
   }
 
- 
+
 }

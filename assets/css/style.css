@@ -9,10 +9,10 @@
 }
 
 body {
-  background-color:rgb(255, 255, 255)));
+  background-color:rgb(255, 255, 255);
   font-family: 'Open Sans', sans-serif;
   min-height: 100vh;
-  display: flex;
+  display: flex;   /*makes the entire body of page a flex container 100% of the viewport's height*/
   flex-direction: column;
   color: #58595b;
 }
@@ -122,15 +122,33 @@ a:active {
 }
 
 /* Footer */
-.social-networks>li {
-  display: inline;
-  /* change the direction of the icons from V to H*/
-  font-size: 160%;
-  padding: 20px;
-
+.ft-container{
+  flex: 1;
+}
+.ft-main{
+  padding:1.25rem 1.875rem;
+  display:flex;
+  flex-wrap:wrap;
+}
+.ft-main-items{
+  padding:1.25rem ;
+  min-width:12.5rem;
+  
 }
 
-.social-networks li a i:hover {
+
+.ft-social {
+  display: flex;
+  justify-content: center;
+/*
+  padding-top: 1.25rem;*/
+}
+.ft-social li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.ft-main-item li a i:hover {
   color: #799e82;
   transform: scale(1.2);
 }
@@ -138,9 +156,10 @@ a:active {
 footer {
   background-color: #8bafbb;
  /* display: grid;*/
-/*grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));*/
+/*grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
   text-align: center;
-  padding: 15px;
+  padding: 15px;*/
+/*line-height:1.5;*/
 }
 
 /*The barn Styling section */
@@ -343,10 +362,20 @@ input[type="date"]:before {
   border: 2px solid #486255;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-media only screen and (min-width: 600px) {
- footer{ font-size: 10px}
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+  .ft-main {
+      justify-content: space-around;
   }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+  .ft-main {
+      justify-content: space-evenly;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*media only screen and (min-width: 600px) {
+ footer{ font-size: 10px}
+  }*/
 
   
 

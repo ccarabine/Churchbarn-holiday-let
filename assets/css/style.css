@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: rgb(184, 176, 155);
+  background-color:rgb(255, 255, 255)));
   font-family: 'Open Sans', sans-serif;
   min-height: 100vh;
   display: flex;
@@ -101,29 +101,6 @@ body {
   background-color: #aa0404;
   color: yellow;
 }
-
-
-.social-networks>li {
-  display: inline;
-  /* change the direction of the icons from V to H*/
-  font-size: 160%;
-  padding: 20px;
-
-}
-
-.social-networks li a i:hover {
-  color: #799e82;
-  transform: scale(1.2);
-}
-
-footer {
-  background-color: #8bafbb;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
-  text-align: center;
-  padding: 15px;
-}
-
 /* unvisited link */
 a:link {
   color: #58595b;
@@ -142,6 +119,28 @@ a:hover {
 /* selected link */
 a:active {
   color: yellow;
+}
+
+/* Footer */
+.social-networks>li {
+  display: inline;
+  /* change the direction of the icons from V to H*/
+  font-size: 160%;
+  padding: 20px;
+
+}
+
+.social-networks li a i:hover {
+  color: #799e82;
+  transform: scale(1.2);
+}
+
+footer {
+  background-color: #8bafbb;
+ /* display: grid;*/
+/*grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));*/
+  text-align: center;
+  padding: 15px;
 }
 
 /*The barn Styling section */
@@ -263,14 +262,6 @@ section.lcontent3 {
 section.rcontent3 {
   grid-area: rcontent3;
 }
-/*
-section.lcontent4 {
-  grid-area: lcontent4;
-}
-
-section.rcontent4 {
-  grid-area: rcontent4;
-}
 
 /* Contact us styling*/
 
@@ -353,18 +344,8 @@ input[type="date"]:before {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/*@media only screen and (min-width: 600px) {
-  .wrapper {
-    grid-template-columns: 1fr 1fr;
-
-    grid-template-areas:
-      "header header"
-      "nav nav"
-      "lcontent rcontent"
-      "lcontent rcontent"
-      "lcontent rcontent"
-      "footer footer";
-    text-align: center;
+media only screen and (min-width: 600px) {
+ footer{ font-size: 10px}
   }
 
   

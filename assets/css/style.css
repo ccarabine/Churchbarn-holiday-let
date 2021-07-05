@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Noto+Sans+TC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 
 * {
   margin: 0;
@@ -8,21 +9,24 @@
 }
 
 body {
+  background-color: rgb(184, 176, 155);
+  font-family: 'Open Sans', sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
+
 .container {
   background: url("../../assets/images/heroimage.JPG");
   background-size: cover;
-  flex:1;
+  flex: 1;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .main-head {
   grid-area: header;
-  color: red;
+  color: black;
   text-transform: uppercase;
   padding: 20px 40px;
   text-align: center;
@@ -65,7 +69,8 @@ body {
 
 .social-networks>li {
   display: inline;
-  font-size:160%;
+  font-size: 160%;
+  padding-left: 50px;
  
 }
 
@@ -74,58 +79,63 @@ body {
   transform: scale(1.2);
 }
 
-footer{ 
+footer {
   height: 50px;
   background-color: darkgray;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
   grid-gap: 1rem;
-  text-align:center;
- 
-  padding:15px;
-  
+  text-align: center;
+
+  padding: 15px;
+
 }
 
 
 /*The barn Styling section */
 .barn-container {
-    flex:1;
-  }
+  flex: 1;
+}
 
-  .barn-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr auto;
-    min-height: 100%;
-    grid-template-areas:
-      
-  /*      "lcontent lcontent rcontent rcontent"
+.barn-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr 1fr auto;
+  min-height: 100%;
+  grid-template-areas:
+
+    /*      "lcontent lcontent rcontent rcontent"
       "lcontent2 lcontent2 lcontent2 rcontent2"*/
-      "lcontent3 lcontent3 rcontent3 rcontent3"
-      "lcontent4 lcontent4 rcontent4 rcontent4";
-  }
+    "lcontent3 lcontent3 rcontent3 rcontent3"
+    "lcontent4 lcontent4 rcontent4 rcontent4";
+}
+
 .features-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  min-height: 100%;
+  
   text-align: center;
-  margin-top:50px;
+  margin-top: 50px;
 
   grid-template-areas:
     "features1, features2, features3, features4"
-    
-    
+
+
 }
-.features-title{
-  margin-top:50px;
-  font-size:150%;
-  text-align:center;
+
+.features-title {
+  margin-top: 50px;
+ 
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
-.list > li
-{
+
+.list>li {
   text-align: center;
 }
+
 img {
   border: 5px solid #555;
   padding: 5px;
@@ -134,12 +144,13 @@ img {
 section {
   /*centers content*/
   height: 600px;
- /* border: 1px solid #2d2d2d;*/
+  /* border: 1px solid #2d2d2d;*/
   text-align: center;
 }
-section h1{
-  color:pink;
-  margin-bottom:20px;
+
+section h1 {
+  color:black;
+  margin-bottom: 20px;
 }
 
 .barn-image {
@@ -147,31 +158,46 @@ section h1{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width:75%;
 }
 
-section p{
-  margin:25px 200px;
-padding:50px;
- align-content: center;
+section p {
+  margin: 25px 200px;
+  padding: 50px;
+  align-content: center;
 }
 
-li{
-  text-align:left;
+li {
+  text-align: left;
   list-style-type: none;
-    margin-bottom:10px;
+  margin-bottom: 10px;
 
 
-  }
-  div.feature1 {grid-template-areas: feature1;  }
-  div.feature2 {grid-template-areas: feature2;  }
-  div.feature3 {grid-template-areas: feature3;  }
-  div.feature4 {grid-template-areas: feature4;  }
-  div.feature5 {grid-template-areas: feature5;  }
-   
-    
-  
-  section.lcontent {
+}
+
+div.feature1 {
+  grid-template-areas: feature1;
+}
+
+div.feature2 {
+  grid-template-areas: feature2;
+}
+
+div.feature3 {
+  grid-template-areas: feature3;
+}
+
+div.feature4 {
+  grid-template-areas: feature4;
+}
+
+div.feature5 {
+  grid-template-areas: feature5;
+}
+
+
+
+section.lcontent {
   grid-area: lcontent;
 }
 
@@ -185,9 +211,7 @@ section.lcontent2 {
 
 section.rcontent2 {
   grid-area: rcontent2;
-  padding: 50px;
-  background-color: gray;
-  margin:0px 120px;
+ 
 }
 
 section.lcontent3 {

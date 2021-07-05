@@ -20,7 +20,8 @@ body {
 /*header styling*/
 .h1-title {
   text-align: center;
-  padding: 10px
+  padding: 10px;
+  margin-top:50px;
 }
 
 .h2-title {
@@ -32,7 +33,16 @@ body {
   text-align: center;
   padding: 5px
 }
+.line{
+  justify-content: center;
 
+  list-style-type: none;
+  line-height: 22px;
+  padding: 20px 5px 20px 5px;
+  margin-bottom: 30px;
+ /* border-top: 1px solid #8bafbb;*/
+  border-bottom: 1px solid #8bafbb;
+}
 /*styling for hero image on home page and barn page*/
 .main-images {
   border-radius: 10px;
@@ -43,19 +53,12 @@ body {
   margin-top: 35px;
   }
 
-/*.container {
-  flex: 1;
-}*/
-
 .main-head {
-
-  color: #58595b;
+ 
   text-transform: uppercase;
-  padding: 20px 40px;
+  /*padding: 20px 40px;*/
   text-align: center;
-  align-items: center;
-  background-color: white;
-
+  padding-bottom:10px;
 }
 
 
@@ -76,7 +79,7 @@ body {
   margin-bottom: 30px;
   border-top: 1px solid #8bafbb;
   border-bottom: 1px solid #8bafbb;
-
+  
 
 }
 
@@ -87,6 +90,7 @@ body {
   text-decoration: none;
   letter-spacing: 4px;
   text-transform: uppercase;
+
 }
 
 
@@ -146,6 +150,7 @@ a:active {
 .ft-social li {
   margin: 0.5rem;
   font-size: 1.25rem;
+  list-style-type: none;
 }
 
 .ft-main-item li a i:hover {
@@ -155,23 +160,18 @@ a:active {
 
 footer {
   background-color: #8bafbb;
- /* display: grid;*/
-/*grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
-  text-align: center;
-  padding: 15px;*/
-/*line-height:1.5;*/
 }
 
 /*The barn Styling section */
-.barn-intro{
-  margin:50px 250px;
+.barn-intro {
+  margin:50px 300px;
 }
 .barn-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  min-height: 100%;
-gap:1em;
+ /* min-height: 100%;
+gap:1em;*/
   grid-template-areas:
     "lcontent1 rcontent1"
     "lcontent2 rcontent2"
@@ -179,26 +179,25 @@ gap:1em;
    /* "lcontent4 lcontent4 rcontent4 rcontent4";*/
 }
 
-.features-wrapper {
+.barn-features-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  min-height: 100%;
-  background-color: #8bafbb;
-  color: white;
-  margin: 10px;
+ background-color: #e7ecf2;
+  color: 58595b;
+  margin: 0px 400px;
   padding: 20px 150px 20px 150px;
   grid-template-areas:
     "features1, features2, features3, features4"
 }
 
-.features-title {
+.barn-features-title {
 
   font-size: 150%;
   text-align: center;
-  background-color: #8bafbb;
-  color: white;
-  margin: 10px 10px ;
+  background-color: #e7ecf2;
+  color: 58595b;
+  margin: 5px 400px ;
 }
 
 .list>li {
@@ -216,25 +215,17 @@ gap:1em;
 
 section {
   /*centers content*/
-  height: 600px;
-  /* border: 1px solid #2d2d2d;*/
+/*
+   border: 1px solid #2d2d2d;*/
   text-align: center;
 }
 
 
 
-section p {
-  margin: 0px 150px 0px 150px;
-  padding: 0px;
+.barn-text {
+  margin: 0px 200px ;
+
   align-content: center;
-}
-
-li {
-  text-align: left;
-  list-style-type: none;
-  margin-bottom: 10px;
-
-
 }
 
 div.feature1 {

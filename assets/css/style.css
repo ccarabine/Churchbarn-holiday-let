@@ -163,7 +163,9 @@ footer {
 }
 
 /*The barn Styling section */
-
+.barn-intro{
+  margin:50px 250px;
+}
 .barn-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;

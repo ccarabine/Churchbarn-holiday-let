@@ -12,7 +12,7 @@
 body {
   background-color: rgb(255, 255, 255);
   font-family: Open Sans, sans-serif;
-  /*min-height: 100vh;*/
+  min-height: 100vh;
   display: flex;
   /*makes the entire body of page a flex container 100% of the viewport's height*/
   flex-direction: column;
@@ -43,6 +43,8 @@ min-height:100vh;
   border-radius: 10px;
   display: flex;
 margin: 35px auto;
+max-width:100%;
+height:auto;
  
 }
 
@@ -161,6 +163,9 @@ footer {
   grid-template-rows: 1fr 1fr 1fr;
   min-height: 100%;
   gap: 1em;
+  
+  justify-content: center;
+  align-items: center;
   grid-template-areas:
     "lcontent1 rcontent1"
     "lcontent2 rcontent2"
@@ -355,8 +360,8 @@ input[type="date"]:before {
   }
 }
 
-
-@media only screen and (max-width: 800px) {
+/* For medium screen sizes from 1000px wide and down */
+@media only screen and (max-width: 1300px) {
   .barn-intro {
     margin: 20px 20px;
   }
@@ -368,7 +373,7 @@ input[type="date"]:before {
 
 
   .barn-features-wrapper {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin: 0px 200px;
     grid-template-areas:
       "features1"
@@ -379,7 +384,7 @@ input[type="date"]:before {
 
   .barn-wrapper {
     grid-template-columns: repeat(6, 1fr);
-    margin:0 200px;
+    margin:0 120px;
     grid-template-areas:
       "lcontent1"
       "rcontent1"

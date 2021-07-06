@@ -23,11 +23,11 @@ body {
   font-size: 1rem;
   font-family: Open Sans, sans-serif;
   min-height: 100vh;
-  padding:0em 1em;
+  padding: 0em 1em;
 }
 
 img {
- 
+
   max-width: 100%;
 }
 
@@ -45,7 +45,7 @@ h4 {
   padding-bottom: 20px;
 }
 
-.h1-title{
+.h1-title {
   padding-top: 1em;
 }
 
@@ -129,7 +129,7 @@ a:visited {
 /* Footer */
 footer {
   background-color: var(--color-primary);
-  margin-top:1em;
+  margin-top: 1em;
 }
 
 .ft-container {
@@ -140,17 +140,20 @@ footer {
 .ft-main {
   /*padding:1.25rem 1.875rem;*/
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   padding: 1.2rem;
+  justify-content: center;
 }
-
+.ft-content{
+  margin:0 auto;
+}
 
 
 .ft-social {
   display: flex;
   justify-content: center;
-  /*
-  padding-top: 1.25rem;*/
+ margin:0 8em;
 }
 
 .ft-social li {
@@ -168,21 +171,23 @@ footer {
 
 /*The barn Styling section */
 .barn-intro {
- max-width: 75% ;/*margin: 50px 300px; */
- text-align: justify;
- margin:0 auto;
-padding-bottom:2em;}
+  max-width: 75%;
+  /*margin: 50px 300px; */
+  text-align: justify;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
 
 .barn-hero {
   background-image: url(../images/church-barn.jpg);
-  background-repeat: no-repeat ;
+  background-repeat: no-repeat;
   background-color: var(--color-background);
   text-align: center;
   padding: 30vh 0;
   background-attachment: fixed;
-background-size:cover;
+  background-size: cover;
 
-background-position: center;
+  background-position: center;
   margin: 2.25rem;
 }
 
@@ -190,8 +195,8 @@ background-position: center;
 
   background-color: var(--color-background);
   text-align: center;
-  height:30em;
-  width:30em;
+  height: 30em;
+  width: 30em;
 
 }
 
@@ -202,7 +207,7 @@ background-position: center;
   min-height: 100%;
   gap: 1em;
 
-  
+
   grid-template-areas:
     "lcontent1 rcontent1"
     "lcontent2 rcontent2"
@@ -229,7 +234,7 @@ background-position: center;
   color: 58595b;
 
   /* margin: 5px 400px;*/
-  
+
 }
 
 .list>li {
@@ -257,8 +262,8 @@ section {
 
 .barn-text {
   /* margin: 0px 200px;*/
-max-width:85%;
-margin:0 auto;
+  max-width: 85%;
+  margin: 0 auto;
   align-content: center;
 }
 
@@ -324,9 +329,11 @@ section.rcontent3 {
   box-sizing: border-box;
   padding: 40px;
 }
-.btn-group{
-  text-align:center;
+
+.btn-group {
+  text-align: center;
 }
+
 input[type="date"]:before {
   /* to put the date place holder in*/
   color: var(--color-text);
@@ -377,7 +384,7 @@ input[type="date"]:before {
   width: 15em;
   background: var(--color-text);
   height: 5em;
-   text-align: center;
+  text-align: center;
   border-radius: 5px;
   margin: 1.2em;
   color: var(--color-secondary);
@@ -392,17 +399,31 @@ input[type="date"]:before {
 
 
 
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 750px) {
   .ft-main {
     justify-content: space-around;
+
+  }
+
+  .contact-wrapper {
+
+    width: 30em;
+    height: 40em;
+
+  }
+
+  .btn {
+    width: 8em;
+
+    height: 5em;
   }
 }
 
 /* For medium screen sizes from 1000px wide and down */
 @media only screen and (max-width: 1000px) {
-.main-head{
-  font-size: 0.75rem;
-}
+  .main-head {
+    font-size: 0.75rem;
+  }
 
   .barn-features-wrapper {
     grid-template-columns: repeat(2, 1fr);
@@ -425,12 +446,13 @@ input[type="date"]:before {
   }
 
   .barn-text {
-    max-width:65%;
+    max-width: 65%;
   }
-.ft-main{
-  display:flex;
-  flex-direction: column;
-  text-align: center;
-}
+
+  .ft-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 
 }

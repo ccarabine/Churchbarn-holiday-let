@@ -8,52 +8,68 @@
 
   /* padding and border are included in the width and height*/
 }
+
 :root {
-  --color-text:#58595b;
-  --color-primary:#8bafbb;  
-  --color-secondary:white;
-  --color-background:#e7ecf2;
-  
+  --color-text: #58595b;
+  --color-primary: #8bafbb;
+  --color-secondary: white;
+  --color-background: #e7ecf2;
+
 }
 
 body {
   background-color: rgb(255, 255, 255);
   font-family: Open Sans, sans-serif;
   min-height: 100vh;
+
   display: flex;
   /*makes the entire body of page a flex container 100% of the viewport's height*/
   flex-direction: column;
-min-height:100vh;
   color: var(--color-text);
   font-size: 16px;
 }
 
-/*header styling*/
-h1,h2,h3,h4{
-  text-align: center;
-  
+img {
+  display:block;
+  max-width: 100%;
 }
-.h3-title{
-  padding-bottom:20px;
+
+/*header styling*/
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  margin: 0;
+
+}
+
+.h3-title {
+  padding-bottom: 20px;
 }
 
 
 
 /*styling for hero image on home page and barn page*/
-.main-images {
-  border-radius: 10px;
-  display: flex;
-margin: 35px auto;
-max-width:100%;
-height:auto;
- 
+.hero {
+  background-image: url( ../images/heroimage.JPG);
+  background-color: var(--color-background);
+  text-align: center;
+  padding: 30vh 0;
+  background-attachment: fixed;
+  background-size:cover;
+  
+   /* margin: 1.25rem;/* alt="Church barn hero image" height="500"
+                width="1000"> border-radius: 10px; */
+
 }
 
+/*header styles*/
 .main-head {
   text-transform: uppercase;
-  /*padding: 20px 40px;*/
+  /*padding: 20px 40px;
 
-  padding-bottom: 20px;
+  padding-bottom: 20px;*/
 }
 
 
@@ -64,8 +80,7 @@ height:auto;
 .navbar ul {
   /* change text to ,center, hortizonal and remove bullets*/
   display: flex;
-  position: relative;
-  margin: 0;
+   margin: 0;
   justify-content: center;
 
   list-style-type: none;
@@ -74,14 +89,12 @@ height:auto;
   margin-bottom: 30px;
   border-top: 1px solid var(--color-primary);
   border-bottom: 1px solid var(--color-primary);
-
-
 }
 
-.navbar ul li a {
+.navbar a {
   /* added space between links and remove underline*/
+  display:inline-block;
   padding: 0px 25px !important;
-
   text-decoration: none;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -113,24 +126,24 @@ a:visited {
 
 /* Footer */
 footer {
-  background-color:var(--color-primary);
-  }
+  background-color: var(--color-primary);
+}
 
 .ft-container {
   flex: 1;
-  
+
 }
 
 .ft-main {
   /*padding:1.25rem 1.875rem;*/
   display: flex;
   flex-wrap: wrap;
- }
+}
 
 .ft-main-item {
   padding: 1.25rem;
- /* min-width: 12.5rem;*/
- }
+  /* min-width: 12.5rem;*/
+}
 
 
 .ft-social {
@@ -164,7 +177,7 @@ footer {
   grid-template-rows: 1fr 1fr 1fr;
   min-height: 100%;
   gap: 1em;
-  
+
   justify-content: center;
   align-items: center;
   grid-template-areas:
@@ -180,7 +193,7 @@ footer {
   grid-template-rows: 1fr;
   background-color: var(--color-background);
   color: var(--color-text);
- /* margin: 0px 400px;*/
+  /* margin: 0px 400px;*/
   /*padding: 20px 150px 20px 150px;*/
   padding: 20px;
   grid-template-areas:
@@ -189,9 +202,9 @@ footer {
 
 .barn-features-title {
   text-align: center;
-  background-color:var (--color-background);
+  background-color: var (--color-background);
   color: 58595b;
- /* margin: 5px 400px;*/
+  /* margin: 5px 400px;*/
 }
 
 .list>li {
@@ -218,7 +231,7 @@ section {
 
 
 .barn-text {
- /* margin: 0px 200px;*/
+  /* margin: 0px 200px;*/
 
   align-content: center;
 }
@@ -340,7 +353,7 @@ input[type="date"]:before {
   text-align: center;
   border-radius: 5px;
   margin: 0 0 100px 100px;
-  color:var(--color-secondary);
+  color: var(--color-secondary);
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -352,10 +365,7 @@ input[type="date"]:before {
 
 
 
-@media only screen and (min-width: 400px)
-
-
-  {
+@media only screen and (min-width: 400px) {
   .ft-main {
     justify-content: space-around;
   }
@@ -363,9 +373,9 @@ input[type="date"]:before {
 
 /* For medium screen sizes from 1000px wide and down */
 @media only screen and (max-width: 1300px) {
-  .barn-intro {
+ /* .barn-intro {
     margin: 20px 20px;
-  }
+  }*/
 
   .ft-main {
     justify-content: space-around;
@@ -375,7 +385,7 @@ input[type="date"]:before {
 
   .barn-features-wrapper {
     grid-template-columns: repeat(2, 1fr);
-    margin: 0px 200px;
+    /*margin: 0px 200px;*/
     grid-template-areas:
       "features1"
       "features2"
@@ -385,7 +395,7 @@ input[type="date"]:before {
 
   .barn-wrapper {
     grid-template-columns: repeat(6, 1fr);
-    margin:0 120px;
+  /*  margin: 0 120px;*/
     grid-template-areas:
       "lcontent1"
       "rcontent1"
@@ -395,9 +405,9 @@ input[type="date"]:before {
       "rcontent3"
   }
 
-  .barn-text {
+ /* .barn-text {
     margin: 0px 20px;
-  }
+  }*/
 
 
 }

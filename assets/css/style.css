@@ -8,6 +8,13 @@
 
   /* padding and border are included in the width and height*/
 }
+:root {
+  --color-text:#58595b;
+  --color-primary:#8bafbb;  
+  --color-secondary:white;
+  --color-background:#e7ecf2;
+  
+}
 
 body {
   background-color: rgb(255, 255, 255);
@@ -17,7 +24,7 @@ body {
   /*makes the entire body of page a flex container 100% of the viewport's height*/
   flex-direction: column;
 min-height:100vh;
-  color: #58595b;
+  color: var(--color-text);
   font-size: 16px;
 }
 
@@ -71,8 +78,8 @@ height:auto;
   line-height: 22px;
   padding: 20px 5px;
   margin-bottom: 30px;
-  border-top: 1px solid #8bafbb;
-  border-bottom: 1px solid #8bafbb;
+  border-top: 1px solid var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
 
 
 }
@@ -90,7 +97,7 @@ height:auto;
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  color: #8bafbb;
+  color: var(--color-primary);
   text-decoration: underline;
 }
 
@@ -98,12 +105,12 @@ height:auto;
 
 /* unvisited link */
 a:link {
-  color: #58595b;
+  color: var(--color-text);
 }
 
 /* visited link */
 a:visited {
-  color: #58595b;
+  color: var(--color-text);
 }
 
 
@@ -112,7 +119,7 @@ a:visited {
 
 /* Footer */
 footer {
-  background-color: #8bafbb;
+  background-color:var(--color-primary);
   }
 
 .ft-container {
@@ -146,16 +153,16 @@ footer {
 }
 
 .ft-main-item li a i:hover {
-  color: #799e82;
+  color: var(--color-primary);
   transform: scale(1.5);
 }
 
 
 
 /*The barn Styling section */
-.barn-intro {
+/*.barn-intro {
   margin: 50px 300px;
-}
+}*/
 
 .barn-wrapper {
   display: grid;
@@ -177,9 +184,9 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  background-color: #e7ecf2;
-  color: 58595b;
-  margin: 0px 400px;
+  background-color: var(--color-background);
+  color: var(--color-text);
+ /* margin: 0px 400px;*/
   /*padding: 20px 150px 20px 150px;*/
   padding: 20px;
   grid-template-areas:
@@ -188,9 +195,9 @@ footer {
 
 .barn-features-title {
   text-align: center;
-  background-color: #e7ecf2;
+  background-color:var (--color-background);
   color: 58595b;
-  margin: 5px 400px;
+ /* margin: 5px 400px;*/
 }
 
 .list>li {
@@ -217,7 +224,7 @@ section {
 
 
 .barn-text {
-  margin: 0px 200px;
+ /* margin: 0px 200px;*/
 
   align-content: center;
 }
@@ -276,18 +283,18 @@ section.rcontent3 {
   flex: 1;
   width: 900px;
   height: 600px;
-  background: #72acb3;
+  background: var(--color-background);
   border-radius: 5px;
   margin: 20px auto;
   /* centers the contact us section*/
-  box-shadow: 0 0 20px #58595b;
+  box-shadow: 0 0 20px var(--color-text);
   box-sizing: border-box;
   padding: 40px;
 }
 
 input[type="date"]:before {
   /* to put the date place holder in*/
-  color: #58595b;
+  color: var(--color-text);
   content: attr(placeholder);
 }
 
@@ -298,7 +305,7 @@ input[type="date"]:before {
   letter-spacing: 1px;
   font-size: 45px;
   margin-bottom: 20px;
-  color: white;
+  color: var(--color-secondary)
 }
 
 .input,
@@ -308,7 +315,7 @@ input[type="date"]:before {
   padding: 10px;
   box-sizing: border-box;
   margin-bottom: 25px;
-  border: 2px solid #58595b;
+  border: 2px solid var(--color-text);
   font-size: 15px;
   border-radius: 5px;
   outline: none;
@@ -333,20 +340,20 @@ input[type="date"]:before {
 
 .btn {
   width: 250px;
-  background: #697d96;
+  background: var(--color-text);
   height: 50px;
   line-height: 50px;
   text-align: center;
   border-radius: 5px;
   margin: 0 0 100px 100px;
-  color: white;
+  color:var(--color-secondary);
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .input:focus,
 .msg .area:focus {
-  border: 2px solid #486255;
+  border: 2px solid var(--color-text);
 }
 
 

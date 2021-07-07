@@ -6,22 +6,124 @@ Contact page to get in touch with the owners to check availability
 
 User experience to positive emotional response
 
-Owners - postive reaction from my users to book
-no agency fees
+
+
 I looked at the user centered design process that underpins user experience.  The five planes are:
+
 Strategy plane - What are you aiming to acheive in the first place and for whom.
-A:  
+is the content cuturally appropriate - familys, couples, walkers
+content relevant?
 
-The Scope plan: what features, based on informaiton from the strategy plane, do you want to include in your design?
+imporatnt that the users goals are met, that they can flow around the site intutively  interacti
+Focus - 
+Business objectives - to build a website for the property that will invoke a postive reaction from the user to book
+Definition  - what are we creating - A holiday let website to get an online presence
+Target audience: general consumers
+interview people that would use the site - what makes a oot experience, when you go to a site where do you go first and why
+Value - Amount of direct business increases, and becomes more profitability without any agency fees relating to direct bookings
+tech considerations: mobile, tablets and desktops
+Stakeholder interview - what do they want and what value it will give them!
+minimal 3 steps rule applyed to book 
+user objectives: single use learnings, is it fi
+They're asking, either consciously or unconsciously, what is this? Is this what I expected to see?
+Does it look credible and trustworthy?
+Does it offer what I want?
+Does it look valuable enough for me to stay?
+Does it look valuable enough for me to return?
+What actions can I take now?
+How do I learn more?
+How do I contact someone?
+All of these must be addressed.
+
+importance
+viability/Feasibility
+spreadsheet
+
+opportunity           importance  viability
+Create an online presence   5   5
+Show property               5   5
+Show local area             4   4
+Book acccomadation          5   1
+
+sum of imporatance  average viability x number of items
+Map
+
+The Scope plan: 
+
+The Need, how do users get in touch with the owners to book
+Functional specification - what features?  , based on informaiton from the strategy plane, do you want to include in your design?
+e.g. So the features, for example, are the ability to request a collaboration and the ability to download our resume in a more traditional format.
+Call to action
+
+Content
+
+Faciltlies /  photo/ description of rooms/areas
+local area information - video/ images places to go, eat and drink, beaches
+Contact us page
+
+Minimum Viable Product, an MVP to go live initially
 what can be implement now and late
-imporatnt that the users goals  are met, that they can flow around the site intutively  interacti
 
-Th structure plan: how is the information structured and how is it going to be logically grouped
+The structure plan: how is the information structured and how is it going to be logically grouped
+interaction design
+consistency
+ensure site is consistent, it's predictable, it's learnable, it's visible, and it provides clear and intuitive feedback.
+Consistentcy
+navigation elements appear in a horizontal fashion close to the top of your browser window.
+All your elements and interactive features should be consistent, both in their coloring, their theming, and so on.
 
-The skeleton plane: How will our information be represented and how will the user navigate the informaion and fatures?
+Content hinting occurs when you partially reveal elements of your page just above the fold.
+The fold is the bottom of your browser window.
+Because if you don't do that, the user won't know what's below, and they won't be encouraged to scroll.
+So make sure content is visible wherever possible.
+feedback - The form contains a button that has yet to be clicked. It hasn't been submitted yet, so the text is in white, and the background is in orange.
+Once the user has submitted their information, the system should provide feedback to let them know that something is happening.
+In this case, the system provides feedback in the form of a color change and a text change in the bottom.
+So the text on the button went from "Sign Up Now" to processing.
+Clear feedback to the user makes them feel assured.
 
-Surface plan What will the finished product look like/
-Colors, typography and design elements
+hovering over links
+
+Interaction design is learnable.
+If you can answer yes to the following questions: "Where am I?, "How did I get here?", "What can I do here?", "Where can I go from here?", then you've provided a strong sense of place, you've set the correct expectations, and you've made it possible for people to accurately predict the outcome of their interactions.
+
+order of navigation - read from left to right, not to user broswers back button, nav is on all pages
+relationships to information
+The barn to have all information on the page
+local information
+what do they want to see when they first come to our site?
+
+information design
+
+The skeleton plane: How will our information be represented and how will the user navigate the informaion and features?
+interface design
+
+Interface design is concerned with the best arrangement and visual presentation of the elements.
+Navigation design
+Nav to be top which is convential
+
+Main page - Hero image to provoke a positive user responce
+
+Navigation design is concerned with intuitive navigation and the completion of tasks.
+
+navigation same on all pages
+header
+nav bar
+footer
+
+Information design
+
+
+mockups
+how will the user navigate
+
+Surface plan 
+What will the finished product look like?
+Visual design
+Colors, typography, images and design elements
+Header 
+nav 
+footer similar 
 
 ## Features
 - __Navigation Bar__

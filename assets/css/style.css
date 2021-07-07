@@ -190,6 +190,8 @@ footer {
   margin: 2.25rem;
 }
 
+
+
 .barn-features-title {
   text-align: center;
   background-color: var (--color-background);
@@ -325,6 +327,29 @@ section.rcontent3 {
   grid-area: rcontent3;
 }
 
+
+.video-container {
+ 
+    position: relative;
+    overflow: hidden;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625)  https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
+   margin-bottom:0;
+  }
+  
+  /* Then style the iframe to fit in the container  with 50% height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
+    margin:0 auto;
+  }
+
+
+
 /* Contact us styling*/
 
 
@@ -445,7 +470,7 @@ input[type="date"]:before {
       "features4"
   }
 
-  .barn-wrapper {
+  .grid-wrapper-b {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
       "lcontent1"
@@ -456,7 +481,19 @@ input[type="date"]:before {
       "rcontent3"
   }
 
+}
+.grid-wrapper-la {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
  
+  grid-template-areas:
+    "lcontent1" 
+    "rcontent1"
+    "lcontent2" 
+    "rcontent2"
+    
+
+}
 
   .ft-main {
     display: flex;

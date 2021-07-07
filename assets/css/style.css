@@ -190,7 +190,15 @@ footer {
   margin: 2.25rem;
 }
 
-.barn-images {
+.barn-features-title {
+  text-align: center;
+  background-color: var (--color-background);
+  color: 58595b;
+
+  /* margin: 5px 400px;*/
+
+}
+.grid-images {
 
   background-color: var(--color-background);
   text-align: center;
@@ -199,7 +207,7 @@ footer {
 
 }
 
-.barn-wrapper {
+.grid-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr 1fr 1fr;
@@ -227,21 +235,13 @@ footer {
     "features1, features2, features3, features4"
 }
 
-.barn-features-title {
-  text-align: center;
-  background-color: var (--color-background);
-  color: 58595b;
-
-  /* margin: 5px 400px;*/
-
-}
 
 .list>li {
   text-align: left;
   list-style-type: none;
 }
 
-.barn-images {
+.grid-images {
   border-radius: 10px;
   margin: 0 auto;
 
@@ -259,7 +259,7 @@ section {
 
 
 
-.barn-text {
+.grid-text {
   /* margin: 0px 200px;*/
   max-width: 85%;
   margin: 0 auto;

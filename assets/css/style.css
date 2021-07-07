@@ -137,22 +137,22 @@ footer {
 }
 
 .ft-main {
-  /*padding:1.25rem 1.875rem;*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 1.2rem;
   justify-content: center;
 }
-.ft-content{
-  margin:0 auto;
+
+.ft-content {
+  margin: 0 auto;
 }
 
 
 .ft-social {
   display: flex;
   justify-content: center;
- margin:0 8em;
+  margin: 0 8em;
 }
 
 .ft-social li {

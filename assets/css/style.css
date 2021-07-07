@@ -19,7 +19,7 @@
 body {
   background-color: var(--color-secondary);
   color: var(--color-text);
-  font-size: 1rem;
+
   font-family: Open Sans, sans-serif;
   min-height: 100vh;
   padding: 0em 1em;
@@ -182,21 +182,20 @@ footer {
 }
 
 .grid-text {
-  max-width: 50%;
+  max-width: 70%;
   margin: 0 auto;
   align-content: center;
 }
 
 .grid-wrapper-b {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
   min-height: 100%;
   gap: 1em;
   grid-template-areas:
-    "lcontent1 rcontent1"
-    "lcontent2 rcontent2"
-    "lcontent3 rcontent3"
+    "lcontent1 rcontent1 lcontent2"
+     "rcontent2 lcontent3 rcontent3"
 }
 
 .grid-wrapper-la {

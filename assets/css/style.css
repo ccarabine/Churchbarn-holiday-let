@@ -169,7 +169,7 @@ footer {
 
 
 /*The barn Styling section */
-.barn-intro {
+.intro-text {
   max-width: 75%;
   /*margin: 50px 300px; */
   text-align: justify;
@@ -207,7 +207,7 @@ footer {
 
 }
 
-.grid-wrapper {
+.grid-wrapper-b {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr 1fr 1fr;
@@ -219,6 +219,18 @@ footer {
     "lcontent1 rcontent1"
     "lcontent2 rcontent2"
     "lcontent3 rcontent3"
+
+}
+.grid-wrapper-la {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  min-height: 100%;
+  gap: 1em;
+  grid-template-areas:
+    "lcontent1 rcontent1"
+    "lcontent2 rcontent2"
+    
 
 }
 
@@ -261,7 +273,7 @@ section {
 
 .grid-text {
   /* margin: 0px 200px;*/
-  max-width: 85%;
+  max-width: 50%;
   margin: 0 auto;
   align-content: center;
 }
@@ -444,9 +456,7 @@ input[type="date"]:before {
       "rcontent3"
   }
 
-  .barn-text {
-    max-width: 65%;
-  }
+ 
 
   .ft-main {
     display: flex;

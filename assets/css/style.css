@@ -97,7 +97,10 @@ h4 {
   color: var(--color-hoover);
   text-decoration: underline;
 }
+.navbar a:active {
+  color: var(--color-active);
 
+}
 /* unvisited link */
 a:link {
   color: var(--color-text);

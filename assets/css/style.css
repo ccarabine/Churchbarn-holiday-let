@@ -48,14 +48,16 @@ h4 {
   padding-bottom: 0.5em;
   padding-top: 0.5em;
 }
-
+.h3-title{
+  padding-bottom:0.5em;
+}
 .navbar .selected {
 
   font-weight: bold;
 }
 
 
-/*styling for hero image on home page and barn page*/
+/*styling for hero image on home page */
 .hero {
   background-image: url(../images/heroimage.JPG);
   background-color: var(--color-background);
@@ -170,13 +172,11 @@ footer {
 .barn-hero {
   background-image: url(../images/church-barn.jpg);
   background-repeat: no-repeat;
-  background-color: var(--color-background);
-  text-align: center;
-  padding: 30vh 0;
-  background-attachment: fixed;
-  background-size: cover;
+     padding: 20vh 0;
+  /*background-attachment: fixed;
+  background-size: cover;*/
   background-position: center;
-  margin: 2.25rem;
+ /* margin: 2.25rem;*/
 }
 
 .title-margin {
@@ -306,7 +306,7 @@ section.rcontent3 {
   left: 0;
   bottom: 0;
   right: 0;
-  width: 70%;
+  width: 50%;
   height: 50%;
   margin: 0 auto;
 }

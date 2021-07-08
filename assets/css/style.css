@@ -402,9 +402,7 @@ input[type="date"]:before {
 /*Media Queries */
 /* For medium screen sizes from 1300px wide and down */
 @media only screen and (max-width: 1050px) {
-  .main-head {
-    font-size: 0.75rem;
-  }
+  
 
   .grid-wrapper-barn {
     grid-template-columns: repeat(2, 1fr);
@@ -487,5 +485,7 @@ input[type="date"]:before {
     font-size:0.9em;
     margin: 0.3em;
   }
-  
+  .main-head {
+    font-size: 0.75rem;
+  }
 }

@@ -188,8 +188,8 @@ footer {
 .grid-images {
   background-color: var(--color-background);
   text-align: center;
-  height: 30em;
-  width: 30em;
+  height: 20em;
+  width: 20em;
   border-radius: 10px;
   margin: 0 auto;
 }
@@ -401,7 +401,7 @@ input[type="date"]:before {
 
 /*Media Queries */
 /* For medium screen sizes from 1300px wide and down */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1050px) {
   .main-head {
     font-size: 0.75rem;
   }

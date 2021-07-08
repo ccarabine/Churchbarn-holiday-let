@@ -184,7 +184,8 @@ footer {
 .title-margin {
   text-align: center;
   background-color: var (--color-background);
-  margin-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 .grid-images {

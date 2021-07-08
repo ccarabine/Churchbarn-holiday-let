@@ -141,7 +141,7 @@ footer {
   list-style-type: none;
 }
 
-.ft-main-item li a i:hover {
+.ft-main li a i:hover {
   color: var(--color-primary);
   transform: scale(1.5);
 }
@@ -287,7 +287,7 @@ section.rcontent3 {
   margin-bottom: 0;
 }
 
-/* Then style the iframe to fit in the container  with 50% height and width */
+/* Then style the iframe to fit in the container  with 80% height and width */
 .responsive-iframe {
   position: absolute;
   top: 0;

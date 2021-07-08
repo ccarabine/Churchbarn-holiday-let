@@ -182,7 +182,7 @@ footer {
 .title-margin {
   text-align: center;
   background-color: var (--color-background);
-  margin: 2em 0em;
+  margin-bottom: 2em;
 }
 
 .grid-images {
@@ -306,8 +306,8 @@ section.rcontent3 {
   left: 0;
   bottom: 0;
   right: 0;
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 50%;
   margin: 0 auto;
 }
 

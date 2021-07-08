@@ -13,8 +13,8 @@
   --color-primary: #8bafbb;
   --color-secondary: white;
   --color-background: #e7ecf2;
-  --color-hoover:pink;
-  --color-active:blue;
+  --color-hoover: pink;
+  --color-active: blue;
 }
 
 body {
@@ -47,7 +47,7 @@ h4 {
 
 .titles {
   padding-bottom: 0.5em;
-  padding-top:0.5em;
+  padding-top: 0.5em;
 }
 
 .navbar .selected {
@@ -79,8 +79,7 @@ h4 {
   margin: 0;
   justify-content: center;
   list-style-type: none;
-  line-height: 22px;
-  padding: 20px 5px;
+   padding: 20px 5px;
   margin-bottom: 30px;
   border-top: 1px solid var(--color-primary);
   border-bottom: 1px solid var(--color-primary);
@@ -89,9 +88,9 @@ h4 {
 .navbar a {
   /* added space between links and remove underline*/
   display: inline-block;
-  padding: 0px 25px !important;
+ padding: 0px 1.5em !important;
   text-decoration: none;
-  letter-spacing: 4px;
+  letter-spacing: 4px;s
   text-transform: uppercase;
 }
 
@@ -100,10 +99,12 @@ h4 {
   color: var(--color-hoover);
   text-decoration: underline;
 }
+
 .navbar a:active {
   color: var(--color-active);
 
 }
+
 /* unvisited link */
 a:link {
   color: var(--color-text);
@@ -388,17 +389,19 @@ input[type="date"]:before {
   cursor: pointer;
 }
 
-.btn:hover {background-color:var(--color-hoover)}
+.btn:hover {
+  background-color: var(--color-hoover)
+}
 
 .btn:active {
-  background-color:var(--color-active);
+  background-color: var(--color-active);
   transform: translateY(4px);
 }
 
 
 /*Media Queries */
 /* For medium screen sizes from 1300px wide and down */
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1000px) {
   .main-head {
     font-size: 0.75rem;
   }
@@ -406,21 +409,27 @@ input[type="date"]:before {
   .grid-wrapper-barn {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 1fr 1fr;
-     grid-template-areas:
+    grid-template-areas:
       "lcontent1 rcontent1"
       "lcontent2 rcontent2"
       "lcontent3 rcontent3"
   }
 
+  
+
 }
-@media only screen and (max-width: 900px) {
+
+@media only screen and (max-width: 800px) {
   .ft-main {
     justify-content: space-around;
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-
+  .navbar a {
+    
+   padding: 0px 1em !important;
+  }
   .contact-wrapper {
     width: 30em;
     height: 40em;
@@ -433,7 +442,7 @@ input[type="date"]:before {
 
   .grid-wrapper-barn {
     grid-template-columns: repeat(1, 1fr);
-      grid-template-areas:
+    grid-template-areas:
       "lcontent1"
       "rcontent1"
       "lcontent2"
@@ -445,7 +454,7 @@ input[type="date"]:before {
   .grid-wrapper-localarea {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 1fr;
-     grid-template-areas:
+    grid-template-areas:
       "lcontent1"
       "rcontent1"
       "lcontent2"
@@ -455,9 +464,21 @@ input[type="date"]:before {
   .barn-features-wrapper {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 1fr;
-     grid-template-areas:
+    grid-template-areas:
       "features1 features2"
       "features3 features4"
   }
+  .grid-images {
+    height: 15em;
+    width: 15em;
+  }
 }
-
+@media only screen and (max-width: 640px) {
+  .navbar a {
+        padding: 0em 0.5em !important;
+   }
+   .contact-wrapper {
+    width: 20em;
+    height: 40em;
+  }
+}

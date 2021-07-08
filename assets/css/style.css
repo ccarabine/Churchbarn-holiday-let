@@ -13,7 +13,8 @@
   --color-primary: #8bafbb;
   --color-secondary: white;
   --color-background: #e7ecf2;
-
+  --color-hoover:pink;
+  --color-active:blue;
 }
 
 body {
@@ -377,10 +378,13 @@ input[type="date"]:before {
   cursor: pointer;
 }
 
-.input:focus,
-.msg .area:focus {
-  border: 2px solid var(--color-text);
+.btn:hover {background-color:var(--color-hoover)}
+
+.btn:active {
+  background-color:var(--color-active);
+  transform: translateY(4px);
 }
+
 
 /*Media Queries */
 /* For medium screen sizes from 1300px wide and down */

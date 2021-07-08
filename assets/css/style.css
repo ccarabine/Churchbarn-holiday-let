@@ -94,7 +94,7 @@ h4 {
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  color: var(--color-primary);
+  color: var(--color-hoover);
   text-decoration: underline;
 }
 
@@ -143,10 +143,14 @@ footer {
 }
 
 .ft-main li a i:hover {
-  color: var(--color-primary);
+  color: var(--color-hoover);
   transform: scale(1.5);
 }
 
+.ft-main li a i:active {
+  color: var(--color-active);
+  transform: scale(2);
+}
 
 /*The barn & local area Styling section */
 .intro-text {

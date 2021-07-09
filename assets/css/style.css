@@ -181,9 +181,8 @@ footer {
   /* margin: 2.25rem;*/
 }
 
-.title-margin {
+.explore-title {
   text-align: center;
-  background-color: var (--color-background);
   margin-top: 2em;
   margin-bottom: 1em;
 }

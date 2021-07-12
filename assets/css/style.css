@@ -14,7 +14,7 @@
   --color-line: #efbb81;
   --color-background-primary: #e1ded7;
   --color-background-secondary: #a3bfd7;
-  --color-hoover: pink;
+  --color-button: #475963;
   --color-active: blue;
 }
 
@@ -45,15 +45,16 @@ h4 {
 .main-head {
   text-transform: uppercase;
 }
-
+.background-header{
+  background-color:var(--color-primary);
+  margin-bottom:1em;
+}
 .titles {
   padding-bottom: 0.5em;
   padding-top: 0.5em;
 }
 
-.h3-title {
-  padding-bottom: 0.5em;
-}
+
 .text-colour{
   color: var(--color-primary);
 }
@@ -193,7 +194,7 @@ footer {
   margin-bottom: 1em;
   color: var(--color-secondary);
 }
-.background-photos {
+.background-section {
   background: #e7ecf2;
   padding: 10px 15px;
   position: relative;
@@ -211,13 +212,7 @@ footer {
   margin: 0 auto;
 }
 
-/*
-.grid-text {
-  max-width: 70%;
-  margin: 0 auto;
-  align-content: center;
-}
-*/
+
 .grid-wrapper-barn {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -237,11 +232,15 @@ footer {
   grid-template-rows: 1fr 1fr;
   padding-top: 2em;
   gap: 1em;
+  color:var(--color-primary);
   grid-template-areas:
     ". lcontent1 rcontent1 ."
     ". lcontent2 rcontent2 ."
 }
-
+.p a {
+  text-decoration: none;
+   list-style-type: none;
+}
 .icons{
   font-size: 10rem;
   color:var(--color-primary);
@@ -265,12 +264,12 @@ footer {
 
 /* for barn section - remove bullet */
 .barn-feature-list {
-  /*.list>li { chanfe*/
+
   text-align: left;
   list-style-type: none;
   background: var(--color-secondary);
   padding: 1em;
-/*width:15em;*/
+
 }
 
 
@@ -319,29 +318,7 @@ div.rcontent3 {
   grid-area: rcontent3;
 }
 
-/*
-.video-container {
 
-  position: relative;
-  overflow: hidden;
-  padding-top: 56.25%;
-  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625)  https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
-/* margin-bottom: 0;
-}
-
-/* Then style the iframe to fit in the container  with 80% height and width */
-/*.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 50%;
-  height: 50%;
-  margin: 0 auto;
-}
-https://praiseon.com/embed-responsively-for-mobile-visitors
-*/
 .videoContainer {
   position: relative;
   padding-bottom: 45%;
@@ -350,6 +327,7 @@ https://praiseon.com/embed-responsively-for-mobile-visitors
   overflow: hidden;
   margin-left: 15%;
   margin-right: 15%;
+  margin-bottom:2%;
 }
 
 .videoContainer iframe,
@@ -367,7 +345,7 @@ https://praiseon.com/embed-responsively-for-mobile-visitors
 .contact-wrapper {
   flex: 1;
   width: 50em;
-  height: 50em;
+  height: 40em;
   background: var(--color-background);
   border-radius: 5px;
   margin: 20px auto;
@@ -375,6 +353,7 @@ https://praiseon.com/embed-responsively-for-mobile-visitors
   box-shadow: 0 0 20px var(--color-text);
   box-sizing: border-box;
   padding: 40px;
+    background-color: var(--color-background-secondary);
 }
 
 .btn-group {
@@ -394,7 +373,7 @@ input[type="date"]:before {
   letter-spacing: 1px;
   font-size: 45px;
   margin-bottom: 20px;
-  color: var(--color-secondary)
+
 }
 
 .input,
@@ -406,7 +385,7 @@ input[type="date"]:before {
   margin-bottom: 25px;
   border: 2px solid var(--color-text);
   font-size: 15px;
-  border-radius: 5px;
+
   outline: none;
 
 }
@@ -428,19 +407,21 @@ input[type="date"]:before {
 }
 
 .btn {
-  width: 15em;
-  background: var(--color-text);
-  height: 5em;
+  width: 8em;
+
+  height: 4em;
   text-align: center;
-  border-radius: 5px;
+ 
   margin: 1.2em;
   color: var(--color-secondary);
+  background-color: var(--color-button);
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .btn:hover {
-  background-color: var(--color-hoover)
+  background-color: var(--color-secondary);
+  color:var(--color-background-secondary);
 }
 
 .btn:active {
@@ -482,6 +463,7 @@ input[type="date"]:before {
     flex-direction: column;
     text-align: center;
   }
+  
   .grid-wrapper-barnfeatures {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 1fr;
@@ -522,7 +504,7 @@ input[type="date"]:before {
 
   .btn {
     width: 8em;
-    height: 5em;
+    height: 4em;
   }
 
   
@@ -565,7 +547,7 @@ input[type="date"]:before {
   }
 
   .btn {
-    width: 7em;
+    width: 5em;
     height: 3em;
     font-size: 0.9em;
     margin: 0.3em;

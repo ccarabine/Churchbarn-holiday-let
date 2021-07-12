@@ -10,12 +10,13 @@
 </head>
 
 <body>
+    <!-- Header title -->
     <div class="header-container">
         <header class="main-head">
             <div class="background-header">
-            <h1>Church Barn</h1>
-            <h2 class="sub-header">Perranuthnoe, Cornwall</2>
-        </div>
+                <h1>Church Barn</h1>
+                <h2 class="sub-header">Perranuthnoe, Cornwall</2>
+            </div>
             <!-- Nav bar -->
             <nav class="navbar">
                 <ul>
@@ -25,51 +26,50 @@
                     <li><a class="selected" href="contactus.html">Contact</a></li>
                 </ul>
             </nav>
-         </header>
-        </div>
+        </header>
+    </div>
+    <Main>
         <h1 class="h1-title background-section">Contact us</h1>
         <h4 class="h1-title">We would love to hear from you so if you are looking to make a booking or have any queries
-            please don't hesitate to get in touch.</h4>
-
+            please don't hesitate to get in touch.</h4>  
+        <!-- Contact form -->
         <div class="contact-wrapper">
 
+            <form action="http://www.sendmydatahere.com" method="post">
+                <!-- need to update -->
+                <div>
+                    <input class="input" type="text" id="fname" name="firstname" placeholder="First name">
 
+                    <input class="input" type="text" id="lname" name="lastname" placeholder="Surname">
 
-            <div class="login">
-                <form action="http://www.sendmydatahere.com" method="post">
-                    <div>
-                        <input class="input" type="text" id="fname" name="firstname" placeholder="First name">
+                    <input class="input" type="email" id="email" name="emailaddress" placeholder="Email address">
 
-                        <input class="input" type="text" id="lname" name="lastname" placeholder="Surname">
+                    <input class="input" type="phone" id="phone" name="phonenumber" placeholder="Telephone number">
+                    <input class="input" type="number" min="1" max="6" id="adults" name="adults"
+                        placeholder="# of Adults">
+                    <input class="input" type="number" min="1" max="6" id="children" name="children"
+                        placeholder="# of children">
+                    <input class="input" type="date" id="adate" name="arrivaldate" placeholder="Arrival date  ">
+                    <input class="input" type="date" id="ddate" name="departuredate" placeholder="Departure date  ">
+                </div>
+                <div class="msg">
+                    <textarea class="area" placeholder="Message"></textarea>
+                </div>
 
-                        <input class="input" type="email" id="email" name="emailaddress" placeholder="Email address">
+                <div>
+                    <input class="btn-contact" type="submit" value="Send">
+                    <input class="btn-contact" type="reset" value="Reset">
 
-                        <input class="input" type="phone" id="phone" name="phonenumber" placeholder="Telephone number">
-                        <input class="input" type="number" min="1" max="6" id="adults" name="adults"
-                            placeholder="Number of Adults">
-                        <input class="input" type="number" min="1" max="6" id="children" name="children"
-                            placeholder="Number of children">
-                        <input class="input" type="date" id="adate" name="arrivaldate" placeholder="Arrival date  ">
-                        <input class="input" type="date" id="ddate" name="departuredate" placeholder="Departure date  ">
-                    </div>
-                    <div class="msg">
-                        <textarea class="area" placeholder="Message"></textarea>
-                    </div>
-
-                    <div class="btn-group">
-                        <input class="btn-contact" type="submit" value="Send">
-                        <input class="btn-contact" type="reset" value="Reset">
-
-                    </div>
-            </div>
+                </div>
         </div>
-    
-    </form>
 
 
+        </form>
 
-  
-   
+    </main>
+
+
+    <!-- footer section -->
     <footer class="ft-container">
         <div class="ft-main">
             <div class="ft-content">
@@ -91,9 +91,9 @@
                 <p> Penzance, TR20 9NR </p>
             </div>
             <div class="ft-content">
-                <p><i class="fas fa-mobile-alt"></i> 07958 546 524 </p>
-                <p><i class="fas fa-envelope"></i><a href="mailto:stay@churchbarnholidays.co.uk">
-                        stay@churchbarnholidays.co.uk</a></p>
+                <p><i class="fas fa-mobile-alt"></i> +44 7958 546 524 </p>
+                <p><i class="fas fa-envelope"></i><a href="mailto:stay@churchbarn.com">
+                    stay@churchbarn.com</a></p>
             </div>
         </div>
     </footer>

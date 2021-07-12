@@ -65,7 +65,7 @@ h4 {
   box-sizing: border-box;
   text-align: center;
 }
-.local-links > a{
+.thearea-links > a{
   text-decoration: none;
    
 }
@@ -95,11 +95,18 @@ bottom:4em;
   width: auto;
   text-decoration: none;
 }
+.cta-button-barn{
+  left:0em;
+top:0.5em;
+}
 .cta-button:hover{
   background-color: var(--color-secondary);
   color:var(--color-primary);
 }
-
+.cta-button-thearea{
+  left:20em;
+bottom:25em;
+}
 .text-colour{
   color: var(--color-primary);
 }
@@ -228,7 +235,7 @@ color:var(--color-secondary);
   transform: scale(2);
 }
 
-/*The barn & local area Styling section */
+/*The barn & the area Styling section */
 .intro-text {
   max-width: 75%;
   text-align: justify;
@@ -246,9 +253,9 @@ color:var(--color-secondary);
   /* margin: 2.25rem;*/
 }
 
-.explore-title {
+.barn-explore-title {
   text-align: center;
-
+font-style: italic;
   margin-bottom: 1em;
   color: var(--color-secondary);
 }
@@ -265,17 +272,17 @@ color:var(--color-secondary);
 
 .grid-wrapper-barn {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
    gap: 2em;
   padding-top: 2em;
   grid-template-areas:
-    ". lcontent1 rcontent1 lcontent2 . "
-    ". rcontent2 lcontent3 rcontent3 . "
-    /*ad 6 colums*/
+    "lcontent1 rcontent1 lcontent2 "
+    "rcontent2 lcontent3 rcontent3 "
+
 }
 
-.grid-wrapper-localarea {
+.grid-wrapper-thearea {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   /* 4 columns so we can use the centre 2*/
@@ -410,7 +417,7 @@ div.rcontent3 {
     background-color:var(--color-primary)
 }
 
-.btn-group {
+.btn-contact-group {
   text-align: center;
 }
 
@@ -460,7 +467,7 @@ input[type="date"]:before {
   height: 200px;
 }
 
-.btn {
+.btn-contact {
   width: 8em;
 
   height: 4em;
@@ -473,12 +480,12 @@ input[type="date"]:before {
   cursor: pointer;
 }
 
-.btn:hover {
+.btn-contact:hover {
   background-color: var(--color-secondary);
   color:var(--color-background-primary);
 }
 
-.btn:active {
+.btn-contact:active {
   background-color: var(--color-active);
   transform: translateY(4px);
 }
@@ -486,26 +493,29 @@ input[type="date"]:before {
 
 /*Media Queries */
 /* For medium screen sizes from 1300px wide and down */
+
 @media only screen and (max-width: 1200px) {
   .cta-button {
    
   left:0em;
   bottom:0em;
   }
-  .grid-wrapper-barn {
-    display: grid;
-       grid-template-columns: repeat(3, 1fr);
+
   
-    grid-template-areas:
-      "lcontent1 rcontent1 lcontent2"
-      "rcontent2 lcontent3 rcontent3"
-   }
 
   .background-section-dark {
     margin: 2em 5em;
  
  }
- .grid-wrapper-localarea {
+ .grid-wrapper-barn {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "lcontent1 rcontent1"
+    "lcontent2 rcontent2"
+    "lcontent3 rcontent3"
+    }
+
+ .grid-wrapper-thearea {
   
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
@@ -537,27 +547,20 @@ input[type="date"]:before {
       "barn-feature3 barn-feature4"
   }
   
-  .grid-wrapper-barn {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-      "lcontent1 rcontent1"
-      "lcontent2 rcontent2"
-      "lcontent3 rcontent3"
-      }
-
+  
   
 
-  .grid-wrapper-localarea {
+  .grid-wrapper-thearea {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
       "lcontent1 rcontent1"
       "lcontent2 rcontent2"
   }
 
-   .grid-images {
+ /*  .grid-images {
     height: 15em;
     width: 15em;
-  }
+  }*/
   .navbar a {
     padding: 0px 1em !important;
   }
@@ -567,7 +570,7 @@ input[type="date"]:before {
     height: 40em;
   }
 
-  .btn {
+  .btn-contact {
     width: 8em;
     height: 4em;
   }
@@ -580,18 +583,9 @@ input[type="date"]:before {
     padding: 0em 0.5em !important;
   }
 
-  .grid-wrapper-barn {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas:
-      "lcontent1"
-      "rcontent1"
-      "lcontent2"
-      "rcontent2"
-      "lcontent3"
-      "rcontent3"
-  }
 
-  .grid-wrapper-localarea {
+
+  .grid-wrapper-thearea {
     grid-template-columns: repeat(1, 1fr);
        grid-template-areas:
       "lcontent1"
@@ -601,17 +595,17 @@ input[type="date"]:before {
   }
 
  
-
+/*
   .grid-images {
     height: 15em;
     width: 15em;
-  }
+  }*/
   .contact-wrapper {
     width: 20em;
     height: 40em;
   }
 
-  .btn {
+  .btn-contact {
     width: 5em;
     height: 3em;
     font-size: 0.9em;

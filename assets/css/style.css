@@ -10,11 +10,13 @@
 
 :root {
   --color-text: #58595b;
-  --color-primary: #8bafbb;
+  --color-primary: #a3bfd7;
   --color-secondary: white;
-  --color-background: #e7ecf2;
-  --color-hoover: pink;
+  --color-line: #efbb81;
+  --color-background-primary: #e1ded7;
+  --color-background-secondary: #475963;
   --color-active: blue;
+
 }
 
 body {
@@ -55,10 +57,7 @@ h4 {
   font-weight: lighter;
 }
 
-.navbar .selected {
 
-  font-weight: bold;
-}
 
 
 /*styling for hero image on home page */
@@ -76,6 +75,10 @@ h4 {
 /*Navigation styles*/
 .navbar {
   grid-area: nav;
+}
+
+.navbar .selected {
+  font-weight: bold;
 }
 
 .navbar ul {
@@ -97,8 +100,7 @@ h4 {
   padding: 0px 1.5em !important;
   text-decoration: none;
   letter-spacing: 4px;
-  text-transform: uppercase;
-}
+  }
 
 /* Change the color of links on hover */
 .navbar a:hover {
@@ -107,7 +109,7 @@ h4 {
 }
 
 .navbar a:active {
-  color: var(--color-active);
+  color: var(--color-primary);
 
 }
 

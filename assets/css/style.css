@@ -442,24 +442,36 @@ input[type="date"]:before {
 
 
 /*Media Queries */
-/* For medium screen sizes from 1300px wide and down */
-@media only screen and (max-width: 1050px) {
+/* For large screen sizes from 1200px wide and down */
 
+@media only screen and (max-width: 1200px) {
+  .cta-button {
+    left: 0em;
+    bottom: 0em;
+  }
+
+  .background-section-dark {
+    margin: 2em 5em;
+  }
 
   .grid-wrapper-barn {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
       "lcontent1 rcontent1"
       "lcontent2 rcontent2"
       "lcontent3 rcontent3"
   }
 
-
-
+  .grid-wrapper-thearea {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "lcontent1 rcontent1"
+      "lcontent2 rcontent2"
+  }
 }
 
-@media only screen and (max-width: 800px) {
+/* For medium screen sizes from 900px wide and down */
+@media only screen and (max-width: 900px) {
   .ft-main {
     justify-content: space-around;
     display: flex;
@@ -467,19 +479,28 @@ input[type="date"]:before {
     text-align: center;
   }
 
-  .navbar a {
+  .ft-social li a {
+    font-size: 1em;
+  }
 
+  .ft-content {
+    padding-bottom: 15px;
+  }
+
+  .navbar a {
     padding: 0px 1em !important;
   }
 
-  .contact-wrapper {
-    width: 30em;
-    height: 40em;
+  .background-feature-section {
+    margin: 2em 2em;
   }
 
-  .btn {
-    width: 8em;
-    height: 5em;
+  .grid-wrapper-barnfeatures {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "barn-feature1 barn-feature2"
+      "barn-feature3 barn-feature4"
   }
 
   .grid-wrapper-barn {
@@ -493,9 +514,42 @@ input[type="date"]:before {
       "rcontent3"
   }
 
-  .grid-wrapper-localarea {
+
+  .grid-wrapper-thearea {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "lcontent1 rcontent1"
+      "lcontent2 rcontent2"
+  }
+
+  .contact-wrapper {
+    width: 30em;
+    height: 40em;
+  }
+
+  .btn-contact {
+    width: 8em;
+    height: 4em;
+    margin-left: 5em;
+  }
+}
+
+/* For mobile screen sizes from 640px wide and down */
+@media only screen and (max-width: 640px) {
+  .main-head {
+    font-size: 0.75rem;
+  }
+
+  .background-section-dark {
+    margin: 1em 1em;
+  }
+
+  .navbar a {
+    padding: 0em 0.5em !important;
+  }
+
+  .grid-wrapper-thearea {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 1fr;
     grid-template-areas:
       "lcontent1"
       "rcontent1"
@@ -503,38 +557,30 @@ input[type="date"]:before {
       "rcontent2"
   }
 
-  .barn-features-wrapper {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-      "features1 features2"
-      "features3 features4"
-  }
-
-  .grid-images {
-    height: 15em;
-    width: 15em;
-  }
-}
-
-@media only screen and (max-width: 640px) {
-  .navbar a {
-    padding: 0em 0.5em !important;
-  }
-
   .contact-wrapper {
     width: 20em;
     height: 40em;
   }
 
-  .btn {
-    width: 7em;
+  .btn-contact {
+    width: 5em;
     height: 3em;
     font-size: 0.9em;
-    margin: 0.3em;
+    margin-left: 1em;
   }
 
-  .main-head {
-    font-size: 0.75rem;
+}
+
+/* For smaller mobile screen sizes from 400px wide and down */
+@media only screen and (max-width: 400px) {
+  .grid-wrapper-barnfeatures {
+    grid-template-columns: repeat(1, 1fr);
+
+    grid-template-areas:
+      "barn-feature1"
+      "barn-feature2"
+      "barn-feature3"
+      "barn-feature4"
   }
+
 }

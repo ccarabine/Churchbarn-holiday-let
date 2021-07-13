@@ -44,6 +44,7 @@ h4 {
 /*header styles*/
 .main-head {
   text-transform: uppercase;
+  color: var(--color-secondary);
 }
 
 .titles {
@@ -51,12 +52,15 @@ h4 {
   padding-top: 0.5em;
 }
 
-.sub-headar {
+.sub-header {
   text-transform: capitalize;
   font-style: italic;
   font-weight: lighter;
 }
 
+.text-colour {
+  color: var(--color-primary);
+}
 
 
 

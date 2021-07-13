@@ -368,19 +368,19 @@ footer {
 }
 
 div.barn-feature1 {
-  grid-template-areas: barn-feature1;
+  grid-area: barn-feature1;
 }
 
 div.barn-feature2 {
-  grid-template-areas: barn-feature2;
+  grid-area: barn-feature2;
 }
 
 div.barn-feature3 {
-  grid-template-areas: barn-feature3;
+  grid-area: barn-feature3;
 }
 
 div.barn-feature4 {
-  grid-template-areas: barn-feature4;
+  grid-area: barn-feature4;
 }
 
 div.lcontent1 {

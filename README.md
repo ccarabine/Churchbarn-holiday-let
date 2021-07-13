@@ -48,7 +48,11 @@ A coastal palette has been chosen to correlate and appear aesthetically pleasing
 
 ## 2. Typography
 
-The following font Roboto have been selected to ensure the text is easy to read, add value to the text, and invoke user to perceive a positive emotion from the text. The fonts chosen are generic and therefore should appeal to any demographic/user. It is rated as Google best font.
+The following font Roboto have been selected to ensure the text is easy to read, add value to the text, and invoke user to perceive a positive emotion from the text. The fonts chosen are generic and therefore should appeal to any demographic/user. It is rated as Google best font.I choose font lato to compliment some of the heading.
+
+![ Roboto font](assets/uxd/font-roboto.PNG)
+
+![ Lato font](assets/uxd/font-lato.PNG)
 
 ## 3. Wireframe
 
@@ -254,3 +258,60 @@ See below the difference between desktop, tablet and mobile view:
 * 6. More details about area/property
 * 7. Pricing information
 
+### HTML and CSS Validator Tests
+1. W3C HTML Validator
+- I opened [W3C HTML Validator](https://validator.w3.org/) and selected the "Validate by URI" option for each page index.html, thebarn.html, thearea.html and contactus.html separately.
+- Pages initally came up with the following errors:
+
+index.html
+
+![HTML Errors](assets/images/testing/index-errors.PNG)
+
+1. changed section to div
+2. removed extra </i> from pages
+Nothing outstanding
+
+The Barn.html
+
+![HTML Errors](assets/images/testing/barn-errors.png)
+
+errors stil outstanding
+
+The Area.html
+
+![HTML Errors](assets/images/testing/area-errors1.png)
+
+![HTML Errors](assets/images/testing/area-errors2.png)
+
+Point 5 Removed extra <main> , point 6 and 8,9 disappeared
+Point 7 removed </p>
+Point 2 removed muted and frameborder=0
+
+Outstanding Point 1 and 4
+
+Contactus.html
+
+![Contact us Errors](assets/images/testing/contact-errors.png)
+
+Point 1 and 2 changed input from phone to tel
+Point 3 and 4 changed input to text and added mm/dd/yyyy
+Point 5 moved /div to 	within the header
+Point moved /form one up so its within the last div
+
+no errors outstanding
+
+## W3 CSS Validator
+- I opened [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)  and selected the "Validate by direct input" option and pasted in the code.
+- Pages initally came up with the following errors:
+
+![CSS Errors](assets/images/testing/css-errors.png)
+
+1. i removed the space between "2.25" and "rem"
+2. i change the grid-template-areas to grid-areas
+
+- I received the message "Congratulations! No Error Found." 
+
+![CSS Errors](assets/images/testing/css-validator.png)
+
+
+***

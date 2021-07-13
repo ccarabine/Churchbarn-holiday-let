@@ -303,7 +303,7 @@ footer {
   height: 15em;
   width: 30em;
   margin: 0 auto;
-  margin-left:1em;
+
 }
 
 .p a {
@@ -619,6 +619,14 @@ input[type="date"]:before {
       "barn-feature2"
       "barn-feature3"
       "barn-feature4"
+  }
+  .grid-images {
+
+  
+    
+    width: 20em;
+    
+  
   }
 
 }

@@ -271,6 +271,55 @@ footer {
     "lcontent2 rcontent2"
 }
 
+/* for the area Main section photos and text  */
+.videoContainer {
+  position: relative;
+  padding-bottom: 45%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 2%;
+}
+
+.videoContainer iframe,
+.videoContainer object,
+.videoContainer embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-wrapper-thearea {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  grid-template-rows: 1fr 1fr;
+  padding-top: 2em;
+  gap: 1em;
+  color: var(--color-primary);
+  grid-template-areas:
+    ". lcontent1 rcontent1 ."
+    ". lcontent2 rcontent2 ."
+}
+
+.thearea-links>a {
+  text-decoration: none;
+}
+
+.thearea-icons {
+  font-size: 10rem;
+  color: var(--color-primary);
+}
+/* Change the color of links on hover */
+.thearea-links a:hover {
+  background-color:var(--color-line);
+  color: var(--color-background-secondary);
+  
+}
 
 
 
@@ -320,83 +369,29 @@ section.rcontent3 {
   grid-area: rcontent3;
 }
 
-/*
-.video-container {
-
-  position: relative;
-  overflow: hidden;
-  padding-top: 56.25%;
-  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625)  https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
-/* margin-bottom: 0;
-}
-
-/* Then style the iframe to fit in the container  with 80% height and width */
-/*.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 50%;
-  height: 50%;
-  margin: 0 auto;
-}
-https://praiseon.com/embed-responsively-for-mobile-visitors
-*/
-.videoContainer {
-  position: relative;
-  padding-bottom: 45%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-.videoContainer iframe,
-.videoContainer object,
-.videoContainer embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 
 
 /* Contact us styling*/
 .contact-wrapper {
   flex: 1;
   width: 50em;
-  height: 50em;
-  background: var(--color-background);
-  border-radius: 5px;
+  height: 40em;
+   border-radius: 5px;
   margin: 20px auto;
   /* centers the contact us section*/
   box-shadow: 0 0 20px var(--color-text);
   box-sizing: border-box;
   padding: 40px;
-}
-
-.btn-group {
-  text-align: center;
+  background-color: var(--color-primary)
 }
 
 input[type="date"]:before {
-  /* to put the date place holder in*/
+  /* to put the date place holder in before the date entry*/
   color: var(--color-text);
   content: attr(placeholder);
 }
 
-
-.contact-wrapper p {
-  margin: 20px auto;
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 45px;
-  margin-bottom: 20px;
-  color: var(--color-secondary)
-}
+/* styling for the input and msg and area fields and styling for all elements*/
 
 .input,
 .msg .area {
@@ -407,20 +402,14 @@ input[type="date"]:before {
   margin-bottom: 25px;
   border: 2px solid var(--color-text);
   font-size: 15px;
-  border-radius: 5px;
-  outline: none;
-
+   outline: none;
 }
 
-.login .input {
+/* styling for the form elements*/
+.contact-wrapper .input {
   width: 45%;
   float: left;
   margin-right: 4%;
-}
-
-.login .input:last-child {
-  /*last input make margin right 0 */
-  margin-right: 0;
 }
 
 .msg .area {
@@ -428,26 +417,28 @@ input[type="date"]:before {
   height: 200px;
 }
 
-.btn {
-  width: 15em;
-  background: var(--color-text);
-  height: 5em;
+.btn-contact {
+  width: 8em;
+  height: 4em;
   text-align: center;
-  border-radius: 5px;
   margin: 1.2em;
   color: var(--color-secondary);
+  background-color: var(--color-background-secondary);
   text-transform: uppercase;
   cursor: pointer;
+  margin-left: 10em;
 }
 
-.btn:hover {
-  background-color: var(--color-hoover)
+.btn-contact:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-background-secondary);
 }
 
-.btn:active {
+.btn-contact:active {
   background-color: var(--color-active);
   transform: translateY(4px);
 }
+
 
 
 /*Media Queries */

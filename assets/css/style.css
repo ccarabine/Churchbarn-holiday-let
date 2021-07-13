@@ -242,12 +242,12 @@ footer {
 }
 
 .ft-main li a i:hover {
-  color: var(--color-hoover);
+  color:var(--color-line);
   transform: scale(1.5);
 }
 
 .ft-main li a i:active {
-  color: var(--color-active);
+  color: var(--color-line)
   transform: scale(2);
 }
 

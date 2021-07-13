@@ -247,7 +247,7 @@ footer {
 }
 
 .ft-main li a i:active {
-  color: var(--color-line)
+  color: var(--color-line);
   transform: scale(2);
 }
 

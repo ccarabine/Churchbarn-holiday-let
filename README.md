@@ -21,7 +21,9 @@ The goal is to build an intuitive and responsive website, achieving the followin
 * Increase online presence and potentially eliminate the need for external 3rd party letting marketplace in the long term/future, managing all bookings, eliminating all agency fees/commission, increase profitability and take full control of Church Barn brand. 
 
 ## Responsive site
-? image displaying my websites home page across mobile, tablet and desktop.
+Using the website <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, I used the image that you see below displaying my websites home page across mobile, tablet and desktop.
+
+![Responsive image of front page on all devices](assets/uxd/responsive-design-mockup.PNG)
 
 ## User Experience
 
@@ -35,22 +37,23 @@ The goal is to build an intuitive and responsive website, achieving the followin
 * As a user of multiple devices, I need a website that is fully responsive, invoking the same user experience across all devices, in particular my mobile. 
 
 
-## Visual Design
+# Visual Design
 
-### 1. Colour Palette: 
+## 1. Colour Palette: 
 
 A coastal palette has been chosen to correlate and appear aesthetically pleasing against the coastal/property imagery. The relevance of the coastal colour palette will appeal to all demographics and users and invoke positive first impressions/associations/emotions. 
 
-![ Colour palette](assets/uxd/color-palette.png)
+![ Colour palette](assets/uxd/color-palette.PNG)
 
 
-* 2. Typography
+## 2. Typography
 
 The following font Roboto have been selected to ensure the text is easy to read, add value to the text, and invoke user to perceive a positive emotion from the text. The fonts chosen are generic and therefore should appeal to any demographic/user. It is rated as Google best font.
 
-3. Wireframe
+## 3. Wireframe
 
 I used <a href="https://balsamiq.com/">Balsamiq</a> to create rough wireframes for my project in order to plan out the layout of the webpage on both desktop and mobile devices.
+
 * Wireframes for Home Page. 
 
 ![Home Page Desktop](assets/uxd/wireframes/home-desktop.png)
@@ -60,6 +63,9 @@ I used <a href="https://balsamiq.com/">Balsamiq</a> to create rough wireframes f
 ![Home Page Mobile](assets/uxd/wireframes/home-mobile.png)
 
 
+
+* Wireframes for The Barn Page. 
+
 ![The Barn Page Desktop](assets/uxd/wireframes/the-barn-desktop.png)
 
 ![The Barn Page Tablet](assets/uxd/wireframes/the-barn-tablet.png)
@@ -67,11 +73,18 @@ I used <a href="https://balsamiq.com/">Balsamiq</a> to create rough wireframes f
 ![The Barn Page Mobile](assets/uxd/wireframes/the-barn-mobile.png)
  
 
+
+* Wireframes for The Area Page. 
+
 ![The Area Page Desktop](assets/uxd/wireframes/the-area-desktop.png)
 
 ![The Area Page Tablet](assets/uxd/wireframes/the-area-tablet.png)
 
 ![The Area Page Mobile](assets/uxd/wireframes/the-area-mobile.png)
+
+
+
+* Wireframes for Contact Page. 
 
 ![The Contact Page Desktop](assets/uxd/wireframes/contact-desktop.png)
 
@@ -79,8 +92,7 @@ I used <a href="https://balsamiq.com/">Balsamiq</a> to create rough wireframes f
 
 ![The Contact Page Mobile](assets/uxd/wireframes/contact-mobile.png)
 
-* Wireframes for Gallery Page. Alternatively you can view the wireframes here : [Gallery Page Desktop](assets/uxd/balsamiqWireframe/GalleryPageDesktop.png) 
-and [Gallery Page Mobile](assets/uxd/balsamiqWireframe/GalleryPageMobile.png)
+
 ## Features:
 
 

@@ -506,6 +506,10 @@ input[type="date"]:before {
       "lcontent1 rcontent1"
       "lcontent2 rcontent2"
   }
+  .background-feature-section {
+    margin: 2em 2em;
+
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -529,10 +533,6 @@ input[type="date"]:before {
     padding: 0px 1em !important;
   }
 
-  .background-feature-section {
-    margin: 2em 2em;
-
-  }
 
   .grid-wrapper-barnfeatures {
     grid-template-columns: repeat(2, 1fr);
@@ -620,13 +620,9 @@ input[type="date"]:before {
       "barn-feature3"
       "barn-feature4"
   }
-  .grid-images {
 
-  
-    
+  .grid-images {
     width: 20em;
-    
-  
   }
 
 }

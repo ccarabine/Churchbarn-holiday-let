@@ -31,9 +31,56 @@ The goal is to build an intuitive and responsive website, achieving the followin
 * As a user of any demographic, I need to feel well informed/assured of the property’s suitability quickly and efficiently.
 * As a user I need assurance/security that I am booking a property of high standards/quality from a trustworthy/legitimate source.
 * As a user who has never visited Church Barn or the surrounding area, I want a 360 overview of the attractions, beaches, places to eat and activities .
-*As a user who has never visited Church Barn, I want relevant imagery to visualise/anticipate my holiday, creating the desire to book and look forward to my holiday.
+* As a user who has never visited Church Barn, I want relevant imagery to visualise/anticipate my holiday, creating the desire to book and look forward to my holiday.
 * As a user of multiple devices, I need a website that is fully responsive, invoking the same user experience across all devices, in particular my mobile. 
 
+
+## Visual Design
+
+### 1. Colour Palette: 
+
+A coastal palette has been chosen to correlate and appear aesthetically pleasing against the coastal/property imagery. The relevance of the coastal colour palette will appeal to all demographics and users and invoke positive first impressions/associations/emotions. 
+
+![ Colour palette](assets/uxd/color-palette.png)
+
+
+* 2. Typography
+
+The following font Roboto have been selected to ensure the text is easy to read, add value to the text, and invoke user to perceive a positive emotion from the text. The fonts chosen are generic and therefore should appeal to any demographic/user. It is rated as Google best font.
+
+3. Wireframe
+
+I used <a href="https://balsamiq.com/">Balsamiq</a> to create rough wireframes for my project in order to plan out the layout of the webpage on both desktop and mobile devices.
+* Wireframes for Home Page. 
+
+![Home Page Desktop](assets/uxd/wireframes/home-desktop.png)
+
+![Home Page Tablet](assets/uxd/wireframes/home-tablet.png)
+
+![Home Page Mobile](assets/uxd/wireframes/home-mobile.png)
+
+
+![The Barn Page Desktop](assets/uxd/wireframes/the-barn-desktop.png)
+
+![The Barn Page Tablet](assets/uxd/wireframes/the-barn-tablet.png)
+
+![The Barn Page Mobile](assets/uxd/wireframes/the-barn-mobile.png)
+ 
+
+![The Area Page Desktop](assets/uxd/wireframes/the-area-desktop.png)
+
+![The Area Page Tablet](assets/uxd/wireframes/the-area-tablet.png)
+
+![The Area Page Mobile](assets/uxd/wireframes/the-area-mobile.png)
+
+![The Contact Page Desktop](assets/uxd/wireframes/contact-desktop.png)
+
+![The Contact Page Tablet](assets/uxd/wireframes/contact-tablet.png)
+
+![The Contact Page Mobile](assets/uxd/wireframes/contact-mobile.png)
+
+* Wireframes for Gallery Page. Alternatively you can view the wireframes here : [Gallery Page Desktop](assets/uxd/balsamiqWireframe/GalleryPageDesktop.png) 
+and [Gallery Page Mobile](assets/uxd/balsamiqWireframe/GalleryPageMobile.png)
 ## Features:
 
 
@@ -46,7 +93,7 @@ The goal is to build an intuitive and responsive website, achieving the followin
 *7. Pricing information
 
 # Existing Features (short term objectives):
-## Main Structure
+## Main Structure -Header, navigation bar and footer
 Featured on all four pages. 
 * Value: Consistency/aesthetically pleasing
 
@@ -83,7 +130,7 @@ See below the view on all devices :
 * Social media links will open in a separate page.
 * The email address when clicked will open the email browser
 * Feedback – When the cursor hovers over social media symbols, the symbols will highlight in the hover colour(var).
-* Clickable social media links will highlight in the active colour(var) and double in size
+* Clickable social media links will highlight in the active colour(var) and increase in size
 
 See below the difference between desktop and mobile view:
 
@@ -100,6 +147,7 @@ See below the difference between desktop and mobile view:
 * The call to action (CTA) will be prominent to invoke users to book/enquire.
 
 * Value: This section introduces the user to Church Barn, enticing them to learn more and book/enquire.
+
 See below the difference between desktop and mobile view:
 
 ![Home page on large devices](assets/uxd/home-cta-largedevice.PNG)
@@ -120,7 +168,7 @@ See below the difference between desktop and mobile view:
 
 ![Barn description and image on small devices](assets/uxd/barnhero-intro-smalldevice.PNG)
 
-* Barn Feature List of key features 
+* Barn Feature List of key features with CTA
 
 See below the difference between desktop and mobile view:
 
@@ -140,8 +188,7 @@ See below the difference between desktop, tablet and mobile view:
 
 ![ Barn Images on small devices](assets/uxd/barnimages-smalldevice.PNG)
 
-* #Call to action
-![ Call to action](assets/uxd/barn-cta.PNG)
+
 
 * Value: This section informs the user of the property specification, key information, relevant imagery, with CTA, and consistent UX on all devices.
 
@@ -157,7 +204,7 @@ See below the difference between desktop, tablet and mobile view:
 
 ![ Introduction and video on small device](assets/uxd/area-intro-video-smalldevice.PNG)
 
-* Four headings (Attractions, Food, Beaches and Activities) with a ‘icon’ images and clickable links relating to the subject 
+* Four headings (Attractions, Food, Beaches and Activities) with a ‘icon’ images and clickable links relating to the subject with CTA
 
 See below the difference between desktop, tablet and mobile view:
 
@@ -195,18 +242,3 @@ See below the difference between desktop, tablet and mobile view:
 * 6. More details about area/property
 * 7. Pricing information
 
-
-## Visual Design
-
-### Colour Palette: 
-
-A coastal palette has been chosen to correlate and appear aesthetically pleasing against the coastal/property imagery. The relevance of the coastal colour palette will appeal to all demographics and users and invoke positive first impressions/associations/emotions. 
-
-* Colours 
-
-![ Colour palette](assets/uxd/color-palette.PNG)
-
-
-* Typography
-
-The following font Roboto have been selected to ensure the text is easy to read, add value to the text, and invoke user to perceive a positive emotion from the text. The fonts chosen are generic and therefore should appeal to any demographic/user. It is rated as Google best font.

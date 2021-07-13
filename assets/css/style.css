@@ -67,7 +67,6 @@ h4 {
 /*styling for hero image on home page */
 .hero {
   background-image: url(../images/heroimage.JPG);
-  background-color: var(--color-background);
   text-align: center;
   padding: 30vh 0;
   background-attachment: fixed;
@@ -196,44 +195,70 @@ footer {
   background-image: url(../images/church-barn.jpg);
   background-repeat: no-repeat;
   padding: 20vh 0;
-  /*background-attachment: fixed;
-  background-size: cover;*/
-  background-position: center;
-  /* margin: 2.25rem;*/
-}
+   background-position: center;
+  }
 
-.title-margin {
+  /* Explore the barn -styling*/
+.barn-explore-title {
   text-align: center;
-  background-color: var (--color-background);
-  margin-top: 2em;
+  font-style: italic;
   margin-bottom: 1em;
+  color: var(--color-secondary);
+}
+.grid-wrapper-barnfeatures {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: 1fr;
+  gap: 2em;
+  grid-template-areas:
+    "barn-feature1 barn-feature2 barn-feature3 barn-feature4"
 }
 
-.grid-images {
-  background-color: var(--color-background);
-  text-align: center;
-  height: 20em;
-  width: 20em;
-  border-radius: 10px;
-  margin: 0 auto;
+.background-feature-section {
+  background: var(--color-primary);
+  padding: 1em 1em;
+  margin: 2em 15em;
 }
 
-.grid-text {
-  max-width: 70%;
-  margin: 0 auto;
-  align-content: center;
+
+.barn-feature-list {
+  text-align: left;
+  list-style-type: none;
+  background: var(--color-secondary);
+  padding: 1em;
+
 }
 
+/* for the barn Main section photos and text  */
 .grid-wrapper-barn {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
-  min-height: 100%;
-  gap: 1em;
+  gap: 2em;
+  padding-top: 2em;
   grid-template-areas:
-    "lcontent1 rcontent1 lcontent2"
-    "rcontent2 lcontent3 rcontent3"
+    "lcontent1 rcontent1 lcontent2 "
+    "rcontent2 lcontent3 rcontent3 "
+
 }
+
+.grid-images {
+  text-align: center;
+  height: 15em;
+  width: 30em;
+  margin: 0 auto;
+}
+
+.p a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.grid-text {
+  color: var(--color-text);
+  font-style: normal;
+}
+
 
 .grid-wrapper-localarea {
   display: grid;
@@ -246,28 +271,9 @@ footer {
     "lcontent2 rcontent2"
 }
 
-.barn-features-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  background-color: var(--color-background);
-  color: var(--color-text);
-  padding: 20px;
-  grid-template-areas:
-    "features1, features2, features3, features4"
-}
-
-/* for barn section - remove bullet */
-.list>li {
-  text-align: left;
-
-  list-style-type: none;
-}
 
 
-section {
-  text-align: center;
-}
+
 
 div.feature1 {
   grid-template-areas: feature1;

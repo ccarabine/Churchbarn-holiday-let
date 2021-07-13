@@ -506,6 +506,7 @@ input[type="date"]:before {
       "lcontent1 rcontent1"
       "lcontent2 rcontent2"
   }
+
   .background-feature-section {
     margin: 2em 2em;
 
@@ -607,21 +608,21 @@ input[type="date"]:before {
     font-size: 0.9em;
     margin-left: 1em;
   }
-
-
-@media only screen and (max-width: 400px) {
-  .grid-wrapper-barnfeatures {
-    grid-template-columns: repeat(1, 1fr);
-
-    grid-template-areas:
-      "barn-feature1"
-      "barn-feature2"
-      "barn-feature3"
-      "barn-feature4"
-  }
-
-  .grid-images {
-    width: 20em;
-  }
-
 }
+
+  @media only screen and (max-width: 400px) {
+    .grid-wrapper-barnfeatures {
+      grid-template-columns: repeat(1, 1fr);
+
+      grid-template-areas:
+        "barn-feature1"
+        "barn-feature2"
+        "barn-feature3"
+        "barn-feature4"
+    }
+
+    .grid-images {
+      width: 20em;
+    }
+
+  }

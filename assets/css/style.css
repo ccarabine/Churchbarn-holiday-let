@@ -100,7 +100,7 @@ h4 {
   padding: 0px 1.5em !important;
   text-decoration: none;
   letter-spacing: 4px;
-  }
+}
 
 /* Change the color of links on hover */
 .navbar a:hover {
@@ -124,8 +124,11 @@ a:visited {
 }
 
 /* Footer */
+
 footer {
-  background-color: var(--color-primary);
+  background-color: var(--color-background-secondary);
+  color: var(--color-secondary);
+  border-top: 4px solid var(--color-line);
   margin-top: 1em;
 }
 
@@ -148,13 +151,23 @@ footer {
 .ft-social {
   display: flex;
   justify-content: center;
-  /* margin: 0 8em;*/
+}
+
+.ft-content a {
+  color: var(--color-secondary);
 }
 
 .ft-social li {
   margin-right: 2rem;
   font-size: 1.25rem;
   list-style-type: none;
+  color: var(--color-secondary);
+
+}
+
+.ft-social li a {
+  color: var(--color-secondary);
+  font-size: 2em;
 }
 
 .ft-main li a i:hover {

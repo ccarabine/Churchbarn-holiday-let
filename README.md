@@ -1,182 +1,212 @@
-# Church Barn Holiday Let
-Church Barn Holiday let is a site that helps the consumer to get in touch with the owners directly to book accommodation for their holiday.  The site will target holiday makers who are looking to hire a holiday cottage in the Perranuthnoe, Cornwall area.  
-It will describe and show photos of the facilties and rooms
-Links and info on things to do, places to eat and beaches to go
-Contact page to get in touch with the owners to check availability 
+***
+# Project Overview
+## Church Barn
+***
 
-User experience to positive emotional response
+Church Barn is a lovingly converted barn, and holiday let in the sleepy village of Perranuthnoe, Southwest Cornwall. It is a place close to my heart, especially during the last year of lockdown, where we all learnt not to take our freedom to travel for granted.
 
+To date, Church Barn has been listed on a holiday letting marketplace, who list the property amongst other competing properties in the area, they have full control/ownership of the brand, provide online booking, and charge high fees/commission.
 
+## Vision:
+Now the owner would like an additional platform to take back control of his business in marketing/selling the property direct to consumers, create more bookings, and manage the bookings himself.
 
-I looked at the user centered design process that underpins user experience.  The five planes are:
+## Objectives:
+The goal is to build an intuitive and responsive website, achieving the following stakeholder requirements:
 
-Strategy plane - What are you aiming to acheive in the first place and for whom.
-is the content cuturally appropriate - familys, couples, walkers
-content relevant?
+### Short term:
+* CTA, invoke a positive reaction from the user to book directly with owner via website enquiry form. Increasing D2C sales will reduce agency fees/commission and increase margins/profitability.
+* Showcase/brand Church Barn as an inclusive holiday destination to a wide audience of all demographics.
 
-imporatnt that the users goals are met, that they can flow around the site intutively  interacti
-Focus - 
-Business objectives - to build a website for the property that will invoke a postive reaction from the user to book
-Definition  - what are we creating - A holiday let website to get an online presence
-Target audience: general consumers
-interview people that would use the site - what makes a oot experience, when you go to a site where do you go first and why
-Value - Amount of direct business increases, and becomes more profitability without any agency fees relating to direct bookings
-tech considerations: mobile, tablets and desktops
-Stakeholder interview - what do they want and what value it will give them!
-minimal 3 steps rule applyed to book 
-user objectives: single use learnings, is it fi
-They're asking, either consciously or unconsciously, what is this? Is this what I expected to see?
-Does it look credible and trustworthy?
-Does it offer what I want?
-Does it look valuable enough for me to stay?
-Does it look valuable enough for me to return?
-What actions can I take now?
-How do I learn more?
-How do I contact someone?
-All of these must be addressed.
+### Long term:
+* Increase online presence and potentially eliminate the need for external 3rd party letting marketplace in the long term/future, managing all bookings, eliminating all agency fees/commission, increase profitability and take full control of Church Barn brand. 
 
-importance
-viability/Feasibility
-spreadsheet
+## Responsive site
+? image displaying my websites home page across mobile, tablet and desktop.
 
-opportunity           importance  viability
-Create an online presence   5   5
-Show property               5   5
-Show local area             4   4
-Book acccomadation          5   1
+## User Experience
 
-sum of imporatance  average viability x number of items
-Map
+### User Stories:
+* As a user, who occasionally abandons my purchases due to bad product information, I want a website that is easy to navigate, so I can access all the key information, such as property specification, for my holiday without any challenges or flaws.
+* As a user, who can sometimes be impatient, and limited for time, my path to purchase needs to be flawless, I need to know how to enquire/book holiday instantly.
+* As a user of any demographic, I need to feel well informed/assured of the property’s suitability quickly and efficiently.
+* As a user I need assurance/security that I am booking a property of high standards/quality from a trustworthy/legitimate source.
+* As a user who has never visited Church Barn or the surrounding area, I want a 360 overview of the attractions, beaches, places to eat and activities .
+*As a user who has never visited Church Barn, I want relevant imagery to visualise/anticipate my holiday, creating the desire to book and look forward to my holiday.
+* As a user of multiple devices, I need a website that is fully responsive, invoking the same user experience across all devices, in particular my mobile. 
 
-The Scope plan: 
-
-The Need, how do users get in touch with the owners to book
-Functional specification - what features?  , based on informaiton from the strategy plane, do you want to include in your design?
-e.g. So the features, for example, are the ability to request a collaboration and the ability to download our resume in a more traditional format.
-Call to action
-
-Content
-
-Faciltlies /  photo/ description of rooms/areas
-local area information - video/ images places to go, eat and drink, beaches
-Contact us page
-
-Minimum Viable Product, an MVP to go live initially
-what can be implement now and late
-
-The structure plan: how is the information structured and how is it going to be logically grouped
-interaction design
-consistency
-ensure site is consistent, it's predictable, it's learnable, it's visible, and it provides clear and intuitive feedback.
-Consistentcy
-navigation elements appear in a horizontal fashion close to the top of your browser window.
-All your elements and interactive features should be consistent, both in their coloring, their theming, and so on.
-
-Content hinting occurs when you partially reveal elements of your page just above the fold.
-The fold is the bottom of your browser window.
-Because if you don't do that, the user won't know what's below, and they won't be encouraged to scroll.
-So make sure content is visible wherever possible.
-feedback - The form contains a button that has yet to be clicked. It hasn't been submitted yet, so the text is in white, and the background is in orange.
-Once the user has submitted their information, the system should provide feedback to let them know that something is happening.
-In this case, the system provides feedback in the form of a color change and a text change in the bottom.
-So the text on the button went from "Sign Up Now" to processing.
-Clear feedback to the user makes them feel assured.
-
-hovering over links
-
-Interaction design is learnable.
-If you can answer yes to the following questions: "Where am I?, "How did I get here?", "What can I do here?", "Where can I go from here?", then you've provided a strong sense of place, you've set the correct expectations, and you've made it possible for people to accurately predict the outcome of their interactions.
-
-order of navigation - read from left to right, not to user broswers back button, nav is on all pages
-relationships to information
-The barn to have all information on the page
-local information
-what do they want to see when they first come to our site?
-
-information design
-
-The skeleton plane: How will our information be represented and how will the user navigate the informaion and features?
-interface design
-
-Interface design is concerned with the best arrangement and visual presentation of the elements.
-Navigation design
-Nav to be top which is convential
-
-Main page - Hero image to provoke a positive user responce
-
-Navigation design is concerned with intuitive navigation and the completion of tasks.
-
-navigation same on all pages
-header
-nav bar
-footer
-
-Information design
+## Features:
 
 
-mockups
-how will the user navigate
+*1. Live calendar for bookings
+*2. Testimonials
+*3. Map 
+*4. Professional imagery 
+*5. Terms and conditions
+*6. More details about area/property
+*7. Pricing information
 
-Surface plan 
-What will the finished product look like?
-Visual design
-Colors, typography, images and design elements
-Header 
-nav 
-footer similar 
+# Existing Features (short term objectives):
+## Main Structure
+Featured on all four pages. 
+* Value: Consistency/aesthetically pleasing
 
-## Features
-- __Navigation Bar__
+## The Header 
+At the top centre of the page. This section will let the user know the site they are visiting and the location. 
+* Value: Informs user they the Church Barn website.
+See below the view on all devices :
 
-  - Featured on all four pages, the full responsive navigation bar includes links to the Home page, The Barn, local area and Contact us page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+![Header on all devices](assets/uxd/header.PNG)
 
-**image of nav bar
+## Navigation bar
 
-The Footer
-The footer section includes links to the relevenat social media sites for the Barn.  The links will open to a new tab to allow wasy navigation for the user.
-It allows the user to keep connected via social media.
+* The navbar section is fully responsive. It includes links to home page, the barn, the area, and contact page and is identical on each page to allow for easy navigation.
+* All elements and interactive features are consistent, both in colouring and theming.
+* Header and navbar text reduce on mobile devices to ensure it fits on the screen.
+* Feedback – when the cursor hovers over a link, the link will highlight show a border-top line in an color-line (var).
+* Visited and unvisited links will be the same text colour (var) to ensure consistency throughout.
+* Clickable links will highlight in the active colour(var) 
+* Active page, the link colour will be in bold.
 
-Address to check the location an contact details are on the footer as a call to action to contact the owners
+* Value: The navbar will allow user to easily navigate from page to page, across all devices, eliminating need to use a ‘back button’.
+See below the view on all devices :
+
+![Navbar on all largedevice](assets/uxd/navbar-largedevice.PNG)
+
+![Navbar on all mediumdevice](assets/uxd/navbar-mediumdevice.PNG)
+
+![Navbar on all small device](assets/uxd/navbar-smalldevice.PNG)
+
+## The Footer 
+* The footer is at the bottom of the page, consistent with industry standard.
+* On desktops and tablets – the footer will be in three sections with social media links on the left, address in the centre and contact details on the right.
+* On mobile devices they will the social media links/address/contact details stack on top of each other.
+* Social media links will open in a separate page.
+* The email address when clicked will open the email browser
+* Feedback – When the cursor hovers over social media symbols, the symbols will highlight in the hover colour(var).
+* Clickable social media links will highlight in the active colour(var) and double in size
+
+See below the difference between desktop and mobile view:
+
+![Footer on large devices](assets/uxd/footer-largedevice.PNG)
+
+![Footer on medium devices](assets/uxd/footer-mediumdevice.PNG)
+
+![Footer on small devices](assets/uxd/footer-smalldevice.PNG)
+
+* Value: It is crucial to display contact details on footer section for optimized UX and is industry standard. UX across multiple devices will be consistent.
+
+## Features unique to home page. 
+* Main page will have a large ‘hero’ image to invoke a positive emotional response.
+* The call to action (CTA) will be prominent to invoke users to book/enquire.
+
+* Value: This section introduces the user to Church Barn, enticing them to learn more and book/enquire.
+See below the difference between desktop and mobile view:
+
+![Home page on large devices](assets/uxd/home-cta-largedevice.PNG)
+
+![Home page on medium devices](assets/uxd/home-cta-mediumdevice.PNG)
+
+![Home page on small devices](assets/uxd/home-cta-smalldevice.PNG)
+
+## Features unique to ‘The Barn’ Page
+* Description of the property
+* ‘Hero’ Image
+
+See below the difference between desktop and mobile view:
+
+![Barn description and image on large devices](assets/uxd/barnhero-intro-largedevice.PNG)
+
+![Barn description and image on medium devices](assets/uxd/barnhero-intro-mediumdevice.PNG)
+
+![Barn description and image on small devices](assets/uxd/barnhero-intro-smalldevice.PNG)
+
+* Barn Feature List of key features 
+
+See below the difference between desktop and mobile view:
+
+![Barn features on large devices](assets/uxd/barnfeatures-largedevice.PNG)
+
+![ Barn features on Medium devices](assets/uxd/barnfeatures-mediumdevice.PNG)
+
+![ Barn features on small devices](assets/uxd/barnfeatures-smalldevice.PNG)
+
+* Six Images and description of the property – kitchen area, living area, bedroom1, bedroom2, outdoors and a ‘short stroll away…’.
+
+See below the difference between desktop, tablet and mobile view:
+
+![ Barn Images on large devices](assets/uxd/barnimages-largedevice.PNG)
+
+![ Barn Images on medium devices](assets/uxd/barnimages-mediumdevice.PNG)
+
+![ Barn Images on small devices](assets/uxd/barnimages-smalldevice.PNG)
+
+* #Call to action
+![ Call to action](assets/uxd/barn-cta.PNG)
+
+* Value: This section informs the user of the property specification, key information, relevant imagery, with CTA, and consistent UX on all devices.
+
+## Features unique to ‘The Area’ Page 
+* Overview/introduction to the area
+* Video, introducing South West Cornwall -user initiates controls such as sound/play and will be fully responsive on all devices (80% width and height) 
+
+See below the difference between desktop, tablet and mobile view:
+
+![ Introduction and video on large device](assets/uxd/area-intro-video-largedevice.PNG)
+
+![ Introduction and video on medium device](assets/uxd/area-intro-video-mediumdevice.PNG)
+
+![ Introduction and video on small device](assets/uxd/area-intro-video-smalldevice.PNG)
+
+* Four headings (Attractions, Food, Beaches and Activities) with a ‘icon’ images and clickable links relating to the subject 
+
+See below the difference between desktop, tablet and mobile view:
+
+![ Useful links and clickable links on large device](assets/uxd/area-useful-links-largedevice.PNG)
+
+![ Useful links and clickable links on large device](assets/uxd/area-useful-links-mediumdevice.PNG)
+
+![ Useful links and clickable links on large device](assets/uxd/area-useful-links-smalldevice.PNG)
+
+* Value: This section provides user with an overview of local area, beaches, places to eat/drink, and things to do with relevant imagery, invoking response to enquire/book with CTA. UX is consistent across all devices.
+
+## Features unique to Contact us page.
+
+* A contact form with 9 data field inputs, ‘first name’, ‘surname’, ‘email address’, ‘telephone number’,’ number of adults’, ‘number of children’, ‘arrival date’, ‘departure date’, ‘message’ and a submit button and reset button underneath.
+* The contact form is responsive on mobile devices and reduces in height and width as well as the buttons.
+* Feedback - When the cursor hovers over ‘submit’ /’reset’ the links will highlight in the hover colour(var)
+* When clicking on ‘submit’ /’reset’ links, they will highlight in the active colour(var) and repositions button down by 4px
+
+See below the difference between desktop, tablet and mobile view:
+
+![ Contact us form on large device](assets/uxd/contactus-largedevice.PNG)
+
+![ Contact us form on medium device](assets/uxd/contactus-mediumdevice.PNG)
+
+![ Contact us form on small device](assets/uxd/contactus-smalldevice.PNG)
+
+* Value: This section will allow the user complete CTA by submitting an enquiry/booking to owner, providing the owner with all the information initially required to connect with user. UX will be consistent on all devices. 
+
+## Features remaining to implement (long term objectives):
+* 1. Live calendar for bookings
+* 2. Testimonials
+* 3. Map 
+* 4. Gallery with professional imagery 
+* 5. Terms and conditions
+* 6. More details about area/property
+* 7. Pricing information
 
 
-The landing page image
-  The landing includes a hero image to allow the user to see the quint village and the closenest to the beach
+## Visual Design
 
-The Barn
-The barn section will allow the user to see images of all rooms amd facilities.
+### Colour Palette: 
 
-The Local area
-This section ...
+A coastal palette has been chosen to correlate and appear aesthetically pleasing against the coastal/property imagery. The relevance of the coastal colour palette will appeal to all demographics and users and invoke positive first impressions/associations/emotions. 
 
-Contact page
-This page will allow the user to get in touch with the owners, they wil then call or email the user to confirm availability and to book.
-The user wil be asked to submit their full name, email, telephone number, number of adults and children staying, arrival and departure dates and any message.
-The user can reset the form with the "reset form" button and click send when they have completed the enquiry form
+* Colours 
 
-Features Left to implement
-live calender for bookings
-testimonials
-Map
-scrollable gallery
-
-Testing
+![ Colour palette](assets/uxd/color-palette.PNG)
 
 
+* Typography
 
-Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-
-Content
-The copy throughtout the site was written my the owners.
-
-The icons in the footer were taken from Font Awesome
-
-Media
-The photos used on the home and the barn pages were taken by the owners
-
-Acknowledgements
-A big thank you to my mentor Maria for her help and guidance throughout my first project
-Thank you to the owners of church barn supplying the images and copy.
+The following font Roboto have been selected to ensure the text is easy to read, add value to the text, and invoke user to perceive a positive emotion from the text. The fonts chosen are generic and therefore should appeal to any demographic/user. It is rated as Google best font.

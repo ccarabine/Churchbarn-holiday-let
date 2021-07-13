@@ -47,6 +47,13 @@ h4 {
   color: var(--color-secondary);
 }
 
+.sub-header {
+
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: lighter;
+
+}
 
 
 .background-header {

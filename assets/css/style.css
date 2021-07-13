@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,400&display=swap');
 
-
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +15,6 @@
   --color-background-primary: #e1ded7;
   --color-background-secondary: #475963;
   --color-active: blue;
-
 }
 
 body {
@@ -24,8 +22,10 @@ body {
   color: var(--color-text);
 
   font-family: 'Lato', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
   min-height: 100vh;
 }
+
 
 img {
   max-width: 100%;
@@ -46,10 +46,13 @@ h4 {
   text-transform: uppercase;
   color: var(--color-secondary);
 }
+
+
+
 .background-header {
   background-color: var(--color-background-secondary);
-  padding:2em;
-   margin-bottom: 1em;
+  padding: 2em;
+  margin-bottom: 1em;
   border-bottom: 4px solid var(--color-line);
 }
 
@@ -69,16 +72,6 @@ h4 {
 .titles {
   padding-bottom: 0.5em;
   padding-top: 0.5em;
-}
-
-.sub-header {
-  text-transform: capitalize;
-  font-style: italic;
-  font-weight: lighter;
-}
-
-.text-colour {
-  color: var(--color-primary);
 }
 
 .cta-button-wrapper {
@@ -115,9 +108,17 @@ h4 {
   bottom: 25em;
 }
 
+.text-colour {
+  color: var(--color-primary);
+}
+
+
+
+
 /*styling for hero image on home page */
 .hero {
   background-image: url(../images/heroimage.JPG);
+
   text-align: center;
   padding: 30vh 0;
   background-attachment: fixed;
@@ -154,17 +155,16 @@ h4 {
   padding: 0px 1.5em !important;
   text-decoration: none;
   letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  color: var(--color-hoover);
-  text-decoration: underline;
+  border-top: 5px solid var(--color-line);
 }
 
 .navbar a:active {
   color: var(--color-primary);
-
 }
 
 /* unvisited link */
@@ -178,7 +178,6 @@ a:visited {
 }
 
 /* Footer */
-
 footer {
   background-color: var(--color-background-secondary);
   color: var(--color-secondary);
@@ -234,7 +233,7 @@ footer {
   transform: scale(2);
 }
 
-/*The barn & local area Styling section */
+/*The barn & the area Styling section */
 .intro-text {
   max-width: 75%;
   text-align: justify;
@@ -243,23 +242,28 @@ footer {
 }
 
 .barn-hero {
-  background-image: url(../images/church-barn.jpg);
+  background-image: url(../images/church-barn.JPG);
   background-repeat: no-repeat;
-  padding: 20vh 0;
-   background-position: center;
-  }
+  padding: 30vh 0;
+  /*background-attachment: fixed;
+  background-size: cover;*/
+  background-position: center;
+  /* margin: 2.25rem;*/
+}
 
-  /* Explore the barn -styling*/
+/* Explore the barn -styling*/
 .barn-explore-title {
   text-align: center;
   font-style: italic;
   margin-bottom: 1em;
   color: var(--color-secondary);
 }
+
 .grid-wrapper-barnfeatures {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-   grid-template-rows: 1fr;
+  /*change1fr 1fr 1fr 1fr;*/
+  grid-template-rows: 1fr;
   gap: 2em;
   grid-template-areas:
     "barn-feature1 barn-feature2 barn-feature3 barn-feature4"
@@ -294,10 +298,12 @@ footer {
 }
 
 .grid-images {
+
   text-align: center;
   height: 15em;
   width: 30em;
   margin: 0 auto;
+  margin-left:1em;
 }
 
 .p a {
@@ -308,18 +314,6 @@ footer {
 .grid-text {
   color: var(--color-text);
   font-style: normal;
-}
-
-
-.grid-wrapper-localarea {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr 1fr;
-  min-height: 100%;
-  gap: 1em;
-  grid-template-areas:
-    "lcontent1 rcontent1"
-    "lcontent2 rcontent2"
 }
 
 /* for the area Main section photos and text  */
@@ -365,69 +359,61 @@ footer {
   font-size: 10rem;
   color: var(--color-primary);
 }
+
 /* Change the color of links on hover */
 .thearea-links a:hover {
-  background-color:var(--color-line);
+  background-color: var(--color-line);
   color: var(--color-background-secondary);
-  
-}
-
-
-
-
-div.feature1 {
-  grid-template-areas: feature1;
 
 }
 
-div.feature2 {
-  grid-template-areas: feature2;
+div.barn-feature1 {
+  grid-template-areas: barn-feature1;
 }
 
-div.feature3 {
-  grid-template-areas: feature3;
+div.barn-feature2 {
+  grid-template-areas: barn-feature2;
 }
 
-div.feature4 {
-  grid-template-areas: feature4;
+div.barn-feature3 {
+  grid-template-areas: barn-feature3;
 }
 
-div.feature5 {
-  grid-template-areas: feature5;
+div.barn-feature4 {
+  grid-template-areas: barn-feature4;
 }
 
-section.lcontent1 {
+div.lcontent1 {
   grid-area: lcontent1;
 }
 
-section.rcontent1 {
+div.rcontent1 {
   grid-area: rcontent1;
 }
 
-section.lcontent2 {
+div.lcontent2 {
   grid-area: lcontent2;
 }
 
-section.rcontent2 {
+div.rcontent2 {
   grid-area: rcontent2;
 }
 
-section.lcontent3 {
+div.lcontent3 {
   grid-area: lcontent3;
 }
 
-section.rcontent3 {
+div.rcontent3 {
   grid-area: rcontent3;
 }
-
-
 
 /* Contact us styling*/
 .contact-wrapper {
   flex: 1;
   width: 50em;
   height: 40em;
-   border-radius: 5px;
+
+  border-radius: 5px;
   margin: 20px auto;
   /* centers the contact us section*/
   box-shadow: 0 0 20px var(--color-text);
@@ -437,23 +423,22 @@ section.rcontent3 {
 }
 
 input[type="date"]:before {
-  /* to put the date place holder in before the date entry*/
+  /* to put the place holder text before the date*/
   color: var(--color-text);
   content: attr(placeholder);
 }
 
-/* styling for the input and msg and area fields and styling for all elements*/
 
+/* styling for the input and msg and area fields and styling for all elements*/
 .input,
 .msg .area {
-  /* styling for the input and msg and area fields*/
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
   margin-bottom: 25px;
   border: 2px solid var(--color-text);
   font-size: 15px;
-   outline: none;
+  outline: none;
 }
 
 /* styling for the form elements*/
@@ -462,6 +447,7 @@ input[type="date"]:before {
   float: left;
   margin-right: 4%;
 }
+
 
 .msg .area {
   /* height of the message box*/
@@ -491,9 +477,8 @@ input[type="date"]:before {
 }
 
 
-
 /*Media Queries */
-/* For large screen sizes from 1200px wide and down */
+/* For medium screen sizes from 1300px wide and down */
 
 @media only screen and (max-width: 1200px) {
   .cta-button {
@@ -501,8 +486,10 @@ input[type="date"]:before {
     bottom: 0em;
   }
 
+
   .background-section-dark {
     margin: 2em 5em;
+
   }
 
   .grid-wrapper-barn {
@@ -521,7 +508,6 @@ input[type="date"]:before {
   }
 }
 
-/* For medium screen sizes from 900px wide and down */
 @media only screen and (max-width: 900px) {
   .ft-main {
     justify-content: space-around;
@@ -531,6 +517,7 @@ input[type="date"]:before {
   }
 
   .ft-social li a {
+
     font-size: 1em;
   }
 
@@ -544,6 +531,7 @@ input[type="date"]:before {
 
   .background-feature-section {
     margin: 2em 2em;
+
   }
 
   .grid-wrapper-barnfeatures {
@@ -565,7 +553,6 @@ input[type="date"]:before {
       "rcontent3"
   }
 
-
   .grid-wrapper-thearea {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
@@ -583,9 +570,10 @@ input[type="date"]:before {
     height: 4em;
     margin-left: 5em;
   }
+
+
 }
 
-/* For mobile screen sizes from 640px wide and down */
 @media only screen and (max-width: 640px) {
   .main-head {
     font-size: 0.75rem;
@@ -622,7 +610,6 @@ input[type="date"]:before {
 
 }
 
-/* For smaller mobile screen sizes from 400px wide and down */
 @media only screen and (max-width: 400px) {
   .grid-wrapper-barnfeatures {
     grid-template-columns: repeat(1, 1fr);

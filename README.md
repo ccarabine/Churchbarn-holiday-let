@@ -314,4 +314,39 @@ no errors outstanding
 ![CSS Errors](assets/images/testing/css-validator.png)
 
 
+#Unfixed Bugs
+
+# Deployment
+This is the process i took to deploy my project to the hosting platform GitHub
+1.	Open Github page up in browser
+2.	Log in using your username and password
+3.	Select "ccarabine/Churchbarn-holiday-let" from repositories displayed on left-hand side of screen
+4.	Click "settings” displayed in the navigation toolbar menu
+5.	Click “Pages” on the left hand side navigation menu
+6.	Select "Master Branch" in the dropdown under the Source heading
+7.	Finally, click “save”
+
+The live link can be ound hereikers is now live on Github here <a href="https://ccarabine.github.io/Churchbarn-holiday-let/">Church-Barn-Holiday-Let</a>
+
+# Credits
+
+
+## Content
+
+Video reference
+The icons in the footer were taken from Font Awesome
+i used this you tube video as an overview 
+
+## Media
+The photos used on the home and the barn pages were taken by the owners
+Barn pages were taken from aspects webpage
+i took inspiration from this beach colour palete for my colours [color palette](https://colorpalettes.net/color-palette-710/) and google's best fonts for the font choice [Font choice](https://www.oberlo.co.uk/blog/google-fonts )
+i used this you tube to teach me about responsive webpages [https://www.youtube.com/watch?v=zyNhxN6sToM](Coding a responsive webpage from start to finish)
+I used the code from this site [Embed-responsively-for-mobile-visitors]( https://praiseon.com/embed-responsively-for-mobile-visitors) to make my video responsive
+
+## Acknowledgements
+A big thank you to my mentor Maria for her help and guidance throughout my first project
+Thank you to my father-in-law, owner of church barn supplying some of the images and copy.
+Thank you also to the tutors
+
 ***

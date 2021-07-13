@@ -290,7 +290,7 @@ footer {
 .background-feature-section {
   background: var(--color-primary);
   padding: 1em 1em;
-  margin: 2em 15em;
+  margin: 2em 20em;
 }
 
 
@@ -496,6 +496,15 @@ input[type="date"]:before {
 
 
 /*Media Queries */
+/* For medium screen sizes from 1600px wide and down */
+@media only screen and (max-width: 1600px) {
+.background-feature-section {
+  margin: 2em 6em;
+
+}
+}
+
+/*Media Queries */
 /* For medium screen sizes from 1300px wide and down */
 
 @media only screen and (max-width: 1200px) {
@@ -510,6 +519,17 @@ input[type="date"]:before {
 
   }
 
+  .grid-wrapper-barnfeatures {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "barn-feature1 barn-feature2"
+      "barn-feature3 barn-feature4"
+  }
+  .background-feature-section {
+    margin: 2em 1em;
+  
+  }
   .grid-wrapper-barn {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
@@ -525,10 +545,7 @@ input[type="date"]:before {
       "lcontent2 rcontent2"
   }
 
-  .background-feature-section {
-    margin: 2em 2em;
-
-  }
+ 
 }
 
 @media only screen and (max-width: 900px) {
@@ -553,13 +570,6 @@ input[type="date"]:before {
   }
 
 
-  .grid-wrapper-barnfeatures {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-      "barn-feature1 barn-feature2"
-      "barn-feature3 barn-feature4"
-  }
 
   .grid-wrapper-barn {
     grid-template-columns: repeat(1, 1fr);
@@ -605,7 +615,15 @@ input[type="date"]:before {
   .navbar a {
     padding: 0em 0.5em !important;
   }
+  .grid-wrapper-barnfeatures {
+    grid-template-columns: repeat(1, 1fr);
 
+    grid-template-areas:
+      "barn-feature1"
+      "barn-feature2"
+      "barn-feature3"
+      "barn-feature4"
+  }
   .grid-wrapper-thearea {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
@@ -626,18 +644,11 @@ input[type="date"]:before {
     font-size: 0.9em;
     margin-left: 1em;
   }
+
 }
 
   @media only screen and (max-width: 400px) {
-    .grid-wrapper-barnfeatures {
-      grid-template-columns: repeat(1, 1fr);
-
-      grid-template-areas:
-        "barn-feature1"
-        "barn-feature2"
-        "barn-feature3"
-        "barn-feature4"
-    }
+   
 
     .grid-images {
       width: 20em;

@@ -14,7 +14,7 @@
   --color-line: #efbb81;
   --color-background-primary: #e1ded7;
   --color-background-secondary: #475963;
-  --color-active: blue;
+  --color-active: #efbb81;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
   color: var(--color-text);
 
   font-family: 'Lato', sans-serif;
-  /*font-family: 'Roboto', sans-serif;*/
+ 
   min-height: 100vh;
 }
 

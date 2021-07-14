@@ -431,7 +431,6 @@ div.rcontent3 {
   flex: 1;
   width: 50em;
   height: 40em;
-
   border-radius: 5px;
   margin: 20px auto;
   /* centers the contact us section*/
@@ -439,6 +438,12 @@ div.rcontent3 {
   box-sizing: border-box;
   padding: 40px;
   background-color: var(--color-primary)
+}
+.msg{ 
+  margin-right: 2.5em;
+  /*width: 42.5em;
+  height: 40em;
+*/
 }
 
 input[type="date"]:before {
@@ -474,20 +479,15 @@ input[type="date"]:before {
 }
 
 .btn-contact {
-  
-  margin: 0 auto;
-   
-    border-radius: 1em;
+    margin: 0 auto;
+       border-radius: 1em;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     background-color: var(--color-line);
-    display: inline-block;
+   /* display: inline-block;*/
     font-size: 1em;
     padding: 1em 1em;
     width: 10em;
-    
-  
-    
-    text-transform: uppercase;
+        text-transform: uppercase;
  
   }
  
@@ -496,8 +496,7 @@ input[type="date"]:before {
   justify-content: center;
   align-items: center;
   
-  
-  
+    
 }
 .btn-contact:hover {
   background-color: var(--color-secondary);

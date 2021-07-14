@@ -464,8 +464,13 @@ preconnect for google font and font awlsome
 reduced the file size of the hero image on the index.html page
 add meta describition and content to increase the SEO score   
 
+##Desktop
+
 ![Light house report -Desktop](assets/uxd/lighthouse/lighthouse-report-desktop.PNG) [Report](assets/uxd/lighthouse/lighthouse-desktop.html)
-![Light house report -Mobile](assets/uxd/lighthouse/lighthouse-report-mobile.PNG)
+
+##Mobile
+
+![Light house report -Mobile](assets/uxd/lighthouse/lighthouse-report-mobile.PNG) [Report](assets/uxd/lighthouse/lighthouse-mobile.html)
 
 #Unfixed Bugs
 

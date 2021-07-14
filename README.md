@@ -1,6 +1,56 @@
 ***
+
 # Project Overview
-## Church Barn
+
+
+
+intro text
+
+## Church Barn holiday let
+
+![Responsive image of front page on all devices](assets/uxd/responsive-design-mockup.PNG)
+
+Image from  <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, to display the websites home page across mobile, tablet and desktop.
+
+***
+# Table of Contents
+
+1. [User Experience (UX)](#ux)
+    * [Strategy](#strategy)
+        * [Project Objectives & Goals](#goals)
+        * [User Stories](#userstories)
+    * [Scope](#scope)
+    * [Structure](#structure)
+    * [Skeleton](#skeleton)
+        * [Wireframes](#wireframes)
+    * [Surface](#design)
+        * [Colours](#colours)
+        * [Typography](#typography)
+        * [Imagery](#imagery)
+
+2. [Features](#features)
+    * [Current Features](#current-features)
+    * [Future Features](#future-features)
+
+3. [Technologies Used](#technology-used)
+
+4. [Testing](#testing)
+    * [User Stories Testing](#user-testing)
+    * [Validation Testing](#validation-testing)
+
+5. [Deployment](#deployment)
+
+6. [Credits](#credits)
+
+7. [Acknowledgements](#acknowledgements)
+
+
+
+
+# User Experience (UX) <a name="ux"></a>
+
+## 1. Strategy <a name="strategy"></a>
+
 ***
 
 Church Barn is a lovingly converted barn, and holiday let in the sleepy village of Perranuthnoe, Southwest Cornwall. It is a place close to my heart, especially during the last year of lockdown, where we all learnt not to take our freedom to travel for granted.
@@ -10,7 +60,8 @@ To date, Church Barn has been listed on a holiday letting marketplace, who list 
 ## Vision:
 Now the owner would like an additional platform to take back control of his business in marketing/selling the property direct to consumers, create more bookings, and manage the bookings himself.
 
-## Objectives:
+## Objectives/goals: <a name="goals"></a>
+Projects Goals:
 The goal is to build an intuitive and responsive website, achieving the following stakeholder requirements:
 
 ### Short term:
@@ -20,14 +71,14 @@ The goal is to build an intuitive and responsive website, achieving the followin
 ### Long term:
 * Increase online presence and potentially eliminate the need for external 3rd party letting marketplace in the long term/future, managing all bookings, eliminating all agency fees/commission, increase profitability and take full control of Church Barn brand. 
 
-## Responsive site
-Using the website <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, I used the image that you see below displaying my websites home page across mobile, tablet and desktop.
+Customer Goals
+1
+2
+3
 
-![Responsive image of front page on all devices](assets/uxd/responsive-design-mockup.PNG)
 
-## User Experience
 
-### User Stories:
+## User Stories: <a name="userstories"></a>
 * As a user, who occasionally abandons my purchases due to bad product information, I want a website that is easy to navigate, so I can access all the key information, such as property specification, for my holiday without any challenges or flaws.
 * As a user, who can sometimes be impatient, and limited for time, my path to purchase needs to be flawless, I need to know how to enquire/book holiday instantly.
 * As a user of any demographic, I need to feel well informed/assured of the property’s suitability quickly and efficiently.
@@ -36,25 +87,20 @@ Using the website <a href="http://ami.responsivedesign.is/">Am I Responsive</a>,
 * As a user who has never visited Church Barn, I want relevant imagery to visualise/anticipate my holiday, creating the desire to book and look forward to my holiday.
 * As a user of multiple devices, I need a website that is fully responsive, invoking the same user experience across all devices, in particular my mobile. 
 
+## 2. Scope <a name="scope"></a>
+To achieve the strategy goals, I want to implement the following features:
+* A navbar fixed at the top centre of the screen which will allow the user to easily navigate and find the relevent pages
+* A footer to display links to the social media, address and contact details
+* A home page that will invoke a position emotion responce when viewing the hero image
+* A page all about the property, with key features, images of rooms and describtion
+* A page about the area with video and links to places to go
+* A contact page which will allow the user to get in contact with the owner
 
-# Visual Design
+## 3.Structure
 
-## 1. Colour Palette: 
+## 4. Skelton <a name="skeleton"></a>
 
-A coastal palette has been chosen to correlate and appear aesthetically pleasing against the coastal/property imagery. The relevance of the coastal colour palette will appeal to all demographics and users and invoke positive first impressions/associations/emotions. 
-
-![ Colour palette](assets/uxd/color-palette.PNG)
-
-
-## 2. Typography
-
-The following font Roboto have been selected to ensure the text is easy to read, add value to the text, and invoke user to perceive a positive emotion from the text. The fonts chosen are generic and therefore should appeal to any demographic/user. It is rated as Google best font.I choose font lato to compliment some of the heading.
-
-![ Roboto font](assets/uxd/font-roboto.PNG)
-
-![ Lato font](assets/uxd/font-lato.PNG)
-
-## 3. Wireframe
+### Wireframe <a name="wireframes"></a>
 
 I used <a href="https://balsamiq.com/">Balsamiq</a> to create rough wireframes for my project in order to plan out the layout of the webpage on both desktop and mobile devices.
 
@@ -97,16 +143,34 @@ I used <a href="https://balsamiq.com/">Balsamiq</a> to create rough wireframes f
 ![The Contact Page Mobile](assets/uxd/wireframes/contact-mobile.png)
 
 
-## Features:
+## 5. Surface <a name="surface"></a>
+
+### Design
+
+### 1. Colour Palette:  <a name="colours"></a>
+
+A coastal palette has been chosen to correlate and appear aesthetically pleasing against the coastal/property imagery. The relevance of the coastal colour palette will appeal to all demographics and users and invoke positive first impressions/associations/emotions. 
+
+![ Colour palette](assets/uxd/color-palette.PNG)
 
 
-*1. Live calendar for bookings
-*2. Testimonials
-*3. Map 
-*4. Professional imagery 
-*5. Terms and conditions
-*6. More details about area/property
-*7. Pricing information
+### 2. Typography <a name="typography"></a>
+
+The following font Roboto have been selected to ensure the text is easy to read, add value to the text, and invoke user to perceive a positive emotion from the text. The fonts chosen are generic and therefore should appeal to any demographic/user. It is rated as Google best font.I choose font lato to compliment some of the heading.
+
+![ Roboto font](assets/uxd/font-roboto.PNG)
+
+![ Lato font](assets/uxd/font-lato.PNG)
+
+3. Imagery <a name="imagery"></a>
+
+
+
+I used these images with the colours in mind.... blues , sandy colors
+Please use further details in credits section for specific images used within the project
+#Features
+
+**
 
 # Existing Features (short term objectives):
 ## Main Structure -Header, navigation bar and footer
@@ -258,7 +322,37 @@ See below the difference between desktop, tablet and mobile view:
 * 6. More details about area/property
 * 7. Pricing information
 
-### HTML and CSS Validator Tests
+## Technologies Used <a name="technology-used"></a>
+
+For this project the main languages used are __HTML5__ and __CSS3__.
+
+I have also utilised the following frameworks  and tools:
+
+* [GitPod](https://www.gitpod.io/):  I used GitPod as the IDE for this project and Git has been used for Version Control.
+* [GitHub](https://www.github.com/): GitHub has been used to create a repository to host the project and receive updated commits from GitPod.
+* [Balsamiq](https://balsamiq.com/): I used Balsamiq to create the wireframe for the website for the basic structure and layout.
+* [Google Fonts](https://getbootstrap.com/): I have used Google Fonts to import fonts for styling purposes for this project.
+* [Font Awesome](https://fontawesome.com/): Font Awesome was used to apply icons in the Home, Exercises and Footer sections.
+* [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools): Chrome Dev Tools was used to test the site, assist with debugging issues and run reports from Lighthouse.
+* [W3C Markup Validation Service](https://validator.w3.org/): The W3C Markup Validation Service was used to validate the HTML document for this project and to identify any issues with the code.
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): The W3C CSS Validation Service was used to validate the CSS document for this project and to identify any issues with the code.
+* [Am I Responsive](http://ami.responsivedesign.is/): Am I Responsive was used to create the header image for the README file.
+
+#Testing <a name="testing"></a>
+
+#User testing <a name="user-testing"></a>
+
+
+Header
+
+Footer
+
+Home Page
+
+The Barn Page
+
+The Local Area Page
+### HTML and CSS Validator Tests <a name="validation-testing"></a>
 1. W3C HTML Validator
 - I opened [W3C HTML Validator](https://validator.w3.org/) and selected the "Validate by URI" option for each page index.html, thebarn.html, thearea.html and contactus.html separately.
 - Pages initally came up with the following errors:
@@ -316,7 +410,10 @@ no errors outstanding
 
 #Unfixed Bugs
 
-# Deployment
+
+
+Contact Page
+# Deployment <a name="deployment"></a>
 This is the process i took to deploy my project to the hosting platform GitHub
 1.	Open Github page up in browser
 2.	Log in using your username and password
@@ -326,25 +423,34 @@ This is the process i took to deploy my project to the hosting platform GitHub
 6.	Select "Master Branch" in the dropdown under the Source heading
 7.	Finally, click “save”
 
-The live link can be ound hereikers is now live on Github here <a href="https://ccarabine.github.io/Churchbarn-holiday-let/">Church-Barn-Holiday-Let</a>
+The live link can be found here <a href="https://ccarabine.github.io/Churchbarn-holiday-let/">Church-Barn-Holiday-Let</a>
 
-# Credits
+# Credits <a name="credits"></a>
 
 
 ## Content
 
 Video reference
 The icons in the footer were taken from Font Awesome
-i used this you tube video as an overview 
+The icons in the area page were taken from 
+
 
 ## Media
 The photos used on the home and the barn pages were taken by the owners
-Barn pages were taken from aspects webpage
-i took inspiration from this beach colour palete for my colours [color palette](https://colorpalettes.net/color-palette-710/) and google's best fonts for the font choice [Font choice](https://www.oberlo.co.uk/blog/google-fonts )
-i used this you tube to teach me about responsive webpages [https://www.youtube.com/watch?v=zyNhxN6sToM](Coding a responsive webpage from start to finish)
-I used the code from this site [Embed-responsively-for-mobile-visitors]( https://praiseon.com/embed-responsively-for-mobile-visitors) to make my video responsive
 
-## Acknowledgements
+Barn pages were taken from aspects webpage(my project is not a commerical site, so i didn't need permission to use)
+
+i used west cornwall overview video https://www.youtube.com/embed/D1Im2tWWNfs
+
+i took inspiration from this beach colour palete for my colours [color palette](https://colorpalettes.net/color-palette-710/) and google's best fonts for the font choice [Font choice](https://www.oberlo.co.uk/blog/google-fonts )
+
+## Code
+i used this you tube to teach me about responsive webpages [https://www.youtube.com/watch?v=zyNhxN6sToM](Coding a responsive webpage from start to finish)
+
+I used the code from this site [Embed-responsively-for-mobile-visitors]( https://praiseon.com/embed-responsively-for-mobile-visitors) to make my video responsive
+Grid
+
+## Acknowledgements <a name="acknowledgements"></a>
 A big thank you to my mentor Maria for her help and guidance throughout my first project
 Thank you to my father-in-law, owner of church barn supplying some of the images and copy.
 Thank you also to the tutors

@@ -29,8 +29,8 @@ Image from  <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, to di
         * [Imagery](#imagery)
 
 2. [Features](#features)
-    * [Current Features](#current-features)
-    * [Future Features](#future-features)
+    * [Current Features](#features-current)
+    * [Features to implement](#features-toimplement)
 
 3. [Technologies Used](#technology-used)
 
@@ -86,8 +86,17 @@ Customer Goals
 * As a user who has never visited Church Barn, I want relevant imagery to visualise/anticipate my holiday, creating the desire to book and look forward to my holiday.
 * As a user of multiple devices, I need a website that is fully responsive, invoking the same user experience across all devices, in particular my mobile. 
 
+
+## Strategy Tradeoffs <a name="tradeoffs"></a>
+
+I have rated the features on a scale of 1 to 5 in terms of importance (how important is it for the project now) and feasibility (how realistic is that we can implement a solution)
+
+![Strategy Tradeoffs](assets/uxd/strategy-tradeoffs.PNG)
+
 ## 2. Scope <a name="scope"></a>
+
 To achieve the strategy goals, I want to implement the following functional specification and content requirement:
+
 * A navbar fixed at the top centre of the screen which will allow the user to easily navigate and find the relevent pages
 * A footer to display links to the social media, address and contact details
 * A home page that will invoke a position emotion responce when viewing the hero image
@@ -95,11 +104,6 @@ To achieve the strategy goals, I want to implement the following functional spec
 * A page about the area with video and links to places to go
 * A contact page which will allow the user to get in contact with the owner
 
-## Strategy Tradeoffs <a name="tradeoffs"></a>
-
-I have rated the features on a scale of 1 to 5 in terms of importance (how important is it for the project now) and feasibility (how realistic is that we can implement a solution)
-
-![Strategy Tradeoffs](assets/uxd/strategy-tradeoffs.PNG)
 
 ## 3. Skelton <a name="skeleton"></a>
 
@@ -171,11 +175,13 @@ The following font Roboto have been selected to ensure the text is easy to read,
 
 I used these images with the colours in mind.... blues , sandy colors
 Please use further details in credits section for specific images used within the project
+
+
 #Features
 
 **
 
-# Existing Features (short term objectives):
+# Current Features (short term objectives): <a name="features-current"></a>
 ## Main Structure -Header, navigation bar and footer
 Featured on all four pages. 
 * Value: Consistency/aesthetically pleasing
@@ -183,6 +189,91 @@ Featured on all four pages.
 ## The Header 
 At the top centre of the page. This section will let the user know the site they are visiting and the location. 
 * Value: Informs user they the Church Barn website.
+See below the view on all devices :
+
+## Navigation bar
+
+* The navbar section is fully responsive. It includes links to home page, the barn, the area, and contact page and is identical on each page to allow for easy navigation.
+* All elements and interactive features are consistent, both in colouring and theming.
+* Header and navbar text reduce on mobile devices to ensure it fits on the screen.
+* Feedback – when the cursor hovers over a link, the link will highlight show a border-top line in an color-line (var).
+* Visited and unvisited links will be the same text colour (var) to ensure consistency throughout.
+* Clickable links will highlight in the active colour(var) 
+* Active page, the link colour will be in bold.
+
+* Value: The navbar will allow user to easily navigate from page to page, across all devices, eliminating need to use a ‘back button’.
+See below the view on all devices :
+
+## The Footer 
+* The footer is at the bottom of the page, consistent with industry standard.
+* On desktops and tablets – the footer will be in three sections with social media links on the left, address in the centre and contact details on the right.
+* On mobile devices they will the social media links/address/contact details stack on top of each other.
+* Social media links will open in a separate page.
+* The email address when clicked will open the email browser
+* Feedback – When the cursor hovers over social media symbols, the symbols will highlight in the hover colour(var).
+* Clickable social media links will highlight in the active colour(var) and increase in size
+
+* Value: It is crucial to display contact details on footer section for optimized UX and is industry standard. UX across multiple devices will be consistent.
+
+## Features unique to home page. 
+* Main page will have a large ‘hero’ image to invoke a positive emotional response.
+* The call to action (CTA) will be prominent to invoke users to book/enquire.
+
+* Value: This section introduces the user to Church Barn, enticing them to learn more and book/enquire.
+
+See below the difference between desktop and mobile view:
+
+## Features unique to ‘The Barn’ Page
+* Description of the property
+* ‘Hero’ Image
+
+See below the difference between desktop and mobile view:
+
+
+* Barn Feature List of key features with CTA
+
+See below the difference between desktop and mobile view:
+
+* Six Images and description of the property – kitchen area, living area, bedroom1, bedroom2, outdoors and a ‘short stroll away…’.
+
+* Value: This section informs the user of the property specification, key information, relevant imagery, with CTA, and consistent UX on all devices.
+
+## Features unique to ‘The Area’ Page 
+* Overview/introduction to the area
+* Video, introducing South West Cornwall -user initiates controls such as sound/play and will be fully responsive on all devices (80% width and height) 
+
+See below the difference between desktop, tablet and mobile view:
+
+* Four headings (Attractions, Food, Beaches and Activities) with a ‘icon’ images and clickable links relating to the subject with CTA
+
+See below the difference between desktop, tablet and mobile view:
+
+* Value: This section provides user with an overview of local area, beaches, places to eat/drink, and things to do with relevant imagery, invoking response to enquire/book with CTA. UX is consistent across all devices.
+
+## Features unique to Contact us page.
+
+* A contact form with 9 data field inputs, ‘first name’, ‘surname’, ‘email address’, ‘telephone number’,’ number of adults’, ‘number of children’, ‘arrival date’, ‘departure date’, ‘message’ and a submit button and reset button underneath.
+* The contact form is responsive on mobile devices and reduces in height and width as well as the buttons.
+* Feedback - When the cursor hovers over ‘submit’ /’reset’ the links will highlight in the hover colour(var)
+* When clicking on ‘submit’ /’reset’ links, they will highlight in the active colour(var) and repositions button down by 4px
+
+* Value: This section will allow the user complete CTA by submitting an enquiry/booking to owner, providing the owner with all the information initially required to connect with user. UX will be consistent on all devices. 
+
+# Features remaining to implement (long term objectives): <a name="features-toimplement"></a>
+* 1. Live calendar for bookings
+* 2. Testimonials
+* 3. Map 
+* 4. Gallery with professional imagery 
+* 5. Terms and conditions
+* 6. More details about area/property
+* 7. Pricing information
+
+
+#Testing <a name="testing"></a>
+
+#User testing <a name="user-testing"></a>
+## The Header 
+At the top centre of the page. This section will let the user know the site they are visiting and the location. 
 See below the view on all devices :
 
 ![Header on all devices](assets/uxd/header.PNG)
@@ -197,7 +288,6 @@ See below the view on all devices :
 * Clickable links will highlight in the active colour(var) 
 * Active page, the link colour will be in bold.
 
-* Value: The navbar will allow user to easily navigate from page to page, across all devices, eliminating need to use a ‘back button’.
 See below the view on all devices :
 
 ![Navbar on all largedevice](assets/uxd/navbar-largedevice.PNG)
@@ -223,9 +313,8 @@ See below the difference between desktop and mobile view:
 
 ![Footer on small devices](assets/uxd/footer-smalldevice.PNG)
 
-* Value: It is crucial to display contact details on footer section for optimized UX and is industry standard. UX across multiple devices will be consistent.
 
-## Features unique to home page. 
+## Features on home page. 
 * Main page will have a large ‘hero’ image to invoke a positive emotional response.
 * The call to action (CTA) will be prominent to invoke users to book/enquire.
 
@@ -239,7 +328,7 @@ See below the difference between desktop and mobile view:
 
 ![Home page on small devices](assets/uxd/home-cta-smalldevice.PNG)
 
-## Features unique to ‘The Barn’ Page
+## Features on ‘The Barn’ Page
 * Description of the property
 * ‘Hero’ Image
 
@@ -273,9 +362,7 @@ See below the difference between desktop, tablet and mobile view:
 
 
 
-* Value: This section informs the user of the property specification, key information, relevant imagery, with CTA, and consistent UX on all devices.
-
-## Features unique to ‘The Area’ Page 
+## Features on ‘The Area’ Page 
 * Overview/introduction to the area
 * Video, introducing South West Cornwall -user initiates controls such as sound/play and will be fully responsive on all devices (80% width and height) 
 
@@ -297,9 +384,8 @@ See below the difference between desktop, tablet and mobile view:
 
 ![ Useful links and clickable links on large device](assets/uxd/area-useful-links-smalldevice.PNG)
 
-* Value: This section provides user with an overview of local area, beaches, places to eat/drink, and things to do with relevant imagery, invoking response to enquire/book with CTA. UX is consistent across all devices.
 
-## Features unique to Contact us page.
+## Features on Contact us page.
 
 * A contact form with 9 data field inputs, ‘first name’, ‘surname’, ‘email address’, ‘telephone number’,’ number of adults’, ‘number of children’, ‘arrival date’, ‘departure date’, ‘message’ and a submit button and reset button underneath.
 * The contact form is responsive on mobile devices and reduces in height and width as well as the buttons.
@@ -314,47 +400,7 @@ See below the difference between desktop, tablet and mobile view:
 
 ![ Contact us form on small device](assets/uxd/contactus-smalldevice.PNG)
 
-* Value: This section will allow the user complete CTA by submitting an enquiry/booking to owner, providing the owner with all the information initially required to connect with user. UX will be consistent on all devices. 
 
-## Features remaining to implement (long term objectives):
-* 1. Live calendar for bookings
-* 2. Testimonials
-* 3. Map 
-* 4. Gallery with professional imagery 
-* 5. Terms and conditions
-* 6. More details about area/property
-* 7. Pricing information
-
-## Technologies Used <a name="technology-used"></a>
-
-For this project the main languages used are __HTML5__ and __CSS3__.
-
-I have also utilised the following frameworks  and tools:
-
-* [GitPod](https://www.gitpod.io/):  I used GitPod as the IDE for this project and Git has been used for Version Control.
-* [GitHub](https://www.github.com/): GitHub has been used to create a repository to host the project and receive updated commits from GitPod.
-* [Balsamiq](https://balsamiq.com/): I used Balsamiq to create the wireframe for the website for the basic structure and layout.
-* [Google Fonts](https://getbootstrap.com/): I have used Google Fonts to import fonts for styling purposes for this project.
-* [Font Awesome](https://fontawesome.com/): Font Awesome was used to apply icons in the Home, Exercises and Footer sections.
-* [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools): Chrome Dev Tools was used to test the site, assist with debugging issues and run reports from Lighthouse.
-* [W3C Markup Validation Service](https://validator.w3.org/): The W3C Markup Validation Service was used to validate the HTML document for this project and to identify any issues with the code.
-* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): The W3C CSS Validation Service was used to validate the CSS document for this project and to identify any issues with the code.
-* [Am I Responsive](http://ami.responsivedesign.is/): Am I Responsive was used to create the header image for the README file.
-
-#Testing <a name="testing"></a>
-
-#User testing <a name="user-testing"></a>
-
-
-Header
-
-Footer
-
-Home Page
-
-The Barn Page
-
-The Local Area Page
 ### HTML and CSS Validator Tests <a name="validation-testing"></a>
 1. W3C HTML Validator
 - I opened [W3C HTML Validator](https://validator.w3.org/) and selected the "Validate by URI" option for each page index.html, thebarn.html, thearea.html and contactus.html separately.
@@ -427,6 +473,22 @@ This is the process i took to deploy my project to the hosting platform GitHub
 7.	Finally, click “save”
 
 The live link can be found here <a href="https://ccarabine.github.io/Churchbarn-holiday-let/">Church-Barn-Holiday-Let</a>
+
+# Technologies Used <a name="technology-used"></a>
+
+For this project the main languages used are __HTML5__ and __CSS3__.
+
+I have also utilised the following frameworks  and tools:
+
+* [GitPod](https://www.gitpod.io/):  I used GitPod as the IDE for this project and Git has been used for Version Control.
+* [GitHub](https://www.github.com/): GitHub has been used to create a repository to host the project and receive updated commits from GitPod.
+* [Balsamiq](https://balsamiq.com/): I used Balsamiq to create the wireframe for the website for the basic structure and layout.
+* [Google Fonts](https://getbootstrap.com/): I have used Google Fonts to import fonts for styling purposes for this project.
+* [Font Awesome](https://fontawesome.com/): Font Awesome was used to apply icons in the Home, Exercises and Footer sections.
+* [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools): Chrome Dev Tools was used to test the site, assist with debugging issues and run reports from Lighthouse.
+* [W3C Markup Validation Service](https://validator.w3.org/): The W3C Markup Validation Service was used to validate the HTML document for this project and to identify any issues with the code.
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): The W3C CSS Validation Service was used to validate the CSS document for this project and to identify any issues with the code.
+* [Am I Responsive](http://ami.responsivedesign.is/): Am I Responsive was used to create the header image for the README file.
 
 # Credits <a name="credits"></a>
 

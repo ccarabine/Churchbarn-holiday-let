@@ -456,6 +456,16 @@ no errors outstanding
 
 ![CSS Errors](assets/images/testing/css-validator.png)
 
+## Chrome Dev Tools Lighthouse Report
+I used the __Chrome Dev Tools Lighthouse Report__ to test both on desktop and mobile.
+
+After the initial run, issues were detected with the performance as this was only rated as 72. i used the guidance and implemented 
+preconnect for google font and font awlsome
+reduced the file size of the hero image on the index.html page
+add meta describition and content to increase the SEO score   
+
+![Light house report -Desktop](assets/uxd/lighthouse/lighthouse-report-desktop.PNG) [Report](assets/uxd/lighthouse/lighthouse-desktop.html)
+![Light house report -Mobile](assets/uxd/lighthouse/lighthouse-report-mobile.PNG)
 
 #Unfixed Bugs
 

@@ -19,8 +19,8 @@ Image from  <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, to di
     * [Strategy](#strategy)
         * [Project Objectives & Goals](#goals)
         * [User Stories](#userstories)
+        * [Strategy Tradeoffs](tradeoffs)
     * [Scope](#scope)
-    * [Structure](#structure)
     * [Skeleton](#skeleton)
         * [Wireframes](#wireframes)
     * [Surface](#design)
@@ -77,7 +77,6 @@ Customer Goals
 3
 
 
-
 ## User Stories: <a name="userstories"></a>
 * As a user, who occasionally abandons my purchases due to bad product information, I want a website that is easy to navigate, so I can access all the key information, such as property specification, for my holiday without any challenges or flaws.
 * As a user, who can sometimes be impatient, and limited for time, my path to purchase needs to be flawless, I need to know how to enquire/book holiday instantly.
@@ -88,7 +87,7 @@ Customer Goals
 * As a user of multiple devices, I need a website that is fully responsive, invoking the same user experience across all devices, in particular my mobile. 
 
 ## 2. Scope <a name="scope"></a>
-To achieve the strategy goals, I want to implement the following features:
+To achieve the strategy goals, I want to implement the following functional specification and content requirement:
 * A navbar fixed at the top centre of the screen which will allow the user to easily navigate and find the relevent pages
 * A footer to display links to the social media, address and contact details
 * A home page that will invoke a position emotion responce when viewing the hero image
@@ -96,13 +95,17 @@ To achieve the strategy goals, I want to implement the following features:
 * A page about the area with video and links to places to go
 * A contact page which will allow the user to get in contact with the owner
 
-## 3.Structure
+## Strategy Tradeoffs <a name="tradeoffs"></a>
 
-## 4. Skelton <a name="skeleton"></a>
+I have rated the features on a scale of 1 to 5 in terms of importance (how important is it for the project now) and feasibility (how realistic is that we can implement a solution)
+
+![Strategy Tradeoffs](assets/uxd/strategy-tradeoffs.PNG)
+
+## 3. Skelton <a name="skeleton"></a>
 
 ### Wireframe <a name="wireframes"></a>
 
-I used <a href="https://balsamiq.com/">Balsamiq</a> to create rough wireframes for my project in order to plan out the layout of the webpage on both desktop and mobile devices.
+I used <a href="https://balsamiq.com/">Balsamiq</a> to create wireframes for my project in order to plan out the layout of the interface, navigation and information design of the webpage on  desktop, tablets and mobile devices.
 
 * Wireframes for Home Page. 
 
@@ -143,9 +146,9 @@ I used <a href="https://balsamiq.com/">Balsamiq</a> to create rough wireframes f
 ![The Contact Page Mobile](assets/uxd/wireframes/contact-mobile.png)
 
 
-## 5. Surface <a name="surface"></a>
+## 4. Surface <a name="surface"></a>
 
-### Design
+### Visual Design
 
 ### 1. Colour Palette:  <a name="colours"></a>
 

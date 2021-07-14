@@ -474,17 +474,31 @@ input[type="date"]:before {
 }
 
 .btn-contact {
-  width: 8em;
-  height: 4em;
-  text-align: center;
-  margin: 1.2em;
-  color: var(--color-secondary);
-  background-color: var(--color-background-secondary);
-  text-transform: uppercase;
-  cursor: pointer;
-  margin-left: 10em;
+  
+  margin: 0 auto;
+   
+    border-radius: 1em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: var(--color-line);
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 1em;
+    width: 10em;
+    
+  
+    
+    text-transform: uppercase;
+ 
+  }
+ 
+.btn-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  
 }
-
 .btn-contact:hover {
   background-color: var(--color-secondary);
   color: var(--color-background-secondary);
@@ -594,11 +608,10 @@ input[type="date"]:before {
     width: 30em;
     height: 40em;
   }
-
   .btn-contact {
-    width: 8em;
-    height: 4em;
-    margin-left: 5em;
+    width: 10em;
+    
+    
   }
 
 
@@ -640,10 +653,10 @@ input[type="date"]:before {
   }
 
   .btn-contact {
-    width: 5em;
-    height: 3em;
-    font-size: 0.9em;
-    margin-left: 1em;
+    width: 8em;
+    margin-left:1em;
+    margin-right:1em;
+    
   }
 
 }

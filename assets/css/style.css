@@ -90,8 +90,8 @@ h4 {
 
 .contactus-text {
 
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
+  padding: 1em;
+  
 }
 .cta-button-wrapper {
   display: block;
@@ -609,9 +609,12 @@ input[type="date"]:before {
   }
   .btn-contact {
     width: 10em;
-    
-    
+      
   }
+  /*make the message box in contact form line up with the other inputs*/
+  .msg{ 
+    margin-right: 1.5em;
+     }
 
 
 }
@@ -657,6 +660,9 @@ input[type="date"]:before {
     margin-right:1em;
     
   }
+  .msg{ 
+    margin-right: 1em;
+     }
 
 }
 

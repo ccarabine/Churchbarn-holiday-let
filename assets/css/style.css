@@ -112,10 +112,10 @@ h4 {
   text-decoration: none;
 }
 
-.cta-button-barn {
+/*.cta-button-barn {
   left: 0em;
   top: 0.5em;
-}
+}*/
 
 .cta-button:hover {
   background-color: var(--color-secondary);
@@ -559,7 +559,7 @@ input[type="date"]:before {
       "lcontent2 rcontent2"
   }
 
- 
+  
 }
 
 @media only screen and (max-width: 900px) {
@@ -569,7 +569,7 @@ input[type="date"]:before {
     flex-direction: column;
     text-align: center;
   }
-
+ 
   .ft-social li a {
 
     font-size: 1em;
@@ -604,8 +604,9 @@ input[type="date"]:before {
   }
 
   .contact-wrapper {
-    width: 30em;
-    height: 40em;
+    width: 45em;
+    height: 50em;
+    font-size: 0.75rem;
   }
   .btn-contact {
     width: 10em;
@@ -650,8 +651,9 @@ input[type="date"]:before {
   }
 
   .contact-wrapper {
-    width: 20em;
-    height: 40em;
+    
+    width: 35em;
+    height: 55em;
   }
 
   .btn-contact {
@@ -661,7 +663,7 @@ input[type="date"]:before {
     
   }
   .msg{ 
-    margin-right: 1em;
+    margin-right: 1.1em;
      }
 
 }

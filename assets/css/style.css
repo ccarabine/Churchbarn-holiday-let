@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,7 +10,8 @@
 
 :root {
   --color-text: #58595b;
-  --color-primary: #475963;    /*#a3bfd7;*/
+  --color-primary: #475963;
+  /*#a3bfd7;*/
   --color-secondary: white;
   --color-line: #efbb81;
   --color-background-primary: #e1ded7;
@@ -23,7 +24,7 @@ body {
   color: var(--color-text);
 
   font-family: 'Roboto', sans-serif;
- 
+
   min-height: 100vh;
 }
 
@@ -91,8 +92,9 @@ h4 {
 .contactus-text {
 
   padding: 1em;
-  
+
 }
+
 .cta-button-wrapper {
   display: block;
   text-align: center;
@@ -147,9 +149,22 @@ h4 {
 }
 
 /*Navigation styles*/
+nav {
+
+  padding: -3em;
+
+}                                                                                                                                                                                                                               
+
 .navbar {
-  grid-area: nav;
+ 
+  position:sticky;
+  top:0;
+  background-color: white;
+  z-index:1;
 }
+ 
+
+
 
 .navbar .selected {
   font-weight: bold;
@@ -243,7 +258,7 @@ footer {
 }
 
 .ft-main li a i:hover {
-  color:var(--color-line);
+  color: var(--color-line);
   transform: scale(1.5);
 }
 
@@ -336,7 +351,7 @@ footer {
 }
 
 /* for the area Main section photos and text  */
-.videoContainer {
+.videocontainer {
   position: relative;
   padding-bottom: 45%;
   padding-top: 30px;
@@ -344,12 +359,13 @@ footer {
   overflow: hidden;
   margin-left: 15%;
   margin-right: 15%;
-  margin-bottom: 2%;
+  margin-bottom: 10%;
+
 }
 
-.videoContainer iframe,
-.videoContainer object,
-.videoContainer embed {
+.videocontainer video,
+.videocontainer object,
+.videocontainer embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -439,7 +455,8 @@ div.rcontent3 {
   padding: 40px;
   background-color: var(--color-primary)
 }
-.msg{ 
+
+.msg {
   margin-right: 2.5em;
   /*width: 42.5em;
   height: 40em;
@@ -479,25 +496,26 @@ input[type="date"]:before {
 }
 
 .btn-contact {
-    margin: 0 auto;
-       border-radius: 1em;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    background-color: var(--color-line);
-   /* display: inline-block;*/
-    font-size: 1em;
-    padding: 1em 1em;
-    width: 10em;
-        text-transform: uppercase;
- 
-  }
- 
-.btn-group{
+  margin: 0 auto;
+  border-radius: 1em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: var(--color-line);
+  /* display: inline-block;*/
+  font-size: 1em;
+  padding: 1em 1em;
+  width: 10em;
+  text-transform: uppercase;
+
+}
+
+.btn-group {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-    
+
+
 }
+
 .btn-contact:hover {
   background-color: var(--color-secondary);
   color: var(--color-background-secondary);
@@ -512,10 +530,10 @@ input[type="date"]:before {
 /*Media Queries */
 /* For medium screen sizes from 1600px wide and down */
 @media only screen and (max-width: 1600px) {
-.background-feature-section {
-  margin: 2em 6em;
+  .background-feature-section {
+    margin: 2em 6em;
 
-}
+  }
 }
 
 /*Media Queries */
@@ -540,10 +558,12 @@ input[type="date"]:before {
       "barn-feature1 barn-feature2"
       "barn-feature3 barn-feature4"
   }
+
   .background-feature-section {
     margin: 2em 1em;
-  
+
   }
+
   .grid-wrapper-barn {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
@@ -559,7 +579,7 @@ input[type="date"]:before {
       "lcontent2 rcontent2"
   }
 
-  
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -569,7 +589,7 @@ input[type="date"]:before {
     flex-direction: column;
     text-align: center;
   }
- 
+
   .ft-social li a {
 
     font-size: 1em;
@@ -608,14 +628,16 @@ input[type="date"]:before {
     height: 50em;
     font-size: 0.75rem;
   }
+
   .btn-contact {
     width: 10em;
-      
+
   }
+
   /*make the message box in contact form line up with the other inputs*/
-  .msg{ 
+  .msg {
     margin-right: 1.5em;
-     }
+  }
 
 
 }
@@ -632,6 +654,7 @@ input[type="date"]:before {
   .navbar a {
     padding: 0em 0.5em !important;
   }
+
   .grid-wrapper-barnfeatures {
     grid-template-columns: repeat(1, 1fr);
 
@@ -641,6 +664,7 @@ input[type="date"]:before {
       "barn-feature3"
       "barn-feature4"
   }
+
   .grid-wrapper-thearea {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
@@ -651,28 +675,28 @@ input[type="date"]:before {
   }
 
   .contact-wrapper {
-    
+
     width: 35em;
     height: 55em;
   }
 
   .btn-contact {
     width: 8em;
-    margin-left:1em;
-    margin-right:1em;
-    
-  }
-  .msg{ 
-    margin-right: 1.1em;
-     }
+    margin-left: 1em;
+    margin-right: 1em;
 
+  }
+
+  .msg {
+    margin-right: 1.1em;
+  }
 }
 
-  @media only screen and (max-width: 400px) {
-   
+@media only screen and (max-width: 400px) {
 
-    .grid-images {
-      width: 20em;
-    }
 
+  .grid-images {
+    width: 20em;
   }
+
+}

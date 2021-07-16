@@ -43,10 +43,15 @@ h4 {
 
 }
 
+h1 {
+  color: var(--color-secondary);
+
+}
+
 /*header styles*/
 .main-head {
   text-transform: uppercase;
-  color: var(--color-secondary);
+
 }
 
 .sub-header {
@@ -62,10 +67,18 @@ h4 {
 
 .background-header {
   background-color: var(--color-background-secondary);
+  color: var(--color-secondary);
+  text-decoration: none;
   padding: 2em;
   margin-bottom: 1em;
   border-bottom: 4px solid var(--color-line);
 }
+
+a {
+  text-decoration: none
+}
+
+
 
 /* general styling*/
 .background-section {
@@ -114,10 +127,10 @@ h4 {
   text-decoration: none;
 }
 
-/*.cta-button-barn {
+.cta-button-contact {
   left: 0em;
   top: 0.5em;
-}*/
+}
 
 .cta-button:hover {
   background-color: var(--color-secondary);
@@ -125,8 +138,13 @@ h4 {
 }
 
 .cta-button-thearea {
-  left: 20em;
-  bottom: 25em;
+  left: 0em;
+  top: 0.2em;
+}
+
+.cta-button-barn {
+  left: 25em;
+  top: 10em;
 }
 
 .text-colour {
@@ -513,9 +531,9 @@ input[type=reset] {
   box-shadow: 0 0 20px var(--color-text);
   box-sizing: border-box;
   padding: 20px;
-  background-color:var(--color-background-secondary);
-  color:var(--color-secondary);
-    border-radius: 5px;
+  background-color: var(--color-background-secondary);
+  color: var(--color-secondary);
+  border-radius: 5px;
   width: 40%;
   margin: 0 auto;
 
@@ -548,7 +566,8 @@ input[type=reset]:hover {
   background-color: var(--color-secondary);
   color: var(--color-primary);
 }
-input[type=submit]:hover{
+
+input[type=submit]:hover {
 
   background-color: var(--color-secondary);
   color: var(--color-primary);
@@ -574,152 +593,156 @@ input[type=submit]:hover{
   }
 }
 
-  /*Media Queries */
-  /* For medium screen sizes from 1200px wide and down */
+/*Media Queries */
+/* For medium screen sizes from 1200px wide and down */
 
-  @media only screen and (max-width: 1200px) {
-    .cta-button {
-      left: 0em;
-      bottom: 0em;
-    }
-
-
-    .background-section-dark {
-      margin: 2em 5em;
-
-    }
-
-    .grid-wrapper-barnfeatures {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 1fr 1fr;
-      grid-template-areas:
-        "barn-feature1 barn-feature2"
-        "barn-feature3 barn-feature4"
-    }
-
-    .background-feature-section {
-      margin: 2em 1em;
-
-    }
-
-    .grid-wrapper-barn {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-areas:
-        "lcontent1 rcontent1"
-        "lcontent2 rcontent2"
-        "lcontent3 rcontent3"
-    }
-
-    .grid-wrapper-thearea {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-areas:
-        "lcontent1 rcontent1"
-        "lcontent2 rcontent2"
-    }
+@media only screen and (max-width: 1200px) {
+  .cta-button {
+    left: 0em;
+    bottom: 0em;
   }
 
 
-  @media only screen and (max-width: 900px) {
-    .ft-main {
-      justify-content: space-around;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-    }
-
-    .ft-social li a {
-
-      font-size: 1em;
-    }
-
-    .ft-content {
-      padding-bottom: 15px;
-    }
-
-    .navbar a {
-      padding: 0px 1em !important;
-    }
-
-
-
-    .grid-wrapper-barn {
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-areas:
-        "lcontent1"
-        "rcontent1"
-        "lcontent2"
-        "rcontent2"
-        "lcontent3"
-        "rcontent3"
-    }
-
-    .grid-wrapper-thearea {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-areas:
-        "lcontent1 rcontent1"
-        "lcontent2 rcontent2"
-    }
-
-    .col-25,
-    .col-75,
-    input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-
-    .contact-wrapper {
-
-      width: 90%;
-
-    }
-
-    input[type=submit],
-    input[type=reset] {
-      width: auto;
-      padding: 12px 20px;
-      margin-right: 0px;
-
-    }
-  }
-
-  @media only screen and (max-width: 640px) {
-    .main-head {
-      font-size: 0.75rem;
-    }
-
-    .background-section-dark {
-      margin: 1em 1em;
-    }
-
-    .navbar a {
-      padding: 0em 0.5em !important;
-    }
-
-    .grid-wrapper-barnfeatures {
-      grid-template-columns: repeat(1, 1fr);
-
-      grid-template-areas:
-        "barn-feature1"
-        "barn-feature2"
-        "barn-feature3"
-        "barn-feature4"
-    }
-
-    .grid-wrapper-thearea {
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-areas:
-        "lcontent1"
-        "rcontent1"
-        "lcontent2"
-        "rcontent2"
-    }
-
+  .background-section-dark {
+    margin: 2em 5em;
 
   }
 
-  @media only screen and (max-width: 400px) {
-    .grid-images {
-      width: 20em;
-    }
+  .grid-wrapper-barnfeatures {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "barn-feature1 barn-feature2"
+      "barn-feature3 barn-feature4"
+  }
+
+  .background-feature-section {
+    margin: 2em 1em;
 
   }
+
+  .grid-wrapper-barn {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "lcontent1 rcontent1"
+      "lcontent2 rcontent2"
+      "lcontent3 rcontent3"
+  }
+
+  .grid-wrapper-thearea {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "lcontent1 rcontent1"
+      "lcontent2 rcontent2"
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .ft-main {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ft-social li a {
+
+    font-size: 1em;
+  }
+
+  .ft-content {
+    padding-bottom: 15px;
+  }
+
+  .navbar a {
+    padding: 0px 1em !important;
+  }
+
+
+
+  .grid-wrapper-barn {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "lcontent1"
+      "rcontent1"
+      "lcontent2"
+      "rcontent2"
+      "lcontent3"
+      "rcontent3"
+  }
+
+  .grid-wrapper-thearea {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "lcontent1 rcontent1"
+      "lcontent2 rcontent2"
+  }
+
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .contact-wrapper {
+
+    width: 90%;
+
+  }
+
+  input[type=submit],
+  input[type=reset] {
+    width: auto;
+    padding: 12px 20px;
+    margin-right: 0px;
+
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .main-head {
+    font-size: 0.75rem;
+  }
+
+  .background-section-dark {
+    margin: 1em 1em;
+  }
+
+  .navbar a {
+    padding: 0em 0.5em !important;
+  }
+
+  .grid-wrapper-barnfeatures {
+    grid-template-columns: repeat(1, 1fr);
+
+    grid-template-areas:
+      "barn-feature1"
+      "barn-feature2"
+      "barn-feature3"
+      "barn-feature4"
+  }
+
+  .grid-wrapper-thearea {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "lcontent1"
+      "rcontent1"
+      "lcontent2"
+      "rcontent2"
+  }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+  .grid-images {
+    width: 20em;
+
+  }
+
+  .navbar {
+    font-size: 70%;
+  }
+}

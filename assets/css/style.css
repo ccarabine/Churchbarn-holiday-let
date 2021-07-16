@@ -515,9 +515,7 @@ input[type=reset] {
   padding: 20px;
   background-color:var(--color-background-secondary);
   color:var(--color-secondary);
-  /*need to change*/
-
-  border-radius: 5px;
+    border-radius: 5px;
   width: 40%;
   margin: 0 auto;
 

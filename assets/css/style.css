@@ -10,17 +10,15 @@
 
 :root {
   --color-text: #58595b;
-  --color-primary: #475963;
-  /*#a3bfd7;*/
-  --color-secondary: white;
-  --color-line: #efbb81;
-  --color-background-primary: #e1ded7;
-  --color-background-secondary: #475963;
-  --color-active: #efbb81;
+  --color-text-secondary: #fffefc;/* white text*/
+   --color-background-third: #ffe9ca;
+  --color-background-primary: #92dccd;
+  --color-background-secondary: #4a73b1;
+  
 }
 
 body {
-  background-color: var(--color-secondary);
+  background-color: var(--color-text-secondary);
   color: var(--color-text);
 
   font-family: 'Roboto', sans-serif;
@@ -44,7 +42,7 @@ h4 {
 }
 
 h1 {
-  color: var(--color-secondary);
+  color: var(--color-text-secondary);
 
 }
 
@@ -60,18 +58,18 @@ h1 {
   font-style: italic;
   font-weight: lighter;
   font-family: 'lato', sans-serif;
-  color: var(--color-line);
+  color:var(--color-background-third);
 
 }
 
 
 .background-header {
   background-color: var(--color-background-secondary);
-  color: var(--color-secondary);
+  color: var(--color-text-secondary);
   text-decoration: none;
   padding: 2em;
   margin-bottom: 1em;
-  border-bottom: 4px solid var(--color-line);
+  border-bottom: 4px solid var(--color-background-third);
 }
 
 a {
@@ -83,21 +81,16 @@ a {
 /* general styling*/
 .background-section {
   font-family: 'lato', sans-serif;
-  color: var(--color-primary);
-  background: #e7ecf2;
-  color: var(--color-primary);
-  font-style: italic;
+  color:var(--color-text-secondary);
+  background-color: var(--color-background-primary);
+   font-style: italic;
   padding: 10px 15px;
-  position: relative;
-  bottom: 8px;
-  width: 100%;
-  box-sizing: border-box;
-  text-align: center;
+    text-align: center;
 }
 
 .titles {
   font-family: 'lato', sans-serif;
-  color: var(--color-primary);
+  color:var(--color-text-secondary);
   padding-bottom: 0.5em;
   padding-top: 0.5em;
 }
@@ -119,7 +112,7 @@ a {
   bottom: 4em;
   border-radius: 1em;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  background-color: var(--color-line);
+ background-color: var(--color-background-third);
   display: inline-block;
   font-size: 1em;
   padding: 1em 1em;
@@ -133,8 +126,8 @@ a {
 }
 
 .cta-button:hover {
-  background-color: var(--color-secondary);
-  color: var(--color-primary);
+  background-color: var(--color-text-secondary);
+  color:var(--color-background-secondary)
 }
 
 .cta-button-thearea {
@@ -147,8 +140,9 @@ a {
   top: 10em;
 }
 
-.text-colour {
-  color: var(--color-primary);
+.text-colour{
+
+  color:var(--color-text); 
 }
 
 
@@ -198,8 +192,8 @@ nav {
   list-style-type: none;
   padding: 15px 5px;
   margin-bottom: 30px;
-  border-top: 1px solid var(--color-primary);
-  border-bottom: 1px solid var(--color-primary);
+  border-top: 1px solid var(--color-background-primary);
+  border-bottom: 1px solid var(--color-background-primary);
 }
 
 .navbar a {
@@ -215,28 +209,28 @@ nav {
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  border-top: 2px solid var(--color-line);
+  border-top: 2px solid var(--color-background-third);
 }
 
 .navbar a:active {
-  color: var(--color-primary);
+  color:var(--color-background-secondary);
 }
 
 /* unvisited link */
 a:link {
-  color: var(--color-text);
+  color:var(--color-background-secondary);
 }
 
 /* visited link */
 a:visited {
-  color: var(--color-text);
+  color:var(--color-background-secondary);
 }
 
 /* Footer */
 footer {
   background-color: var(--color-background-secondary);
-  color: var(--color-secondary);
-  border-top: 4px solid var(--color-line);
+  color: var(--color-text-secondary);
+  border-top: 4px solid var(--color-background-third);
   margin-top: 1em;
 }
 
@@ -262,29 +256,29 @@ footer {
 }
 
 .ft-content a {
-  color: var(--color-secondary);
+  color: var(--color-text-secondary);
 }
 
 .ft-social li {
   margin-right: 2rem;
   font-size: 1.25rem;
   list-style-type: none;
-  color: var(--color-secondary);
+  color: var(--color-text-secondary);
 
 }
 
 .ft-social li a {
-  color: var(--color-secondary);
+  color: var(--color-text-secondary);
   font-size: 2em;
 }
 
 .ft-main li a i:hover {
-  color: var(--color-line);
+  color: var(--color-background-third);
   transform: scale(1.5);
 }
 
 .ft-main li a i:active {
-  color: var(--color-line);
+  color: var(--color-background-third);
   transform: scale(2);
 }
 
@@ -300,10 +294,9 @@ footer {
   background-image: url(../images/church-barn.JPG);
   background-repeat: no-repeat;
   padding: 30vh 0;
-  /*background-attachment: fixed;
-  background-size: cover;*/
+  
   background-position: center;
-  /* margin: 2.25rem;*/
+ 
 }
 
 /* Explore the barn -styling*/
@@ -311,7 +304,7 @@ footer {
   text-align: center;
   font-style: italic;
   margin-bottom: 1em;
-  color: var(--color-line);
+  color:var(--color-text-secondary);
 }
 
 .grid-wrapper-barnfeatures {
@@ -325,7 +318,7 @@ footer {
 }
 
 .background-feature-section {
-  background: var(--color-primary);
+  background: var(--color-background-primary);
   padding: 1em 1em;
   margin: 2em 20em;
 }
@@ -334,7 +327,7 @@ footer {
 .barn-feature-list {
   text-align: left;
   list-style-type: none;
-  background: var(--color-secondary);
+  background: var(--color-text-secondary);
   padding: 1em;
 
 }
@@ -417,7 +410,7 @@ footer {
   grid-template-rows: 1fr 1fr;
   padding-top: 2em;
   gap: 1em;
-  color: var(--color-primary);
+ 
   grid-template-areas:
     ". lcontent1 rcontent1 ."
     ". lcontent2 rcontent2 ."
@@ -429,12 +422,12 @@ footer {
 
 .thearea-icons {
   font-size: 10rem;
-  color: var(--color-primary);
+  color:var(--color-background-third);
 }
 
 /* Change the color of links on hover */
 .thearea-links a:hover {
-  background-color: var(--color-line);
+  background-color: var(--color-background-third);
   color: var(--color-background-secondary);
 
 }
@@ -508,7 +501,7 @@ label {
 input[type=submit],
 input[type=reset] {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  background-color: var(--color-line);
+  background-color: var(--color-background-third);
   padding: 12px 20px;
   margin-right: 10px;
   margin-bottom: 5px;
@@ -534,8 +527,8 @@ input[type=reset] {
   box-shadow: 0 0 20px var(--color-text);
   box-sizing: border-box;
   padding: 20px;
-  background-color: var(--color-background-secondary);
-  color: var(--color-secondary);
+  background-color:var(--color-background-primary);
+  color: var(--color-text-secondary);
   border-radius: 5px;
   width: 40%;
   margin: 0 auto;
@@ -566,14 +559,14 @@ input[type=reset] {
 
 input[type=reset]:hover {
 
-  background-color: var(--color-secondary);
-  color: var(--color-primary);
+  background-color: var(--color-text-secondary);
+  color:var(--color-background-secondary)
 }
 
 input[type=submit]:hover {
 
-  background-color: var(--color-secondary);
-  color: var(--color-primary);
+  background-color: var(--color-text-secondary);
+  color:var(--color-background-secondary)
 }
 
 /*Media Queries */

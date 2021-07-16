@@ -153,16 +153,16 @@ nav {
 
   padding: -3em;
 
-}                                                                                                                                                                                                                               
+}
 
 .navbar {
- 
-  position:sticky;
-  top:0;
+
+  position: sticky;
+  top: 0;
   background-color: white;
-  z-index:1;
+  z-index: 1;
 }
- 
+
 
 
 
@@ -351,21 +351,22 @@ footer {
 }
 
 /* for the area Main section photos and text  */
-.iframecontainer{
-  position:relative;
-  width:100%;
-  padding-bottom: 56.25%;
-  height:0;
-  margin-bottom:2em;
-}
-.iframecontainer iframe{
-  position:absolute;
-  top:0;
-  left:0;
+.iframecontainer {
+  position: relative;
   width: 100%;
-  height:100%
-
+  padding-bottom: 56.25%;
+  height: 0;
+  margin-bottom: 2em;
 }
+
+.iframecontainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+
 .videocontainer {
   position: relative;
   padding-bottom: 45%;
@@ -457,70 +458,44 @@ div.rcontent3 {
   grid-area: rcontent3;
 }
 
-/* Contact us styling*/
-.contact-wrapper {
-  flex: 1;
-  width: 50em;
-  height: 40em;
-  border-radius: 5px;
-  margin: 20px auto;
-  /* centers the contact us section*/
-  box-shadow: 0 0 20px var(--color-text);
-  box-sizing: border-box;
-  padding: 40px;
-  background-color: var(--color-primary)
-}
-
-.msg {
-  margin-right: 2.5em;
-  /*width: 42.5em;
-  height: 40em;
-*/
-}
-
-input[type="date"]:before {
-  /* to put the place holder text before the date*/
-  color: var(--color-text);
-  content: attr(placeholder);
-}
-
-
-/* styling for the input and msg and area fields and styling for all elements*/
-.input,
-.msg .area {
+/* Style inputs, select elements and textareas */
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=number],
+input[type=date],
+select,
+textarea {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   box-sizing: border-box;
-  margin-bottom: 25px;
-  border: 2px solid var(--color-text);
-  font-size: 15px;
-  outline: none;
+  resize: vertical;
+  color: var(--color-text);
+  margin-bottom: 10px;
 }
 
-/* styling for the form elements*/
-.contact-wrapper .input {
-  width: 45%;
-  float: left;
-  margin-right: 4%;
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
 }
 
+/* Style the submit button */
 
-.msg .area {
-  /* height of the message box*/
-  height: 200px;
-}
-
-.btn-contact {
-  margin: 0 auto;
-  border-radius: 1em;
+input[type=submit],
+input[type=reset] {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   background-color: var(--color-line);
-  /* display: inline-block;*/
-  font-size: 1em;
-  padding: 1em 1em;
-  width: 10em;
-  text-transform: uppercase;
+  padding: 12px 20px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 
+  text-transform: uppercase;
 }
 
 .btn-group {
@@ -531,18 +506,53 @@ input[type="date"]:before {
 
 }
 
-.btn-contact:hover {
+
+
+/* Style the container */
+.contact-wrapper {
+  box-shadow: 0 0 20px var(--color-text);
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #f2f2f2;
+  /*need to change*/
+
+  border-radius: 5px;
+  width: 40%;
+  margin: 0 auto;
+
+
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type=reset]:hover {
+
   background-color: var(--color-secondary);
-  color: var(--color-background-secondary);
+  color: var(--color-primary);
 }
+input[type=submit]:hover{
 
-.btn-contact:active {
-  background-color: var(--color-active);
-  transform: translateY(4px);
-}
-
-.submit-form{
-  margin-bottom:20em;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 /*Media Queries */
@@ -557,166 +567,160 @@ input[type="date"]:before {
 /*Media Queries */
 /* For medium screen sizes from 1300px wide and down */
 
-@media only screen and (max-width: 1200px) {
-  .cta-button {
-    left: 0em;
-    bottom: 0em;
-  }
-
-
-  .background-section-dark {
-    margin: 2em 5em;
-
-  }
-
-  .grid-wrapper-barnfeatures {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-      "barn-feature1 barn-feature2"
-      "barn-feature3 barn-feature4"
-  }
-
-  .background-feature-section {
-    margin: 2em 1em;
-
-  }
-
-  .grid-wrapper-barn {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-      "lcontent1 rcontent1"
-      "lcontent2 rcontent2"
-      "lcontent3 rcontent3"
-  }
-
-  .grid-wrapper-thearea {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-      "lcontent1 rcontent1"
-      "lcontent2 rcontent2"
-  }
-
-
-}
-
-@media only screen and (max-width: 900px) {
-  .ft-main {
-    justify-content: space-around;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .ft-social li a {
-
-    font-size: 1em;
-  }
-
-  .ft-content {
-    padding-bottom: 15px;
-  }
-
-  .navbar a {
-    padding: 0px 1em !important;
-  }
-
-
-
-  .grid-wrapper-barn {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas:
-      "lcontent1"
-      "rcontent1"
-      "lcontent2"
-      "rcontent2"
-      "lcontent3"
-      "rcontent3"
-  }
-
-  .grid-wrapper-thearea {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-      "lcontent1 rcontent1"
-      "lcontent2 rcontent2"
-  }
-
-  .contact-wrapper {
-    width: 45em;
-    height: 50em;
-    font-size: 0.75rem;
-  }
-
-  .btn-contact {
-    width: 10em;
-
-  }
-  .submit-form{
-    margin-bottom:6em;
-  }
-  /*make the message box in contact form line up with the other inputs*/
-  .msg {
-    margin-right: 1.5em;
-  }
-
-
-}
-
-@media only screen and (max-width: 640px) {
-  .main-head {
-    font-size: 0.75rem;
-  }
-
-  .background-section-dark {
-    margin: 1em 1em;
-  }
-
-  .navbar a {
-    padding: 0em 0.5em !important;
-  }
-
-  .grid-wrapper-barnfeatures {
-    grid-template-columns: repeat(1, 1fr);
-
-    grid-template-areas:
-      "barn-feature1"
-      "barn-feature2"
-      "barn-feature3"
-      "barn-feature4"
-  }
-
-  .grid-wrapper-thearea {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas:
-      "lcontent1"
-      "rcontent1"
-      "lcontent2"
-      "rcontent2"
-  }
-
+@media only screen and (max-width: 1300px) {
   .contact-wrapper {
 
-    width: 35em;
-    height: 55em;
-  }
+    width: 60%;
 
-  .btn-contact {
-    width: 8em;
-    margin-left: 1em;
-    margin-right: 1em;
-
-  }
-
-  .msg {
-    margin-right: 1.1em;
   }
 }
 
-@media only screen and (max-width: 400px) {
+  /*Media Queries */
+  /* For medium screen sizes from 1200px wide and down */
+
+  @media only screen and (max-width: 1200px) {
+    .cta-button {
+      left: 0em;
+      bottom: 0em;
+    }
 
 
-  .grid-images {
-    width: 20em;
+    .background-section-dark {
+      margin: 2em 5em;
+
+    }
+
+    .grid-wrapper-barnfeatures {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas:
+        "barn-feature1 barn-feature2"
+        "barn-feature3 barn-feature4"
+    }
+
+    .background-feature-section {
+      margin: 2em 1em;
+
+    }
+
+    .grid-wrapper-barn {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas:
+        "lcontent1 rcontent1"
+        "lcontent2 rcontent2"
+        "lcontent3 rcontent3"
+    }
+
+    .grid-wrapper-thearea {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas:
+        "lcontent1 rcontent1"
+        "lcontent2 rcontent2"
+    }
   }
 
-}
+
+  @media only screen and (max-width: 900px) {
+    .ft-main {
+      justify-content: space-around;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .ft-social li a {
+
+      font-size: 1em;
+    }
+
+    .ft-content {
+      padding-bottom: 15px;
+    }
+
+    .navbar a {
+      padding: 0px 1em !important;
+    }
+
+
+
+    .grid-wrapper-barn {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-areas:
+        "lcontent1"
+        "rcontent1"
+        "lcontent2"
+        "rcontent2"
+        "lcontent3"
+        "rcontent3"
+    }
+
+    .grid-wrapper-thearea {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas:
+        "lcontent1 rcontent1"
+        "lcontent2 rcontent2"
+    }
+
+    .col-25,
+    .col-75,
+    input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+
+    .contact-wrapper {
+
+      width: 90%;
+
+    }
+
+    input[type=submit],
+    input[type=reset] {
+      width: auto;
+      padding: 12px 20px;
+      margin-right: 0px;
+
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    .main-head {
+      font-size: 0.75rem;
+    }
+
+    .background-section-dark {
+      margin: 1em 1em;
+    }
+
+    .navbar a {
+      padding: 0em 0.5em !important;
+    }
+
+    .grid-wrapper-barnfeatures {
+      grid-template-columns: repeat(1, 1fr);
+
+      grid-template-areas:
+        "barn-feature1"
+        "barn-feature2"
+        "barn-feature3"
+        "barn-feature4"
+    }
+
+    .grid-wrapper-thearea {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-areas:
+        "lcontent1"
+        "rcontent1"
+        "lcontent2"
+        "rcontent2"
+    }
+
+
+  }
+
+  @media only screen and (max-width: 400px) {
+    .grid-images {
+      width: 20em;
+    }
+
+  }

@@ -513,7 +513,8 @@ input[type=reset] {
   box-shadow: 0 0 20px var(--color-text);
   box-sizing: border-box;
   padding: 20px;
-  background-color: #f2f2f2;
+  background-color:var(--color-background-secondary);
+  color:var(--color-secondary);
   /*need to change*/
 
   border-radius: 5px;

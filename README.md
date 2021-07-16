@@ -115,7 +115,7 @@ I used <a href="https://balsamiq.com/">Balsamiq</a> to create wireframes for my 
 
 ![Home Page Desktop](assets/uxd/wireframes/home-desktop.png)
 
-![Home Page Tablet](assets/uxd/wireframes/home-tablet.png)
+![Home Page Tablet](assets/uxd/wireframes/home-tablet-sml.png)
 
 ![Home Page Mobile](assets/uxd/wireframes/home-mobile.png)
 

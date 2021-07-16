@@ -179,6 +179,7 @@ nav {
   top: 0;
   background-color: white;
   z-index: 1;
+
 }
 
 
@@ -195,7 +196,7 @@ nav {
   justify-content: center;
   text-align: center;
   list-style-type: none;
-  padding: 20px 5px;
+  padding: 15px 5px;
   margin-bottom: 30px;
   border-top: 1px solid var(--color-primary);
   border-bottom: 1px solid var(--color-primary);
@@ -204,15 +205,17 @@ nav {
 .navbar a {
   /* added space between links and remove underline*/
   display: inline-block;
-  padding: 0px 1.5em !important;
+  padding: 1em 1.5em !important;
+  
   text-decoration: none;
   letter-spacing: 4px;
   text-transform: uppercase;
+
 }
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  border-top: 5px solid var(--color-line);
+  border-top: 2px solid var(--color-line);
 }
 
 .navbar a:active {

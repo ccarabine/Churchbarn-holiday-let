@@ -5,12 +5,14 @@
 
 
 intro text
+Church Barn live site<a href="https://ccarabine.github.io/Churchbarn-holiday-let/">
 
 ## Church Barn holiday let
 
 ![Responsive image of front page on all devices](assets/uxd/responsive-design-mockup.PNG)
 
 Image from  <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, to display the websites home page across mobile, tablet and desktop.
+
 
 ***
 # Table of Contents
@@ -72,9 +74,9 @@ The goal is to build an intuitive and responsive website, achieving the followin
 * Increase online presence and potentially eliminate the need for external 3rd party letting marketplace in the long term/future, managing all bookings, eliminating all agency fees/commission, increase profitability and take full control of Church Barn brand. 
 
 Customer Goals
-1
-2
-3
+1 Clear and simple layout so the user can easily  find and view information about the accomadation
+2 Easy to navigate
+3 Easy to find contact details to get in touch
 
 
 ## User Stories: <a name="userstories"></a>
@@ -104,6 +106,7 @@ To achieve the strategy goals, I want to implement the following functional spec
 * A page about the area with video and links to places to go
 * A contact page which will allow the user to get in contact with the owner
 
+The website needed to be fully responsive, taking into account that 55% of websites are viewed from mobiles and knowing the client is using social media advertising to target possible users.
 
 ## 3. Skelton <a name="skeleton"></a>
 
@@ -191,91 +194,6 @@ At the top centre of the page. This section will let the user know the site they
 * Value: Informs user they the Church Barn website.
 See below the view on all devices :
 
-## Navigation bar
-
-* The navbar section is fully responsive. It includes links to home page, the barn, the area, and contact page and is identical on each page to allow for easy navigation.
-* All elements and interactive features are consistent, both in colouring and theming.
-* Header and navbar text reduce on mobile devices to ensure it fits on the screen.
-* Feedback – when the cursor hovers over a link, the link will highlight show a border-top line in an color-line (var).
-* Visited and unvisited links will be the same text colour (var) to ensure consistency throughout.
-* Clickable links will highlight in the active colour(var) 
-* Active page, the link colour will be in bold.
-
-* Value: The navbar will allow user to easily navigate from page to page, across all devices, eliminating need to use a ‘back button’.
-See below the view on all devices :
-
-## The Footer 
-* The footer is at the bottom of the page, consistent with industry standard.
-* On desktops and tablets – the footer will be in three sections with social media links on the left, address in the centre and contact details on the right.
-* On mobile devices they will the social media links/address/contact details stack on top of each other.
-* Social media links will open in a separate page.
-* The email address when clicked will open the email browser
-* Feedback – When the cursor hovers over social media symbols, the symbols will highlight in the hover colour(var).
-* Clickable social media links will highlight in the active colour(var) and increase in size
-
-* Value: It is crucial to display contact details on footer section for optimized UX and is industry standard. UX across multiple devices will be consistent.
-
-## Features unique to home page. 
-* Main page will have a large ‘hero’ image to invoke a positive emotional response.
-* The call to action (CTA) will be prominent to invoke users to book/enquire.
-
-* Value: This section introduces the user to Church Barn, enticing them to learn more and book/enquire.
-
-See below the difference between desktop and mobile view:
-
-## Features unique to ‘The Barn’ Page
-* Description of the property
-* ‘Hero’ Image
-
-See below the difference between desktop and mobile view:
-
-
-* Barn Feature List of key features with CTA
-
-See below the difference between desktop and mobile view:
-
-* Six Images and description of the property – kitchen area, living area, bedroom1, bedroom2, outdoors and a ‘short stroll away…’.
-
-* Value: This section informs the user of the property specification, key information, relevant imagery, with CTA, and consistent UX on all devices.
-
-## Features unique to ‘The Area’ Page 
-* Overview/introduction to the area
-* Video, introducing South West Cornwall -user initiates controls such as sound/play and will be fully responsive on all devices (80% width and height) 
-
-See below the difference between desktop, tablet and mobile view:
-
-* Four headings (Attractions, Food, Beaches and Activities) with a ‘icon’ images and clickable links relating to the subject with CTA
-
-See below the difference between desktop, tablet and mobile view:
-
-* Value: This section provides user with an overview of local area, beaches, places to eat/drink, and things to do with relevant imagery, invoking response to enquire/book with CTA. UX is consistent across all devices.
-
-## Features unique to Contact us page.
-
-* A contact form with 9 data field inputs, ‘first name’, ‘surname’, ‘email address’, ‘telephone number’,’ number of adults’, ‘number of children’, ‘arrival date’, ‘departure date’, ‘message’ and a submit button and reset button underneath.
-* The contact form is responsive on mobile devices and reduces in height and width as well as the buttons.
-* Feedback - When the cursor hovers over ‘submit’ /’reset’ the links will highlight in the hover colour(var)
-* When clicking on ‘submit’ /’reset’ links, they will highlight in the active colour(var) and repositions button down by 4px
-
-* Value: This section will allow the user complete CTA by submitting an enquiry/booking to owner, providing the owner with all the information initially required to connect with user. UX will be consistent on all devices. 
-
-# Features remaining to implement (long term objectives): <a name="features-toimplement"></a>
-* 1. Live calendar for bookings
-* 2. Testimonials
-* 3. Map 
-* 4. Gallery with professional imagery 
-* 5. Terms and conditions
-* 6. More details about area/property
-* 7. Pricing information
-
-
-#Testing <a name="testing"></a>
-
-#User testing <a name="user-testing"></a>
-## The Header 
-At the top centre of the page. This section will let the user know the site they are visiting and the location. 
-See below the view on all devices :
-
 ![Header on all devices](assets/uxd/header.PNG)
 
 ## Navigation bar
@@ -288,6 +206,7 @@ See below the view on all devices :
 * Clickable links will highlight in the active colour(var) 
 * Active page, the link colour will be in bold.
 
+* Value: The navbar will allow user to easily navigate from page to page, across all devices, eliminating need to use a ‘back button’.
 See below the view on all devices :
 
 ![Navbar on all largedevice](assets/uxd/navbar-largedevice.PNG)
@@ -305,7 +224,9 @@ See below the view on all devices :
 * Feedback – When the cursor hovers over social media symbols, the symbols will highlight in the hover colour(var).
 * Clickable social media links will highlight in the active colour(var) and increase in size
 
-See below the difference between desktop and mobile view:
+* Value: It is crucial to display contact details on footer section for optimized UX and is industry standard. UX across multiple devices will be consistent.
+
+See below the view on all devices :
 
 ![Footer on large devices](assets/uxd/footer-largedevice.PNG)
 
@@ -313,8 +234,7 @@ See below the difference between desktop and mobile view:
 
 ![Footer on small devices](assets/uxd/footer-smalldevice.PNG)
 
-
-## Features on home page. 
+## Features unique to home page. 
 * Main page will have a large ‘hero’ image to invoke a positive emotional response.
 * The call to action (CTA) will be prominent to invoke users to book/enquire.
 
@@ -328,7 +248,7 @@ See below the difference between desktop and mobile view:
 
 ![Home page on small devices](assets/uxd/home-cta-smalldevice.PNG)
 
-## Features on ‘The Barn’ Page
+## Features unique to ‘The Barn’ Page
 * Description of the property
 * ‘Hero’ Image
 
@@ -342,8 +262,6 @@ See below the difference between desktop and mobile view:
 
 * Barn Feature List of key features with CTA
 
-See below the difference between desktop and mobile view:
-
 ![Barn features on large devices](assets/uxd/barnfeatures-largedevice.PNG)
 
 ![ Barn features on Medium devices](assets/uxd/barnfeatures-mediumdevice.PNG)
@@ -352,7 +270,9 @@ See below the difference between desktop and mobile view:
 
 * Six Images and description of the property – kitchen area, living area, bedroom1, bedroom2, outdoors and a ‘short stroll away…’.
 
-See below the difference between desktop, tablet and mobile view:
+* Value: This section informs the user of the property specification, key information, relevant imagery, with CTA, and consistent UX on all devices.
+
+See below the difference between desktop and mobile view:
 
 ![ Barn Images on large devices](assets/uxd/barnimages-largedevice.PNG)
 
@@ -361,8 +281,7 @@ See below the difference between desktop, tablet and mobile view:
 ![ Barn Images on small devices](assets/uxd/barnimages-smalldevice.PNG)
 
 
-
-## Features on ‘The Area’ Page 
+## Features unique to ‘The Area’ Page 
 * Overview/introduction to the area
 * Video, introducing South West Cornwall -user initiates controls such as sound/play and will be fully responsive on all devices (80% width and height) 
 
@@ -378,19 +297,22 @@ See below the difference between desktop, tablet and mobile view:
 
 See below the difference between desktop, tablet and mobile view:
 
+* Value: This section provides user with an overview of local area, beaches, places to eat/drink, and things to do with relevant imagery, invoking response to enquire/book with CTA. UX is consistent across all devices.
+
 ![ Useful links and clickable links on large device](assets/uxd/area-useful-links-largedevice.PNG)
 
 ![ Useful links and clickable links on large device](assets/uxd/area-useful-links-mediumdevice.PNG)
 
 ![ Useful links and clickable links on large device](assets/uxd/area-useful-links-smalldevice.PNG)
 
-
-## Features on Contact us page.
+## Features unique to Contact us page.
 
 * A contact form with 9 data field inputs, ‘first name’, ‘surname’, ‘email address’, ‘telephone number’,’ number of adults’, ‘number of children’, ‘arrival date’, ‘departure date’, ‘message’ and a submit button and reset button underneath.
 * The contact form is responsive on mobile devices and reduces in height and width as well as the buttons.
 * Feedback - When the cursor hovers over ‘submit’ /’reset’ the links will highlight in the hover colour(var)
 * When clicking on ‘submit’ /’reset’ links, they will highlight in the active colour(var) and repositions button down by 4px
+
+* Value: This section will allow the user complete CTA by submitting an enquiry/booking to owner, providing the owner with all the information initially required to connect with user. UX will be consistent on all devices. 
 
 See below the difference between desktop, tablet and mobile view:
 
@@ -399,6 +321,138 @@ See below the difference between desktop, tablet and mobile view:
 ![ Contact us form on medium device](assets/uxd/contactus-mediumdevice.PNG)
 
 ![ Contact us form on small device](assets/uxd/contactus-smalldevice.PNG)
+
+# Features remaining to implement (long term objectives): <a name="features-toimplement"></a>
+* 1. Live calendar for bookings
+* 2. Testimonials
+* 3. Map 
+* 4. Gallery with professional imagery 
+* 5. Terms and conditions
+* 6. More details about area/property
+* 7. Pricing information
+
+
+#Testing <a name="testing"></a>
+
+i approached friends, family and my mentor for user testing and i received the following constructive feedback
+1. Color Pallete
+Contrast with the blue text on the pale blue background wasn't easy to read
+corrective action: Change color palette
+
+2. Header
+tried to click on the header church barn and didn't goto home page
+corrective action: added a href to the church barn text and linked it to "index.html"
+
+3. Navbar
+when i was half way down a page, i had to scroll all the way back to the top to click on another page
+corrective action
+I made the navbar sticky, so when you scrolled down, the header would go , but the navbar was stay at the top
+
+the barn page
+The same image displayed on the "a short stroll away" section" to "outdoors"
+correction action
+put the correct image in for the "a short stroll away" section
+
+4. The Area page - Video
+video on the area page was touching the heading underneath
+video on mobile only showed part of the video
+video played sound on entry
+
+corrective action
+adjusted the margin
+Adjusted code so it is fully responsive and showed the full screen
+added mute and controls to the code Adjusted the code 
+
+5. Call to action buttons
+Call to action buttons on mobile was in the middle of attraction box
+corrective action
+took the barn-wrapper out of the  div class="rcontent2 background-section" and put it below
+
+
+           
+6. Contact-us page
+
+* no vadliation in the form and when you click on submit, it didn't do anything
+corrective action
+added required to first name and last name
+
+* form - the message boxe didn't line up with the other inputs
+corrective action
+change code to use labels and inputs and made it fully responsive
+
+* The buttons were quite basic in styling and not centeral to the form
+corrective action
+added the same styling to the buttons as the CTA button
+added a btn-group (wrapper) and margin 0 auto to centralise the buttons
+
+* arrival and departure date, you couldn't see whatdate you entered
+corrective action
+put these on separate lines
+
+* Form said it wasn't secure when press submit
+intro paragraph was touching the form
+contact form overflowed the page on mobile
+
+corrective action
+The "action" was going to a formdump website which causing the security issue, i didn't want to use the code instutite post due the branding of the page, so i create a thank you for the enquiry page that when you click submit it goes to.
+added a class .contactus-text  to add padding
+i changed the width of the wrapper on media queries so the form didn't overflow on mobile devices
+
+
+Testing Check list <a name="features-current"></a>
+
+
+## Main Structure -Header, navigation bar and footer featured on all four pages. 
+*  Consistency/aesthetically pleasing - PASS
+
+## The Header 
+At the top centre of the page. This section will let the user know the site they are visiting and the location. 
+
+
+## Navigation bar
+
+* The navbar section is fully responsive. It includes links to home page, the barn, the area, and contact page and is identical on each page to allow for easy navigation. -PASS
+* All elements and interactive features are consistent, both in colouring and theming. - PASS
+* Header and navbar text reduce on mobile devices to ensure it fits on the screen. - PASS
+* Feedback – when the cursor hovers over a link, the link will highlight show a border-top line in an color-line (var). - PASS
+* Visited and unvisited links will be the same text colour (var) to ensure consistency throughout. - PASS
+* Clickable links will highlight in the active colour(var) -PASS
+* Active page, the link colour will be in bold. -PASS
+
+
+## The Footer 
+* The footer is at the bottom of the page, consistent with industry standard. -PASS
+* On desktops and tablets – the footer will be in three sections with social media links on the left, address in the centre and contact details on the right. -PASS
+* On mobile devices they will the social media links/address/contact details stack on top of each other.  -PASS
+* Social media links will open in a separate page. - PASS
+* The email address when clicked will open the email browser -PASS
+* Feedback – When the cursor hovers over social media symbols, the symbols will highlight in the hover colour(var). PASS
+* Clickable social media links will highlight in the active colour(var) and increase in size -PASS
+
+
+## Features unique to home page. 
+* Main page will have a large ‘hero’ image to invoke a positive emotional response. -PASS
+* The call to action (CTA) will be prominent to invoke users to book/enquire. - PASS
+
+## Features unique to ‘The Barn’ Page
+* Description of the property -PASS
+* ‘Hero’ Image -PASS
+
+* Six Images and description of the property – kitchen area, living area, bedroom1, bedroom2, outdoors and a ‘short stroll away…’. -PASS
+
+## Features unique to ‘The Area’ Page 
+* Overview/introduction to the area  -PASS
+* Video, introducing South West Cornwall -user initiates controls such as sound/play and will be fully responsive on all devices (80% width and height) -PASS
+* Four headings (Attractions, Food, Beaches and Activities) with a ‘icon’ images and clickable links relating to the subject with CTA -PASS
+
+## Features unique to Contact us page.
+
+* A contact form with 9 data field inputs, ‘first name’, ‘surname’, ‘email address’, ‘telephone number’,’ number of adults’, ‘number of children’, ‘arrival date’, ‘departure date’, ‘message’ and a submit button and reset button underneath.-PASS
+* The contact form is responsive on mobile devices and reduces in height and width as well as the buttons.-PASS
+* Feedback - When the cursor hovers over ‘submit’ /’reset’ the links will highlight  -PASS
+* When clicking on ‘submit’ /’reset’ links, they will highlight and repositions button down by 4px -PASS
+
+
 
 
 ### HTML and CSS Validator Tests <a name="validation-testing"></a>
@@ -472,6 +526,35 @@ add meta describition and content to increase the SEO score
 
 ![Light house report -Mobile](assets/uxd/lighthouse/lighthouse-report-mobile.PNG) [Report](assets/uxd/lighthouse/lighthouse-mobile.html)
 
+
+Testing - Design Responsiveness
+Simulated Testing
+For each section on each page, I tested various screen sizes in the development environment. Using the Google Developer tools I tested the responsiveness throughout the development process. I updated the code as I tested, noting anything that appeared irregular or out of sync with the layout of the page.
+
+Tested with Chrome DevTools using profiles for with screen sizes:
+
+Moto G4
+Galaxy S5
+Pixel 2
+Pixel 2 XL
+iPhone 5 SE
+iPhone 6/7/8
+iPhone 6/7/8 Plus
+iPhone X
+iPad
+iPad Pro
+
+Desktop testing
+
+
+Browsers:
+Chrome
+Firefox
+
+
+Mobile testing:
+Iphone 10
+
 #Unfixed Bugs
 
 
@@ -504,35 +587,46 @@ I have also utilised the following frameworks  and tools:
 * [W3C Markup Validation Service](https://validator.w3.org/): The W3C Markup Validation Service was used to validate the HTML document for this project and to identify any issues with the code.
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): The W3C CSS Validation Service was used to validate the CSS document for this project and to identify any issues with the code.
 * [Am I Responsive](http://ami.responsivedesign.is/): Am I Responsive was used to create the header image for the README file.
+* [Resize Pixel](https://www.resizepixel.com/download): Resize Pixel was used to reduce the size of my wireframe images for the README file.
 
 # Credits <a name="credits"></a>
 
 
 ## Content
 
-Video reference
-The icons in the footer were taken from Font Awesome
-The icons in the area page were taken from 
-
-
 ## Media
 The photos used on the home and the barn pages were taken by the owners
 
-Barn pages were taken from aspects webpage(my project is not a commerical site, so i didn't need permission to use)
+The icons in the footer were taken from Font Awesome
 
-i used west cornwall overview video https://www.youtube.com/embed/D1Im2tWWNfs
+Barn pages were taken from [Aspects website](https://www.aspects-holidays.co.uk/cornwall/west-cornwall/perranuthnoe/p/church-barn)  aspects webpage(my project is not a commerical site, so i didn't need permission to use)
+
+i used West Cornwall video [West Cornwall video](https://www.youtube.com/embed/D1Im2tWWNfs)
 
 i took inspiration from this beach colour palete for my colours [color palette](https://colorpalettes.net/color-palette-710/) and google's best fonts for the font choice [Font choice](https://www.oberlo.co.uk/blog/google-fonts )
 
-## Code
-i used this you tube to teach me about responsive webpages [https://www.youtube.com/watch?v=zyNhxN6sToM](Coding a responsive webpage from start to finish)
+i took inspiration from https://www.simpsontravel.com/ for the hover- border top feedback on the navbar 
 
-I used the code from this site [Embed-responsively-for-mobile-visitors]( https://praiseon.com/embed-responsively-for-mobile-visitors) to make my video responsive
-Grid
+## Code
+i used the following websites and videos for inspiration and code for my project
+
+Responsive webpages [https://www.youtube.com/watch?v=zyNhxN6sToM](Coding a responsive webpage from start to finish)
+
+Responsive You tube video [Responsive You tube video](  https://www.youtube.com/watch?v=9YffrCViTVk) 
+
+Grid [grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+
+Sticky navbar [Sticky navbar](https://www.w3schools.com/howto/howto_css_sticky_element.asp)
+
+Responsive Contact us form [Responsive Contact us form]( https://www.w3schools.com/howto/howto_css_responsive_form.asp)
+
+
 
 ## Acknowledgements <a name="acknowledgements"></a>
 A big thank you to my mentor Maria for her help and guidance throughout my first project
-Thank you to my father-in-law, owner of church barn supplying some of the images and copy.
-Thank you also to the tutors
+Thank you 
+    to wife for her help and constructive feedback throughout the project
+    my father-in-law, owner of church barn supplying some of the images and copy.
+    the tutors for help and support
 
 ***

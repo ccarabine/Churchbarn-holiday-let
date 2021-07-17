@@ -12,8 +12,9 @@
   --color-text: #58595b;
   --color-text-secondary: #fffefc;/* white text*/
    --color-background-third: #ffe9ca;
-  --color-background-primary: #92dccd;
-  --color-background-secondary: #4a73b1;
+  --color-background-primary: #b9d6dc;
+  --color-background-secondary:#8bafbb;
+  --color-background-button:#697d96; 
   
 }
 
@@ -58,7 +59,7 @@ h1 {
   font-style: italic;
   font-weight: lighter;
   font-family: 'lato', sans-serif;
-  color:var(--color-background-third);
+  color:var(-);
 
 }
 
@@ -113,6 +114,7 @@ a {
   border-radius: 1em;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
  background-color: var(--color-background-third);
+ color:var(--color-text);
   display: inline-block;
   font-size: 1em;
   padding: 1em 1em;
@@ -127,7 +129,7 @@ a {
 
 .cta-button:hover {
   background-color: var(--color-text-secondary);
-  color:var(--color-background-secondary)
+  color:var(--color-text);
 }
 
 .cta-button-thearea {
@@ -501,7 +503,8 @@ label {
 input[type=submit],
 input[type=reset] {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  background-color: var(--color-background-third);
+  background-color: var(--color-background-button);
+  color:var(--color-text-secondary);
   padding: 12px 20px;
   margin-right: 10px;
   margin-bottom: 5px;
@@ -560,13 +563,13 @@ input[type=reset] {
 input[type=reset]:hover {
 
   background-color: var(--color-text-secondary);
-  color:var(--color-background-secondary)
+  color:var(--color-background-button)
 }
 
 input[type=submit]:hover {
 
   background-color: var(--color-text-secondary);
-  color:var(--color-background-secondary)
+  color:var(--color-background-button)
 }
 
 /*Media Queries */

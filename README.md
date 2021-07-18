@@ -467,55 +467,80 @@ g.) The enquiry form overflowed the page horizontally on the mobile site
 - I opened [W3C HTML Validator](https://validator.w3.org/) and selected the "Validate by URI" option for each page index.html, thebarn.html, thearea.html and contactus.html separately.
 - Pages initally came up with the following errors:
 
-index.html
+### index.html
+1.) Error- Stray end tag i   -  </i></i>
 
-![HTML Errors](assets/images/testing/index-errors.PNG)
+* Corrective action - removed extra </i> from pages
 
-1. changed section to div
-2. removed extra </i> from pages
-Nothing outstanding
+![CSS Errors](assets/images/testing/htmlchecker-index.PNG)
 
-The Barn.html
+### The Barn.html
 
-![HTML Errors](assets/images/testing/barn-errors.png)
+No errors found
 
-errors stil outstanding
+![CSS Errors](assets/images/testing/htmlchecker-thebarn.PNG)
 
-The Area.html
+### The Area.html
 
-![HTML Errors](assets/images/testing/area-errors1.png)
+1.) Error - The frameborder attribute on the iframe element is obsolete.
 
-![HTML Errors](assets/images/testing/area-errors2.png)
+* Corrective action: Removed frameborder
 
-Point 5 Removed extra <main> , point 6 and 8,9 disappeared
-Point 7 removed </p>
-Point 2 removed muted and frameborder=0
+2.) Error - Text not allowed in element iframe in this context
 
-Outstanding Point 1 and 4
+* Corrective action - Removed text
 
-Contactus.html
+3.) Error - Stray end tag footer.
 
-![Contact us Errors](assets/images/testing/contact-errors.png)
+* Corrective Action: Added < on footer tag
 
-Point 1 and 2 changed input from phone to tel
-Point 3 and 4 changed input to text and added mm/dd/yyyy
-Point 5 moved /div to 	within the header
-Point moved /form one up so its within the last div
+![CSS Errors](assets/images/testing/htmlchecker-thearea.PNG)
 
-no errors outstanding
+### Contactus.html
+
+There were the following errors
+
+1.) Error- End tag form seen, but there were open elements.
+
+2.) Error-Unclosed element <div class="row">
+
+3.) Error-Cannot recover after last error. Any further errors will be ignored. < /form>
+
+* Corrective action: adding a closing Div 
+
+4.) Error - Stray end tag footer.
+
+* Corrective Action: Added < on footer tag
+
+![CSS Errors](assets/images/testing/htmlchecker-contactus.PNG)
 
 ## W3 CSS Validator
 - I opened [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)  and selected the "Validate by direct input" option and pasted in the code.
 - Pages initally came up with the following errors:
 
-![CSS Errors](assets/images/testing/css-errors.png)
 
-1. i removed the space between "2.25" and "rem"
-2. i change the grid-template-areas to grid-areas
 
-- I received the message "Congratulations! No Error Found." 
+1.) Error - .hero value error margin only e can be a unit. you must put a unit after your number 2.25 rem
 
-![CSS Errors](assets/images/testing/css-validator.png)
+* Corrective action: Removed the space between "2.25" and "rem"
+
+2.) Error - div.barn-feature1  (1-4)  barn-feature1 (1-4) i not a grid-template-areas value barn-features (1-4)
+
+* Corrective action: Changd grid-template-areas to grid-areas
+
+3.) Error - .sub-header value error: color parse error var(-)
+
+* Corrective action ( no color specified) added color:var(--color-text-secondary)
+
+4.) Error - Nav - value error:padding -3em negative values are not allowed -3em
+
+* Corrective action: Remove code
+
+
+
+
+
+![CSS Errors](assets/images/testing/w3c-css-checker.PNG)
 
 ## Chrome Dev Tools Lighthouse Report
 I used the __Chrome Dev Tools Lighthouse Report__ to test both on desktop and mobile.
@@ -596,6 +621,7 @@ I have also utilised the following frameworks  and tools:
 * [Am I Responsive](http://ami.responsivedesign.is/): Am I Responsive was used to create the header image for the README file.
 * [Resize Pixel](https://www.resizepixel.com/download): Resize Pixel was used to reduce the size of my wireframe images for the README file.
 * https://color.a11y.com/Contrast/
+* [Fav Icon Generator](https://favicon.io/favicon-generator/): i used Fav Icon generator to create my fav Icon from text.
 
 # Credits <a name="credits"></a>
 

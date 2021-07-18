@@ -10,12 +10,14 @@
 
 :root {
   --color-text: #58595b;
-  --color-text-secondary: #fffefc;/* white text*/
-   --color-background-third: #ffe9ca;
+  --color-text-secondary: #fffefc;
+  /* white text*/
+  --color-text-button: black;
+  --color-background-third: #ffe9ca;
   --color-background-primary: #4f7987;
-  --color-background-secondary:#4f7987;
-  --color-background-button:#697d96; 
-  
+  --color-background-secondary: #4f7987;
+  --color-background-button: #697d96;
+
 }
 
 body {
@@ -59,7 +61,7 @@ h1 {
   font-style: italic;
   font-weight: lighter;
   font-family: 'lato', sans-serif;
-  color:var(-);
+  color: var(-);
 
 }
 
@@ -82,16 +84,16 @@ a {
 /* general styling*/
 .background-section {
   font-family: 'lato', sans-serif;
-  color:var(--color-text-secondary);
+  color: var(--color-text-secondary);
   background-color: var(--color-background-primary);
-   font-style: italic;
+  font-style: italic;
   padding: 10px 15px;
-    text-align: center;
+  text-align: center;
 }
 
 .titles {
   font-family: 'lato', sans-serif;
-  color:var(--color-text-secondary);
+  color: var(--color-text-secondary);
   padding-bottom: 0.5em;
   padding-top: 0.5em;
 }
@@ -113,14 +115,15 @@ a {
   bottom: 4em;
   border-radius: 1em;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
- background-color: var(--color-background-third);
- color:var(--color-text);
+  background-color: var(--color-background-third);
+  color: var(--color-text-button);
   display: inline-block;
   font-size: 1em;
   padding: 1em 1em;
   width: auto;
   text-decoration: none;
 }
+
 
 .cta-button-contact {
   left: 0em;
@@ -129,7 +132,7 @@ a {
 
 .cta-button:hover {
   background-color: var(--color-text-secondary);
-  color:var(--color-text);
+  color: var(--color-text);
 }
 
 .cta-button-thearea {
@@ -142,9 +145,9 @@ a {
   top: 10em;
 }
 
-.text-colour{
+.text-colour {
 
-  color:var(--color-text-secondary);
+  color: var(--color-text-secondary);
 }
 
 
@@ -183,6 +186,11 @@ nav {
 
 .navbar .selected {
   font-weight: bold;
+  color: var(--color-background-primary);
+}
+
+a {
+  color: var(--color-background-primary);
 }
 
 .navbar ul {
@@ -202,7 +210,7 @@ nav {
   /* added space between links and remove underline*/
   display: inline-block;
   padding: 1em 1.5em !important;
-  
+
   text-decoration: none;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -215,18 +223,10 @@ nav {
 }
 
 .navbar a:active {
-  color:var(--color-background-secondary);
+  color: var(--color-background-secondary);
 }
 
-/* unvisited link */
-a:link {
-  color:var(--color-background-secondary);
-}
 
-/* visited link */
-a:visited {
-  color:var(--color-background-secondary);
-}
 
 /* Footer */
 footer {
@@ -296,9 +296,9 @@ footer {
   background-image: url(../images/church-barn.JPG);
   background-repeat: no-repeat;
   padding: 30vh 0;
-  
+
   background-position: center;
- 
+
 }
 
 /* Explore the barn -styling*/
@@ -306,7 +306,7 @@ footer {
   text-align: center;
   font-style: italic;
   margin-bottom: 1em;
-  color:var(--color-text-secondary);
+  color: var(--color-text-secondary);
 }
 
 .grid-wrapper-barnfeatures {
@@ -412,7 +412,7 @@ footer {
   grid-template-rows: 1fr 1fr;
   padding-top: 2em;
   gap: 1em;
- 
+
   grid-template-areas:
     ". lcontent1 rcontent1 ."
     ". lcontent2 rcontent2 ."
@@ -420,12 +420,12 @@ footer {
 
 .thearea-links>a {
   text-decoration: none;
-  color:var(--color-text-secondary);
+  color: var(--color-text-secondary);
 }
 
 .thearea-icons {
   font-size: 10rem;
-  color:var(--color-text-secondary);
+  color: var(--color-text-secondary);
 }
 
 /* Change the color of links on hover */
@@ -505,7 +505,7 @@ input[type=submit],
 input[type=reset] {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   background-color: var(--color-background-button);
-  color:var(--color-text-secondary);
+  color: var(--color-text-secondary);
   padding: 12px 20px;
   margin-right: 10px;
   margin-bottom: 5px;
@@ -531,7 +531,7 @@ input[type=reset] {
   box-shadow: 0 0 20px var(--color-text);
   box-sizing: border-box;
   padding: 20px;
-  background-color:var(--color-background-primary);
+  background-color: var(--color-background-primary);
   color: var(--color-text-secondary);
   border-radius: 5px;
   width: 40%;
@@ -564,13 +564,13 @@ input[type=reset] {
 input[type=reset]:hover {
 
   background-color: var(--color-text-secondary);
-  color:var(--color-background-button)
+  color: var(--color-background-button)
 }
 
 input[type=submit]:hover {
 
   background-color: var(--color-text-secondary);
-  color:var(--color-background-button)
+  color: var(--color-background-button)
 }
 
 /*Media Queries */

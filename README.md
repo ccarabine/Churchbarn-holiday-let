@@ -166,7 +166,7 @@ A coastal palette has been chosen to correlate and appear aesthetically pleasing
 
 ### 2. Typography <a name="typography"></a>
 
-The following font Roboto have been selected to ensure the text is easy to read, add value to the text, and invoke user to perceive a positive emotion from the text. The fonts chosen are generic and therefore should appeal to any demographic/user. It is rated as Google best font.I choose font lato to compliment some of the heading.
+The following font Roboto have been selected to ensure the text is easy to read, add value to the text, and invoke user to perceive a positive emotion from the text. The fonts chosen are generic and therefore should appeal to any demographic/user. It is rated as Google best font. I chose font Lato to compliment some of the heading.
 
 ![ Roboto font](assets/uxd/font-roboto.PNG)
 
@@ -189,9 +189,9 @@ Please use further details in credits section for specific images used within th
 Featured on all four pages. 
 * Value: Consistency/aesthetically pleasing
 
-## The Header 
+## Header 
 At the top centre of the page. This section will let the user know the site they are visiting and the location. 
-* Value: Informs user they the Church Barn website.
+* Value: Informs user they have landed on Church Barn website.
 See below the view on all devices :
 
 ![Header on all devices](assets/uxd/header.PNG)
@@ -215,10 +215,10 @@ See below the view on all devices :
 
 ![Navbar on all small device](assets/uxd/navbar-smalldevice.PNG)
 
-## The Footer 
+## Footer 
 * The footer is at the bottom of the page, consistent with industry standard.
 * On desktops and tablets – the footer will be in three sections with social media links on the left, address in the centre and contact details on the right.
-* On mobile devices they will the social media links/address/contact details stack on top of each other.
+* On mobile devices - the social media links/address/contact details will stack on top of each other.
 * Social media links will open in a separate page.
 * The email address when clicked will open the email browser
 * Feedback – When the cursor hovers over social media symbols, the symbols will highlight in the hover colour(var).
@@ -268,7 +268,7 @@ See below the difference between desktop and mobile view:
 
 ![ Barn features on small devices](assets/uxd/barnfeatures-smalldevice.PNG)
 
-* Six Images and description of the property – kitchen area, living area, bedroom1, bedroom2, outdoors and a ‘short stroll away…’.
+* Six Images and description of the property – kitchen area, living area, bedroom 1, bedroom 2, outdoors and a ‘short stroll away…’.
 
 * Value: This section informs the user of the property specification, key information, relevant imagery, with CTA, and consistent UX on all devices.
 
@@ -305,14 +305,14 @@ See below the difference between desktop, tablet and mobile view:
 
 ![ Useful links and clickable links on large device](assets/uxd/area-useful-links-smalldevice.PNG)
 
-## Features unique to Contact us page.
+## Features unique to Contact Us page.
 
 * A contact form with 9 data field inputs, ‘first name’, ‘surname’, ‘email address’, ‘telephone number’,’ number of adults’, ‘number of children’, ‘arrival date’, ‘departure date’, ‘message’ and a submit button and reset button underneath.
 * The contact form is responsive on mobile devices and reduces in height and width as well as the buttons.
 * Feedback - When the cursor hovers over ‘submit’ /’reset’ the links will highlight in the hover colour(var)
 * When clicking on ‘submit’ /’reset’ links, they will highlight in the active colour(var) and repositions button down by 4px
 
-* Value: This section will allow the user complete CTA by submitting an enquiry/booking to owner, providing the owner with all the information initially required to connect with user. UX will be consistent on all devices. 
+* Value: This section will allow the user tp complete CTA by submitting an enquiry/booking to owner, providing the owner with all the information initially required to connect with user. UX will be consistent on all devices. 
 
 See below the difference between desktop, tablet and mobile view:
 
@@ -323,90 +323,96 @@ See below the difference between desktop, tablet and mobile view:
 ![ Contact us form on small device](assets/uxd/contactus-smalldevice.PNG)
 
 # Features remaining to implement (long term objectives): <a name="features-toimplement"></a>
-* 1. Live calendar for bookings
-* 2. Testimonials
-* 3. Map 
-* 4. Gallery with professional imagery 
-* 5. Terms and conditions
-* 6. More details about area/property
-* 7. Pricing information
+1.) Live calendar for bookings
+
+2.) Testimonials
+
+3.) Map 
+
+4.) Gallery with professional imagery 
+
+5.) Terms and conditions
+
+6.) More details about area/property
+
+7.) Pricing information
 
 
-#Testing <a name="testing"></a>
+# Testing <a name="testing"></a>
 
-i approached friends, family and my mentor for user testing and i received the following constructive feedback
-1. Color Pallete
-Contrast with the blue text on the pale blue background wasn't easy to read
-corrective action: Change color palette
+1.) Colour palette contrast - the blue text on the pale blue background wasn’t easy to see
 
-2. Header
-tried to click on the header church barn and didn't goto home page
-corrective action: added a href to the church barn text and linked it to "index.html"
+* Corrective action: change colour palette 
 
-3. Navbar
-when i was half way down a page, i had to scroll all the way back to the top to click on another page
-corrective action
-I made the navbar sticky, so when you scrolled down, the header would go , but the navbar was stay at the top
+2.) Header – when user tried to click on the header ‘Church Barn’, it did not take the user to the home page, which the user expected.
 
-the barn page
-The same image displayed on the "a short stroll away" section" to "outdoors"
-correction action
-put the correct image in for the "a short stroll away" section
+* Corrective action: added a href to the Church Barn text and linked to ‘index.html’
 
-4. The Area page - Video
-video on the area page was touching the heading underneath
-video on mobile only showed part of the video
-video played sound on entry
+3.) Navbar – when the user scrolled down the page, they needed to scroll all the way back up to use navbarto select another page.
 
-corrective action
-adjusted the margin
-Adjusted code so it is fully responsive and showed the full screen
-added mute and controls to the code Adjusted the code 
+* Corrective action: I made the navbar sticky, so navbar will always stay in position at the top of the page
 
-5. Call to action buttons
-Call to action buttons on mobile was in the middle of attraction box
-corrective action
-took the barn-wrapper out of the  div class="rcontent2 background-section" and put it below
+4.) The Barn page – The image used on the ‘A short stroll away’ page was incorrect and was a duplication of the ‘outdoors’
+
+* Corrective action: adjusted code to reference the correct image for the ‘A short stroll away’
+
+5.) The Area Page
+
+a.) The botoom of the video frame was touching the heading underneath on the mobile site. 
+
+* Corrective action: adjusted margin to resolve gap between video and heading
+
+b.) The video within the frame was only partially visible
+
+* Corrective action: adjusted code to make the video frame fully responsive and show the full screen
+
+c.) The video played sound automatically when loaded, rather than on mute.
+
+* Corrective action: adjusted code to incorporate mute and video controls.
+
+6.) Call to action (CTA) button on the mobile site was wrongly positioned in the middle of ’attractions’ grid section.
+
+* Corrective action: removed the barn wrapper out of the div class and moved code out of the div 
+
+7.) Contact Page  
+
+a.) When user clicked ‘submit’ button, there was no validation 
+
+* Corrective action: made first name and last name fields mandatory (used ‘required’ code)
+
+b.) Message box incorrectly aligned with the fields above
+
+* Corrective action: adjusted code to use labels and inputs and made it fully responsive 
+
+c.) Buttons were too basic aesthetically, plus they were not aligned centrally as required
+
+* Corrective action: added styling to buttons (rounded corners/shadow), plus added btn-group (wrapper) and margin 0 auto to centralize buttons
+
+d.) Arrival/Departure date fields were not large enough, only partial data could be seen
+
+* Corrective action: repositioned Arrival/Departure date fields onto separate lines
+
+e.) When user submitted the enquiry from, there was a warning notification to advise user that the form was not secure
+
+* Corrective action: the enquiry form was linked to an insecure ‘formdump’ website, I didn’t wish to use The Code Institute site due to incorrect branding, so I created an additional page to thank user for their enquiry.
+
+f.) The text/paragraph above the enquiry form was touching the enquiry form
+
+* Corrective action: added a class.contactus-text to add padding, and therefore a space between the text and enquiry form
+
+g.) The enquiry form overflowed the page horizontally on the mobile site 
+
+* Corrective action: changed the width of the wrapper on media queries so the form did not overflow 
 
 
-           
-6. Contact-us page
-
-* no vadliation in the form and when you click on submit, it didn't do anything
-corrective action
-added required to first name and last name
-
-* form - the message boxe didn't line up with the other inputs
-corrective action
-change code to use labels and inputs and made it fully responsive
-
-* The buttons were quite basic in styling and not centeral to the form
-corrective action
-added the same styling to the buttons as the CTA button
-added a btn-group (wrapper) and margin 0 auto to centralise the buttons
-
-* arrival and departure date, you couldn't see whatdate you entered
-corrective action
-put these on separate lines
-
-* Form said it wasn't secure when press submit
-intro paragraph was touching the form
-contact form overflowed the page on mobile
-
-corrective action
-The "action" was going to a formdump website which causing the security issue, i didn't want to use the code instutite post due the branding of the page, so i create a thank you for the enquiry page that when you click submit it goes to.
-added a class .contactus-text  to add padding
-i changed the width of the wrapper on media queries so the form didn't overflow on mobile devices
-
-
-Testing Check list <a name="features-current"></a>
+# Testing Check list <a name="features-current"></a>
 
 
 ## Main Structure -Header, navigation bar and footer featured on all four pages. 
 *  Consistency/aesthetically pleasing - PASS
 
-## The Header 
-At the top centre of the page. This section will let the user know the site they are visiting and the location. 
+## Header 
+* At the top centre of the page. This section will let the user know the site they are visiting and the location. -PASS
 
 
 ## Navigation bar
@@ -420,7 +426,7 @@ At the top centre of the page. This section will let the user know the site they
 * Active page, the link colour will be in bold. -PASS
 
 
-## The Footer 
+## Footer 
 * The footer is at the bottom of the page, consistent with industry standard. -PASS
 * On desktops and tablets – the footer will be in three sections with social media links on the left, address in the centre and contact details on the right. -PASS
 * On mobile devices they will the social media links/address/contact details stack on top of each other.  -PASS
@@ -430,7 +436,7 @@ At the top centre of the page. This section will let the user know the site they
 * Clickable social media links will highlight in the active colour(var) and increase in size -PASS
 
 
-## Features unique to home page. 
+## Features unique to Home Page
 * Main page will have a large ‘hero’ image to invoke a positive emotional response. -PASS
 * The call to action (CTA) will be prominent to invoke users to book/enquire. - PASS
 
@@ -445,7 +451,7 @@ At the top centre of the page. This section will let the user know the site they
 * Video, introducing South West Cornwall -user initiates controls such as sound/play and will be fully responsive on all devices (80% width and height) -PASS
 * Four headings (Attractions, Food, Beaches and Activities) with a ‘icon’ images and clickable links relating to the subject with CTA -PASS
 
-## Features unique to Contact us page.
+## Features unique to 'Contact' Page
 
 * A contact form with 9 data field inputs, ‘first name’, ‘surname’, ‘email address’, ‘telephone number’,’ number of adults’, ‘number of children’, ‘arrival date’, ‘departure date’, ‘message’ and a submit button and reset button underneath.-PASS
 * The contact form is responsive on mobile devices and reduces in height and width as well as the buttons.-PASS
@@ -455,8 +461,9 @@ At the top centre of the page. This section will let the user know the site they
 
 
 
-### HTML and CSS Validator Tests <a name="validation-testing"></a>
-1. W3C HTML Validator
+# HTML and CSS Validator Tests <a name="validation-testing"></a>  
+
+## W3C HTML Validator
 - I opened [W3C HTML Validator](https://validator.w3.org/) and selected the "Validate by URI" option for each page index.html, thebarn.html, thearea.html and contactus.html separately.
 - Pages initally came up with the following errors:
 

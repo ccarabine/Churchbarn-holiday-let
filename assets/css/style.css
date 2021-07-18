@@ -49,6 +49,10 @@ h1 {
 
 }
 
+
+
+
+
 /*header styles*/
 .main-head {
   text-transform: uppercase;
@@ -73,6 +77,7 @@ h1 {
   padding: 2em;
   margin-bottom: 1em;
   border-bottom: 4px solid var(--color-background-third);
+ 
 }
 
 a {
@@ -92,6 +97,7 @@ a {
 }
 
 .titles {
+  
   font-family: 'lato', sans-serif;
   color: var(--color-text-secondary);
   padding-bottom: 0.5em;

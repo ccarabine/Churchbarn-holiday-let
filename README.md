@@ -472,6 +472,8 @@ g.) The enquiry form overflowed the page horizontally on the mobile site
 
 * Corrective action - removed extra </i> from pages
 
+No Errors outstanding
+
 ![CSS Errors](assets/images/testing/htmlchecker-index.PNG)
 
 ### The Barn.html
@@ -494,6 +496,8 @@ No errors found
 
 * Corrective Action: Added < on footer tag
 
+No Errors outstanding
+
 ![CSS Errors](assets/images/testing/htmlchecker-thearea.PNG)
 
 ### Contactus.html
@@ -512,7 +516,9 @@ There were the following errors
 
 * Corrective Action: Added < on footer tag
 
-![CSS Errors](assets/images/testing/htmlchecker-contactus.PNG)
+No Errors outstanding
+
+![CSS Errors Report](assets/images/testing/htmlchecker-contactus.PNG)
 
 ## W3 CSS Validator
 - I opened [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)  and selected the "Validate by direct input" option and pasted in the code.
@@ -537,10 +543,32 @@ There were the following errors
 * Corrective action: Remove code
 
 
-
+[W3C CSS Validator Report](assets/images/testing/w3c-css-checker.PNG)
 
 
 ![CSS Errors](assets/images/testing/w3c-css-checker.PNG)
+
+
+# A11y Color Contrast Acccessibility Validation <a name="validation-testing-A11y"></a>
+
+
+## Home Page
+
+![Color Contrast Validation-Index](assets/images/testing/a11y-index.PNG)
+
+## The Barn 
+
+![Color Contrast Validation-thebarn](assets/images/testing/a11y-thebarn.PNG)
+
+## The Area 
+
+![Color Contrast Validation-thearea](assets/images/testing/a11y-thearea.PNG)
+
+## Contact 
+
+![Color Contrast Validation-Contact](assets/images/testing/a11y-contactus.PNG)
+
+
 
 ## Chrome Dev Tools Lighthouse Report
 I used the __Chrome Dev Tools Lighthouse Report__ to test both on desktop and mobile.

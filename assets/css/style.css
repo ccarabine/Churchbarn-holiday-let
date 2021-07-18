@@ -65,7 +65,7 @@ h1 {
   font-style: italic;
   font-weight: lighter;
   font-family: 'lato', sans-serif;
-  color: var(-);
+  color: var(--color-text-secondary);
 
 }
 
@@ -172,11 +172,7 @@ a {
 }
 
 /*Navigation styles*/
-nav {
 
-  padding: -3em;
-
-}
 
 .navbar {
 

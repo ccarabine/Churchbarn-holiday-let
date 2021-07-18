@@ -12,8 +12,8 @@
   --color-text: #58595b;
   --color-text-secondary: #fffefc;/* white text*/
    --color-background-third: #ffe9ca;
-  --color-background-primary: #b9d6dc;
-  --color-background-secondary:#8bafbb;
+  --color-background-primary: #4f7987;
+  --color-background-secondary:#4f7987;
   --color-background-button:#697d96; 
   
 }
@@ -144,7 +144,7 @@ a {
 
 .text-colour{
 
-  color:var(--color-text); 
+  color:var(--color-text-secondary);
 }
 
 
@@ -362,7 +362,7 @@ footer {
 }
 
 .grid-text {
-  color: var(--color-text);
+  color: var(--color-text-secondary);
   font-style: normal;
 }
 
@@ -420,11 +420,12 @@ footer {
 
 .thearea-links>a {
   text-decoration: none;
+  color:var(--color-text-secondary);
 }
 
 .thearea-icons {
   font-size: 10rem;
-  color:var(--color-background-third);
+  color:var(--color-text-secondary);
 }
 
 /* Change the color of links on hover */

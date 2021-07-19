@@ -29,7 +29,6 @@
 </head>
 
 <body>
-
     <!-- Header with clickable link back to home page -->
     <header class="main-head">
         <div class="background-header">
@@ -48,32 +47,27 @@
             <li><a href="thearea.html" aria-label="The area page">The Area</a></li>
             <li><a class="selected" href="contactus.html" aria-label="Contact page">Contact</a></li>
         </ul>
-
-
     </nav>
-
-
-
+    <!--main section - Intro text and Enquiry form  -->
     <main>
         <h1 class="background-section">Contact us</h1>
         <h4 class="contactus-text">Complete the form below to connect with Church Barn to make a booking, or ask a
             question, we’d be delighted to assist!</h4>
-
-
         <div class="contact-wrapper">
             <form action="submit-form.html">
-
                 <div class="row">
                     <div class="col-25">
                         <label for="fname">First Name</label>
                     </div>
                     <div class="col-75">
+                        <!--First name are required for validation -->
                         <input class="input" type="text" id="fname" name="firstname" required />
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-25">
+                        <!--Last name are required for validation -->
                         <label for="lname">Last Name</label>
                     </div>
                     <div class="col-75">
@@ -81,23 +75,22 @@
                     </div>
                 </div>
 
-
                 <div class="row">
                     <div class="col-25">
+                        <!-- Email address has standard validation -->
                         <label for="email">Email</label>
                     </div>
                     <div class="col-75">
                         <input class="input" type="email" id="email" name="emailaddress" />
                     </div>
-
                 </div>
-
 
                 <div class="row">
                     <div class="col-25">
                         <label for="phone">Phone number</label>
                     </div>
                     <div class="col-75">
+                        <!-- User to enter Contact number (the input value is not automatically validated to a particular format before the form can be submitted, because formats for telephone number vary so much) -->
                         <input class="input" type="tel" id="phone" name="phonenumber">
                     </div>
                 </div>
@@ -106,8 +99,8 @@
                     <div class="col-25">
                         <label for="adults">Number of Adults</label>
                     </div>
-
                     <div class="col-75">
+                        <!--Number of adults - the user can choose between 1 to 6 -->
                         <input class="input" type="number" min="1" max="6" id="adults" name="adults">
                     </div>
                 </div>
@@ -116,65 +109,52 @@
                     <div class="col-25">
                         <label for="children">Number of Children</label>
                     </div>
-
                     <div class="col-75">
+                        <!-- Number of children, the user can choose between 1 to 4 -->
                         <input class="input" type="number" min="1" max="4" id="children" name="children">
                     </div>
-
-
                 </div>
-
 
                 <div class="row">
                     <div class="col-25">
                         <label for="adate">Arrival Date</label>
                     </div>
-
                     <div class="col-75">
+                        <!-- user can select arrival date from a calender-->
                         <input class="input " type="date" id="adate" name="arrivaldate">
-                    </div>
-
-
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="ddate">Departure Date</label>
-                        </div>
-
-                        <div class="col-75">
-                            <input class="input " type="date" id="ddate" name="departuredate">
-                        </div>
-
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="message">Message</label>
-                            </div>
-                            <div class="col-75">
-                                <textarea id="message" name="message" style="height:200px"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="btn-group">
-
-
-                        <div class="row">
-                            <input type="submit" value="Submit">
-                            <input type="reset" value="Reset">
-                        </div>
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-25">
+                        <label for="ddate">Departure Date</label>
+                    </div>
 
+                    <div class="col-75">
+                        <!-- user can select departure date from a calender-->
+                        <input class="input " type="date" id="ddate" name="departuredate">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="message">Message</label>
+                    </div>
+                    <div class="col-75">
+                        <!-- user can type any questions to owner in this text box-->
+                        <textarea id="message" name="message" style="height:200px"></textarea>
+                    </div>
+                </div>
+
+                <div class="btn-group">
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </div>
             </form>
         </div>
-
-
-
-
-
     </main>
-
-
-
 
     <!--footer -->
     <footer class="ft-container">
@@ -195,7 +175,6 @@
             </div>
             <div class="ft-content">
                 <!-- display Address on the center of the footer-->
-
                 <p>Church Barn, Perranuthnoe</p>
                 <p>Penzance, TR20 9NR </p>
             </div>
@@ -207,7 +186,6 @@
             </div>
         </div>
     </footer>
-
 
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>

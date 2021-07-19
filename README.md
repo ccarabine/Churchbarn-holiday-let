@@ -3,11 +3,19 @@
 # Project Overview
 
 
+## Introduction
+The website has been developed to market/sell a holiday property let.
 
-intro text
-Church Barn live site<a href="https://ccarabine.github.io/Churchbarn-holiday-let/">
+The owners core goals for the website are:
 
-## Church Barn holiday let
+* To market property and create bookings directly with consumers
+
+* To manage bookings himself
+
+* Increase margins / profitability by reducing the need for 3rd party letting agency
+
+
+## [Church Barn live site]("https://ccarabine.github.io/Churchbarn-holiday-let/") 
 
 ![Responsive image of front page on all devices](assets/uxd/responsive-design-mockup.PNG)
 
@@ -40,7 +48,7 @@ Image from  <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, to di
     * [Validation Testing -HTML ](#validation-testing-html)
     * [Validation Testing -CSS ](#validation-testing-css)
     * [Validation Testing -A11y Color Contrast Accessibility](#validation-testing-A11y)
-    * [Design Responsiveness Testing] (#testing-responsiveness)
+    * [Design Responsiveness Testing](#testing-responsiveness)
         * [Simulated Testing](#testing-simulated)
 4. [Deployment](#deployment)
 5. [Technologies Used](#technology-used)
@@ -69,16 +77,16 @@ Projects Goals:
 The goal is to build an intuitive and responsive website, achieving the following stakeholder requirements:
 
 ### Short term:
-* CTA, invoke a positive reaction from the user to book directly with owner via website enquiry form. Increasing D2C sales will reduce agency fees/commission and increase margins/profitability.
+* Call To Action, invoke a positive reaction from the user to book directly with owner via website enquiry form. Increasing D2C sales will reduce agency fees/commission and increase margins/profitability.
 * Showcase/brand Church Barn as an inclusive holiday destination to a wide audience of all demographics.
 
 ### Long term:
 * Increase online presence and potentially eliminate the need for external 3rd party letting marketplace in the long term/future, managing all bookings, eliminating all agency fees/commission, increase profitability and take full control of Church Barn brand. 
 
-Customer Goals
-1 Clear and simple layout so the user can easily  find and view information about the accomadation
-2 Easy to navigate
-3 Easy to find contact details to get in touch
+### Customer Goals
+* Clear and simple layout so the user can easily  find and view information about the 
+* Easy to navigate
+* Easy to find contact details to get in touch
 
 
 ## User Stories: <a name="userstories"></a>
@@ -112,8 +120,8 @@ The website needed to be fully responsive, taking into account that 55% of websi
 
 ---
 # 3. Skelton <a name="skeleton"></a>
-.
-# Wireframe <a name="wireframes"></a>
+
+## Wireframe <a name="wireframes"></a>
 
 I used <a href="https://balsamiq.com/">Balsamiq</a> to create wireframes for my project in order to plan out the layout of the interface, navigation and information design of the webpage on  desktop, tablets and mobile devices.
 
@@ -156,22 +164,22 @@ I used <a href="https://balsamiq.com/">Balsamiq</a> to create wireframes for my 
 ![The Contact Page Mobile](assets/uxd/wireframes/contact-mobile.png)
 
 
-## 4. Surface <a name="surface"></a>
+# 4. Surface <a name="surface"></a>
 
-### Visual Design
+## Visual Design
 
-### 1. Colour Palette:  <a name="colours"></a>
+## 1. Colour Palette:  <a name="colours"></a>
 
 A coastal palette has been chosen to correlate and appear aesthetically pleasing against the coastal/property imagery. The relevance of the coastal colour palette will appeal to all demographics and users and invoke positive first impressions/associations/emotions. 
-
-![ Colour palette](assets/uxd/color-palette-v2.PNG)
 
 ![ Colour palette](assets/uxd/color-palette.PNG)
 
 
 
 
-### 2. Typography <a name="typography"></a>
+
+
+## 2. Typography <a name="typography"></a>
 
 The following font Roboto have been selected to ensure the text is easy to read, add value to the text, and invoke user to perceive a positive emotion from the text. The fonts chosen are generic and therefore should appeal to any demographic/user. It is rated as Google best font. I chose font Lato to compliment some of the heading.
 
@@ -179,20 +187,23 @@ The following font Roboto have been selected to ensure the text is easy to read,
 
 ![ Lato font](assets/uxd/font-lato.PNG)
 
-3. Imagery <a name="imagery"></a>
+## 3. Imagery <a name="imagery"></a>
+
+![ Images](assets/uxd/images.PNG)
 
 
+I used the images with the colours in mind.... blues , sandy colors and bright
 
-I used these images with the colours in mind.... blues , sandy colors
 Please use further details in credits section for specific images used within the project
 
 
 ---
 # Features <a name="features"></a>
 
-*
+
+
+## Current Features (short term objectives): <a name="features-current"></a>
 ---
-# Current Features (short term objectives): <a name="features-current"></a>
 ## Main Structure -Header, navigation bar and footer
 Featured on all four pages. 
 * Value: Consistency/aesthetically pleasing
@@ -485,7 +496,7 @@ I used [W3C HTML Validator](https://validator.w3.org/) code checking tool to val
 
 ## Pages initally came up with the following errors:
 
-## Index.html
+### Index.html
 1.) Error- Stray end tag i   -  </i></i>
 
 * Corrective action - removed extra </i> from pages
@@ -494,13 +505,13 @@ No Errors outstanding
 
 ![CSS Errors](assets/images/testing/htmlchecker-index.PNG)
 
-## The Barn.html
+### The Barn.html
 
 No errors found
 
 ![CSS Errors](assets/images/testing/htmlchecker-thebarn.PNG)
 
-## The Area.html
+### The Area.html
 
 1.) Error - The frameborder attribute on the iframe element is obsolete.
 
@@ -518,7 +529,7 @@ No Errors outstanding
 
 ![CSS Errors](assets/images/testing/htmlchecker-thearea.PNG)
 
-## Contactus.html
+### Contactus.html
 
 There were the following errors
 
@@ -540,8 +551,10 @@ No Errors outstanding
 
 ---
 # W3 CSS Validator Test  <a name="validation-testing-css"></a>  
-- I opened [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)  and selected the "Validate by direct input" option and pasted in the code.
-- Pages initally came up with the following errors:
+I used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) code checking tool to validate the css code.
+* I opened and selected the "Validate by direct input" option and pasted in the code.
+
+## Pages initally came up with the following errors:
 
 
 
@@ -575,7 +588,57 @@ When it comes to website accessibility, the contrast between the text and the te
 
 This color contrast tool enables users to comply with website accessibilities regulations.
 
-Below are the results:
+## Testing
+
+Website colour palette was tested for contrast accessibility validation and failed, cololour contrast issues were found:
+
+1. FAILED
+
+Background color Hex: #8bafbb
+
+Text Color Hex: #fffefc
+
+Current Ratio: 2.32:1
+
+Required ratio 3:1
+
+2. FAILED
+
+Background color Hex: #ffffff
+
+Text Color Hex: #8bafbb
+
+Current Ratio: 2:34
+
+Required ratio 4.5:1 
+
+3. FAILED
+
+Background color Hex: #b9d6dc
+
+Text Color Hex: ##fffefc
+
+Current Ratio: 1.51:1
+
+Required ratio 3:1
+
+4. FAILED
+
+Background color Hex: #ffe9ca
+
+Text Color Hex: #8bafbb
+
+Current Ratio: 1.98:1
+
+Required ratio 4.5:1
+
+## Corrective Action: 
+
+Changed colour palette to :
+
+![ Colour palette](assets/uxd/color-palette-v2.PNG)
+
+### The test were ran again and passed with no errors
 
 ## Home Page
 
@@ -599,49 +662,49 @@ Below are the results:
 # Design Responsiveness Testing <a name="testing-responsiveness"></a>
 
 ## Simulated Testing <a name="testing-simulated"></a>
-For each section on each page, I tested various screen sizes in the development environment. Using the Google Developer tools I tested the responsiveness throughout the development process. I updated the code as I tested, noting anything that appeared irregular or out of sync with the layout of the page.
+For each section on each page, I tested various screen sizes in the development environment. Using the Google Developer tools I tested the responsiveness throughout the development process and all tests passed.
 
 ## Tested with Chrome DevTools using profiles for with screen sizes:
 
-Moto G4
+* Moto G4
 
-Galaxy S5
+* Galaxy S5
 
-Pixel 2
+* Pixel 2
 
-Pixel 2 XL
+* Pixel 2 XL
 
-iPhone 5 SE
+* iPhone 5 SE
 
-iPhone 6/7/8
+* iPhone 6/7/8
 
-iPhone 6/7/8 Plus
+* iPhone 6/7/8 Plus
 
-iPhone 
+* iPhone 
 
-iPad
+* iPad
 
-iPad Pro
+* iPad Pro
 
 
 ## Desktop testing
 
 
-Browsers:
+### Browsers:
 
-Chrome
+ * Chrome
 
-Firefox
+* Firefox
 
 
 ## Mobile testing:
 
-Iphone 10
+* Iphone 10
 
 
-## Unfixed Bugs
+# Unfixed Bugs
 
-No Bugs left to fix
+* No Bugs left to fix
 
 
 
@@ -675,7 +738,7 @@ I have also utilised the following frameworks  and tools:
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): The W3C CSS Validation Service was used to validate the CSS document for this project and to identify any issues with the code.
 * [Am I Responsive](http://ami.responsivedesign.is/): Am I Responsive was used to create the header image for the README file.
 * [Resize Pixel](https://www.resizepixel.com/download): Resize Pixel was used to reduce the size of my wireframe images for the README file.
-* https://color.a11y.com/Contrast/
+* [A11y Colour Contrast checker](https://color.a11y.com/Contrast/):A11y Colour Contrast checker was used to check the colour contrast between background and text colours.
 * [Fav Icon Generator](https://favicon.io/favicon-generator/): i used Fav Icon generator to create my fav Icon from text.
 
 ---
@@ -689,13 +752,13 @@ The photos used on the home and the barn pages were taken by the owners
 
 The icons in the footer were taken from Font Awesome
 
-Barn pages were taken from [Aspects website](https://www.aspects-holidays.co.uk/cornwall/west-cornwall/perranuthnoe/p/church-barn)  aspects webpage(my project is not a commerical site, so i didn't need permission to use)
+The photos taken for the barn page were taken from [Aspects website](https://www.aspects-holidays.co.uk/cornwall/west-cornwall/perranuthnoe/p/church-barn)  aspects webpage(my project is not a commerical site, so i didn't need permission to use)
 
-i used West Cornwall video [West Cornwall video](https://www.youtube.com/embed/D1Im2tWWNfs)
+I used West Cornwall video [West Cornwall video](https://www.youtube.com/embed/D1Im2tWWNfs)
 
-i took inspiration from this beach colour palete for my colours [color palette](https://colorpalettes.net/color-palette-710/) and google's best fonts for the font choice [Font choice](https://www.oberlo.co.uk/blog/google-fonts )
+I took inspiration from this beach colour palete for my colours [color palette](https://colorpalettes.net/color-palette-710/) and google's best fonts for the font choice [Font choice](https://www.oberlo.co.uk/blog/google-fonts )
 
-i took inspiration from https://www.simpsontravel.com/ for the hover- border top feedback on the navbar 
+I took inspiration from https://www.simpsontravel.com/ for the hover- border top feedback on the navbar 
 
 ## Code
 i used the following websites and videos for inspiration and code for my project

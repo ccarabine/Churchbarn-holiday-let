@@ -34,14 +34,16 @@ Image from  <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, to di
     * [Current Features](#features-current)
     * [Features to implement](#features-toimplement)
 
-3. [Technologies Used](#technology-used)
-
-4. [Testing](#testing)
-    * [User Stories Testing](#user-testing)
-    * [Validation Testing](#validation-testing)
-
-5. [Deployment](#deployment)
-
+3. [Testing](#testing)
+    * [User Stories Testing](#user-feedback)
+    * [Testing Check List ](#testin-check-list)
+    * [Validation Testing -HTML ](#validation-testing-html)
+    * [Validation Testing -CSS ](#validation-testing-css)
+    * [Validation Testing -A11y Color Contrast Accessibility](#validation-testing-A11y)
+    * [Design Responsiveness Testing] (#testing-responsiveness)
+        * [Simulated Testing](#testing-simulated)
+4. [Deployment](#deployment)
+5. [Technologies Used](#technology-used)
 6. [Credits](#credits)
 
 7. [Acknowledgements](#acknowledgements)
@@ -108,13 +110,14 @@ To achieve the strategy goals, I want to implement the following functional spec
 
 The website needed to be fully responsive, taking into account that 55% of websites are viewed from mobiles and knowing the client is using social media advertising to target possible users.
 
-## 3. Skelton <a name="skeleton"></a>
-
-### Wireframe <a name="wireframes"></a>
+---
+# 3. Skelton <a name="skeleton"></a>
+.
+# Wireframe <a name="wireframes"></a>
 
 I used <a href="https://balsamiq.com/">Balsamiq</a> to create wireframes for my project in order to plan out the layout of the interface, navigation and information design of the webpage on  desktop, tablets and mobile devices.
 
-* Wireframes for Home Page. 
+## Wireframes for Home Page. 
 
 ![Home Page Desktop](assets/uxd/wireframes/home-desktop.png)
 
@@ -124,7 +127,7 @@ I used <a href="https://balsamiq.com/">Balsamiq</a> to create wireframes for my 
 
 
 
-* Wireframes for The Barn Page. 
+## Wireframes for The Barn Page. 
 
 ![The Barn Page Desktop](assets/uxd/wireframes/the-barn-desktop.png)
 
@@ -134,7 +137,7 @@ I used <a href="https://balsamiq.com/">Balsamiq</a> to create wireframes for my 
  
 
 
-* Wireframes for The Area Page. 
+## Wireframes for The Area Page. 
 
 ![The Area Page Desktop](assets/uxd/wireframes/the-area-desktop.png)
 
@@ -144,7 +147,7 @@ I used <a href="https://balsamiq.com/">Balsamiq</a> to create wireframes for my 
 
 
 
-* Wireframes for Contact Page. 
+## Wireframes for Contact Page. 
 
 ![The Contact Page Desktop](assets/uxd/wireframes/contact-desktop.png)
 
@@ -184,10 +187,11 @@ I used these images with the colours in mind.... blues , sandy colors
 Please use further details in credits section for specific images used within the project
 
 
-#Features
+---
+# Features <a name="features"></a>
 
-**
-
+*
+---
 # Current Features (short term objectives): <a name="features-current"></a>
 ## Main Structure -Header, navigation bar and footer
 Featured on all four pages. 
@@ -198,7 +202,11 @@ At the top centre of the page. This section will let the user know the site they
 * Value: Informs user they have landed on Church Barn website.
 See below the view on all devices :
 
-![Header on all devices](assets/uxd/header.PNG)
+![Header on all devices](assets/uxd/header-largedevice.PNG)
+
+![Header on all devices](assets/uxd/header-mediumdevice.PNG)
+
+![Header on all devices](assets/uxd/header-smalldevice.PNG)
 
 ## Navigation bar
 
@@ -236,7 +244,7 @@ See below the view on all devices :
 
 ![Footer on medium devices](assets/uxd/footer-mediumdevice.PNG)
 
-![Footer on small devices](assets/uxd/footer-smalldevice.PNG)
+![Footer on small devices](assets/uxd/footer-smalldevices.PNG)
 
 ## Features unique to home page. 
 * Main page will have a large ‘hero’ image to invoke a positive emotional response.
@@ -264,7 +272,7 @@ See below the difference between desktop and mobile view:
 
 ![Barn description and image on small devices](assets/uxd/barnhero-intro-smalldevice.PNG)
 
-* Barn Feature List of key features with CTA
+* Barn Feature List of key features 
 
 ![Barn features on large devices](assets/uxd/barnfeatures-largedevice.PNG)
 
@@ -326,6 +334,7 @@ See below the difference between desktop, tablet and mobile view:
 
 ![ Contact us form on small device](assets/uxd/contactus-smalldevice.PNG)
 
+---
 # Features remaining to implement (long term objectives): <a name="features-toimplement"></a>
 1.) Live calendar for bookings
 
@@ -341,8 +350,12 @@ See below the difference between desktop, tablet and mobile view:
 
 7.) Pricing information
 
-
+---
 # Testing <a name="testing"></a>
+
+## User Feedback <a name="user-feedback"></a>
+
+I received the following constructive feedback from friends and family and implemented corrective action:
 
 1.) Colour palette contrast - the blue text on the pale blue background wasn’t easy to see
 
@@ -408,8 +421,8 @@ g.) The enquiry form overflowed the page horizontally on the mobile site
 
 * Corrective action: changed the width of the wrapper on media queries so the form did not overflow 
 
-
-# Testing Check list <a name="features-current"></a>
+---
+# Testing Check list <a name="testing-check-list"></a>
 
 
 ## Main Structure -Header, navigation bar and footer featured on all four pages. 
@@ -464,14 +477,15 @@ g.) The enquiry form overflowed the page horizontally on the mobile site
 
 
 
+---
+# W3C HTML Validator Test <a name="validation-testing-html"></a>  
+I used [W3C HTML Validator](https://validator.w3.org/) code checking tool to validate the html code.
 
-# HTML and CSS Validator Tests <a name="validation-testing"></a>  
+* I selected the "Validate by URI" option for each page index.html, thebarn.html, thearea.html and contactus.html separately.
 
-## W3C HTML Validator
-- I opened [W3C HTML Validator](https://validator.w3.org/) and selected the "Validate by URI" option for each page index.html, thebarn.html, thearea.html and contactus.html separately.
-- Pages initally came up with the following errors:
+## Pages initally came up with the following errors:
 
-### index.html
+## Index.html
 1.) Error- Stray end tag i   -  </i></i>
 
 * Corrective action - removed extra </i> from pages
@@ -480,13 +494,13 @@ No Errors outstanding
 
 ![CSS Errors](assets/images/testing/htmlchecker-index.PNG)
 
-### The Barn.html
+## The Barn.html
 
 No errors found
 
 ![CSS Errors](assets/images/testing/htmlchecker-thebarn.PNG)
 
-### The Area.html
+## The Area.html
 
 1.) Error - The frameborder attribute on the iframe element is obsolete.
 
@@ -504,7 +518,7 @@ No Errors outstanding
 
 ![CSS Errors](assets/images/testing/htmlchecker-thearea.PNG)
 
-### Contactus.html
+## Contactus.html
 
 There were the following errors
 
@@ -524,7 +538,8 @@ No Errors outstanding
 
 ![CSS Errors Report](assets/images/testing/htmlchecker-contactus.PNG)
 
-## W3 CSS Validator
+---
+# W3 CSS Validator Test  <a name="validation-testing-css"></a>  
 - I opened [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)  and selected the "Validate by direct input" option and pasted in the code.
 - Pages initally came up with the following errors:
 
@@ -547,14 +562,20 @@ No Errors outstanding
 * Corrective action: Remove code
 
 
-[W3C CSS Validator Report](assets/images/testing/w3c-css-checker.PNG)
+No Errors Outstanding
 
 
 ![CSS Errors](assets/images/testing/w3c-css-checker.PNG)
 
-
+---
 # A11y Color Contrast Acccessibility Validation <a name="validation-testing-A11y"></a>
+This website provides free color contrast analysis tools that will display the color contrast issues of a web page; per WCAG 2.1 Guidelines. Color Contrast refers to how bright or dark colors appear against each other on screens; particularly with regard to the relative, gray-scale luminosity as perceived by the human eye.
 
+When it comes to website accessibility, the contrast between the text and the text background is a concern for colorblind and other visually impaired users.
+
+This color contrast tool enables users to comply with website accessibilities regulations.
+
+Below are the results:
 
 ## Home Page
 
@@ -574,56 +595,57 @@ No Errors outstanding
 
 
 
-## Chrome Dev Tools Lighthouse Report
-I used the __Chrome Dev Tools Lighthouse Report__ to test both on desktop and mobile.
+---
+# Design Responsiveness Testing <a name="testing-responsiveness"></a>
 
-After the initial run, issues were detected with the performance as this was only rated as 72. i used the guidance and implemented 
-preconnect for google font and font awlsome
-reduced the file size of the hero image on the index.html page
-add meta describition and content to increase the SEO score   
-
-##Desktop
-
-![Light house report -Desktop](assets/uxd/lighthouse/lighthouse-report-desktop.PNG) [Report](assets/uxd/lighthouse/lighthouse-desktop.html)
-
-##Mobile
-
-![Light house report -Mobile](assets/uxd/lighthouse/lighthouse-report-mobile.PNG) [Report](assets/uxd/lighthouse/lighthouse-mobile.html)
-
-
-Testing - Design Responsiveness
-Simulated Testing
+## Simulated Testing <a name="testing-simulated"></a>
 For each section on each page, I tested various screen sizes in the development environment. Using the Google Developer tools I tested the responsiveness throughout the development process. I updated the code as I tested, noting anything that appeared irregular or out of sync with the layout of the page.
 
-Tested with Chrome DevTools using profiles for with screen sizes:
+## Tested with Chrome DevTools using profiles for with screen sizes:
 
 Moto G4
+
 Galaxy S5
+
 Pixel 2
+
 Pixel 2 XL
+
 iPhone 5 SE
+
 iPhone 6/7/8
+
 iPhone 6/7/8 Plus
-iPhone X
+
+iPhone 
+
 iPad
+
 iPad Pro
 
-Desktop testing
+
+## Desktop testing
 
 
 Browsers:
+
 Chrome
+
 Firefox
 
 
-Mobile testing:
+## Mobile testing:
+
 Iphone 10
 
-#Unfixed Bugs
+
+## Unfixed Bugs
+
+No Bugs left to fix
 
 
 
-Contact Page
+---
 # Deployment <a name="deployment"></a>
 This is the process i took to deploy my project to the hosting platform GitHub
 1.	Open Github page up in browser
@@ -636,6 +658,7 @@ This is the process i took to deploy my project to the hosting platform GitHub
 
 The live link can be found here <a href="https://ccarabine.github.io/Churchbarn-holiday-let/">Church-Barn-Holiday-Let</a>
 
+---
 # Technologies Used <a name="technology-used"></a>
 
 For this project the main languages used are __HTML5__ and __CSS3__.
@@ -655,6 +678,7 @@ I have also utilised the following frameworks  and tools:
 * https://color.a11y.com/Contrast/
 * [Fav Icon Generator](https://favicon.io/favicon-generator/): i used Fav Icon generator to create my fav Icon from text.
 
+---
 # Credits <a name="credits"></a>
 
 

@@ -101,9 +101,12 @@ a {
   padding-bottom: 0.5em;
   padding-top: 0.5em;
 }
+
 /* logo padding for submit form */
 .logo {
-  padding:10em 34em;;
+  display: block;
+  margin: 4em auto;
+  width: 50%;
 }
 
 .contactus-text {
@@ -595,10 +598,11 @@ input[type=submit]:hover {
     width: 60%;
 
   }
-  /* logo padding for submit form */
-.logo {
-  padding:8em 28em;;
+  .logo {
+    margin: 3em auto;
+
 }
+
 
 }
 
@@ -646,10 +650,7 @@ input[type=submit]:hover {
   }
 }
 
-/* logo padding for submit form */
-.logo {
-  padding:8em 20em;;
-}
+
 
 
 @media only screen and (max-width: 900px) {
@@ -713,10 +714,8 @@ input[type=submit]:hover {
     margin-right: 0px;
 
   }
-  /* logo padding for submit form */
-.logo {
-  padding:10em 16em;;
-}
+
+  
 }
 
 @media only screen and (max-width: 640px) {
@@ -750,10 +749,10 @@ input[type=submit]:hover {
       "lcontent2"
       "rcontent2"
   }
+
   /* logo padding for submit form */
   .logo {
-    padding:5em 10em;
-  }
+    margin: 4em auto;
 
 }
 
@@ -766,9 +765,10 @@ input[type=submit]:hover {
   .navbar {
     font-size: 70%;
   }
-   /* logo padding for submit form */
-   .logo {
-    padding:2em 6em;;
-  }
+
+  /* logo padding for submit form */
+  /*.logo {
+    padding:0em 2em;*/
+}
 
 }

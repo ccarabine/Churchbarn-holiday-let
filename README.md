@@ -335,7 +335,7 @@ See below the difference between desktop, tablet and mobile view:
 * Feedback - When the cursor hovers over ‘submit’ /’reset’ the links will highlight in the hover colour(var)
 * When clicking on ‘submit’ /’reset’ links, they will highlight in the active colour(var) and repositions button down by 4px
 
-* Value: This section will allow the user tp complete CTA by submitting an enquiry/booking to owner, providing the owner with all the information initially required to connect with user. UX will be consistent on all devices. 
+* Value: This section will allow the user to complete CTA by submitting an enquiry/booking to owner, providing the owner with all the information initially required to connect with user. UX will be consistent on all devices. 
 
 See below the difference between desktop, tablet and mobile view:
 
@@ -345,6 +345,19 @@ See below the difference between desktop, tablet and mobile view:
 
 ![ Contact us form on small device](assets/uxd/contactus-smalldevice.PNG)
 
+## Features unique to Submit form page.
+
+* Holiday cottage logo and text to say the owner will be in touch soon.
+
+* Value: This section gives feedback to the user that the enquiry has been sent to the owner.
+
+See below the difference between desktop, tablet and mobile view:
+
+![ Contact us form on large device](assets/uxd/submitform-largedevice.PNG)
+
+![ Contact us form on medium device](assets/uxd/submitform-mediumdevice.PNG)
+
+![ Contact us form on small device](assets/uxd/submitform-smalldevice.PNG)
 ---
 # Features remaining to implement (long term objectives): <a name="features-toimplement"></a>
 1.) Live calendar for bookings
@@ -422,7 +435,7 @@ d.) Arrival/Departure date fields were not large enough, only partial data could
 
 e.) When user submitted the enquiry from, there was a warning notification to advise user that the form was not secure
 
-* Corrective action: the enquiry form was linked to an insecure ‘formdump’ website, I didn’t wish to use The Code Institute site due to incorrect branding, so I created an additional page to thank user for their enquiry.
+* Corrective action: the enquiry form was linked to an insecure ‘formdump’ website, I didn’t wish to use The Code Institute site due to incorrect branding, so I created an additional page "submit-form" to thank user for their enquiry.
 
 f.) The text/paragraph above the enquiry form was touching the enquiry form
 

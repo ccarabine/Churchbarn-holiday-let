@@ -1,6 +1,8 @@
+/* import google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+/* resets styling attributes */
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,7 @@
   /* padding and border are included in the width and height*/
 }
 
+/* added variable for colours */
 :root {
   --color-text: #58595b;
   --color-text-secondary: #fffefc;
@@ -15,19 +18,17 @@
   --color-background-secondary: #ffe9ca;
   --color-background-primary: #4f7987;
   --color-background-button: #697d96;
-
 }
 
+/* Set the main body attributes with colours, font and min height*/
 body {
   background-color: var(--color-text-secondary);
   color: var(--color-text);
-
   font-family: 'Roboto', sans-serif;
-
   min-height: 100vh;
 }
 
-
+/* image tag is set to 100% of the element*/
 img {
   max-width: 100%;
 }
@@ -39,52 +40,17 @@ h3,
 h4 {
   text-align: center;
   margin: 0;
-
 }
 
+/* Set h1 colour */
 h1 {
   color: var(--color-text-secondary);
-
 }
-
-
-
-
-
-/*header styles*/
-.main-head {
-  text-transform: uppercase;
-
-}
-
-.sub-header {
-
-  text-transform: capitalize;
-  font-style: italic;
-  font-weight: lighter;
-  font-family: 'lato', sans-serif;
-  color: var(--color-text-secondary);
-
-}
-
-
-.background-header {
-  background-color: var(--color-background-primary);
-  color: var(--color-text-secondary);
-  text-decoration: none;
-  padding: 2em;
-  margin-bottom: 1em;
-  border-bottom: 4px solid var(--color-background-secondary);
-
-}
-
-a {
-  text-decoration: none
-}
-
-
 
 /* general styling*/
+
+/* Styling for links- remove underline */
+
 .background-section {
   font-family: 'lato', sans-serif;
   color: var(--color-text-secondary);
@@ -94,114 +60,86 @@ a {
   text-align: center;
 }
 
+/* Styling for sub titles in index, thebarn and the area */
 .titles {
-
   font-family: 'lato', sans-serif;
   color: var(--color-text-secondary);
   padding-bottom: 0.5em;
   padding-top: 0.5em;
 }
 
-/* logo padding for submit form */
-.logo {
-  display: block;
-  margin: 4em auto;
-  width: 50%;
+/*The barn & the area General styling section */
+
+/* sets 75% width, center and some padding to the bottom*/
+.intro-text {
+  max-width: 75%;
+  text-align: justify;
+  margin: 0 auto;
+  padding-bottom: 2em;
 }
 
-.contactus-text {
+/*CALL TO ACTION BUTTON Styling*/
 
-  padding: 1em;
-
-}
-
+/* centers text in the button*/
 .cta-button-wrapper {
   display: block;
   text-align: center;
+  margin-top: 1em;
 }
 
+/*Call to action button Styling - positioning, rounded corners, shadow and color styling*/
 .cta-button {
-  position: relative;
-  left: 30em;
-  bottom: 4em;
   border-radius: 1em;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   background-color: var(--color-background-secondary);
   color: var(--color-text-button);
-  display: inline-block;
-  font-size: 1em;
-  padding: 1em 1em;
-  width: auto;
+  padding: 0.4em;
   text-decoration: none;
 }
 
-
-.cta-button-contact {
-  left: 0em;
-  top: 0.5em;
-}
-
-.cta-button:hover {
-  background-color: var(--color-text-secondary);
-  color: var(--color-text);
-}
-
-.cta-button-thearea {
-  left: 0em;
-  top: 0.2em;
-}
-
-.cta-button-barn {
-  left: 25em;
-  top: 10em;
-}
-
-.text-colour {
-
+/* Styling for sub-header in header  */
+.sub-header {
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: 'lato', sans-serif;
   color: var(--color-text-secondary);
 }
 
+/* Styling for background-header in header */
+.background-header {
+  background-color: var(--color-background-primary);
+  color: var(--color-text-secondary);
 
+  padding: 2em;
+  margin-bottom: 1em;
+  border-bottom: 4px solid var(--color-background-secondary);
+  text-transform: uppercase;
+}
 
-
-/*styling for hero image on home page */
-.hero {
-  background-image: url(../images/heroimage1.jpg);
-
-  text-align: center;
-  padding: 30vh 0;
-  background-attachment: fixed;
-  background-size: cover;
-  max-width: 100%;
-  margin: 2.25rem;
+.background-header a {
+  text-decoration: none;
 }
 
 /*Navigation styles*/
 
-
+/* to keep the navbar at the top when the user scrolls down
+i used this tutorial Sticky navbar [Sticky navbar](https://www.w3schools.com/howto/howto_css_sticky_element.asp)*/
 .navbar {
-
   position: sticky;
   top: 0;
   background-color: white;
   z-index: 1;
-
+  color: var(--color-background-primary);
 }
 
-
-
-
-.navbar .selected {
+/* the page on the user is on. name on page pn the navbar is bold */
+.selected {
   font-weight: bold;
-  color: var(--color-background-primary);
 }
 
-a {
-  color: var(--color-background-primary);
-}
-
+/* change text to ,center, hortizonal and remove bullets*/
 .navbar ul {
-  /* change text to ,center, hortizonal and remove bullets*/
   display: flex;
   margin: 0;
   justify-content: center;
@@ -214,14 +152,13 @@ a {
 }
 
 .navbar a {
-  /* added space between links and remove underline*/
+  /* added space between links, changes text to uppercase and remove underline*/
   display: inline-block;
   padding: 1em 1.5em !important;
-
   text-decoration: none;
   letter-spacing: 4px;
   text-transform: uppercase;
-
+  color: var(--color-background-primary);
 }
 
 /* Change the color of links on hover */
@@ -233,17 +170,15 @@ a {
   color: var(--color-background-primary);
 }
 
-
-
 /* Footer */
 footer {
   background-color: var(--color-background-primary);
   color: var(--color-text-secondary);
   border-top: 4px solid var(--color-background-secondary);
   margin-top: 1em;
-
 }
 
+/* i used this website as a tutorial for flex https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 .ft-container {
   flex: 1;
 }
@@ -256,32 +191,38 @@ footer {
   justify-content: center;
 }
 
-.ft-content {
-  margin: 0 auto;
-}
-
+/* center icons horziontal */
 .ft-social {
   display: flex;
   justify-content: center;
 }
 
+/*Centers each element - social icons, address and contact details on footer*/
+.ft-content {
+  margin: 0 auto;
+}
+
+/* removed underline from the link and color attributed*/
 .ft-content a {
   color: var(--color-text-secondary);
+  text-decoration: none
 }
 
+/* removes bullet on list and some styling*/
 .ft-social li {
   margin-right: 2rem;
-  font-size: 1.25rem;
   list-style-type: none;
   color: var(--color-text-secondary);
-
 }
 
+/* removed underline from the link, increase size of font/icon and color attributed*/
 .ft-social li a {
   color: var(--color-text-secondary);
+  text-decoration: none;
   font-size: 2em;
 }
 
+/* Change the color of links on hover and increase in size */
 .ft-main li a i:hover {
   color: var(--color-background-secondary);
   transform: scale(1.5);
@@ -292,21 +233,27 @@ footer {
   transform: scale(2);
 }
 
-/*The barn & the area Styling section */
-.intro-text {
-  max-width: 75%;
-  text-align: justify;
-  margin: 0 auto;
-  padding-bottom: 2em;
+
+/*HOME PAGE - styling for hero image  
+
+Fixed image to full frame, 100% width with some padding*/
+.hero {
+  background-image: url(../images/heroimage1.jpg);
+  text-align: center;
+  padding: 30vh 0;
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 100%;
+  margin: 2.25rem;
 }
 
+/*BARN PAGE STYLING*/
+/* hero image only shown once, centered, with some padding to the top and bottom*/
 .barn-hero {
   background-image: url(../images/church-barn.JPG);
   background-repeat: no-repeat;
   padding: 30vh 0;
-
   background-position: center;
-
 }
 
 /* Explore the barn -styling*/
@@ -317,23 +264,25 @@ footer {
   color: var(--color-text-secondary);
 }
 
+/* i used this website to learn about grid layout ](https://css-tricks.com/snippets/css/complete-guide-grid/)*/
+/* 4 columns with a gap in between*/
 .grid-wrapper-barnfeatures {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /*change1fr 1fr 1fr 1fr;*/
   grid-template-rows: 1fr;
   gap: 2em;
   grid-template-areas:
     "barn-feature1 barn-feature2 barn-feature3 barn-feature4"
 }
 
+/* Styyling about header with colour change and padding*/
 .background-feature-section {
   background: var(--color-background-primary);
   padding: 1em 1em;
   margin: 2em 20em;
 }
 
-
+/* styling to the barn features -aligns the text left, removes bullets, change background colour and a little padding*/
 .barn-feature-list {
   text-align: left;
   list-style-type: none;
@@ -342,7 +291,7 @@ footer {
 
 }
 
-/* for the barn Main section photos and text  */
+/* for the barn Main section photos and text using grid -layout - 3 columns with a gap and some padding */
 .grid-wrapper-barn {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -352,29 +301,32 @@ footer {
   grid-template-areas:
     "lcontent1 rcontent1 lcontent2 "
     "rcontent2 lcontent3 rcontent3 "
-
 }
 
+* centers in the images in the grid with height and width */
 .grid-images {
-
   text-align: center;
   height: 15em;
   width: 30em;
   margin: 0 auto;
-
 }
 
 .p a {
   text-decoration: none;
   list-style-type: none;
+  color: var(--color-background-primary);
 }
 
+/*styling for the text below the images of thebarn*/
 .grid-text {
   color: var(--color-text-secondary);
   font-style: normal;
 }
 
-/* for the area Main section photos and text  */
+/*THE AREA PAGE*/
+
+/* You tube Video -i used the code from this you tube video https://www.youtube.com/watch?v=9YffrCViTVk) */
+
 .iframecontainer {
   position: relative;
   width: 100%;
@@ -400,7 +352,6 @@ footer {
   margin-left: 15%;
   margin-right: 15%;
   margin-bottom: 10%;
-
 }
 
 .videocontainer video,
@@ -413,24 +364,26 @@ footer {
   height: 100%;
 }
 
+/* Styling for the 4 places to go on area page using grid system - 4 column and 2 rows
+this is to center it. the 1st and 4th column are blank so we use 2 and 3*/
 .grid-wrapper-thearea {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
   grid-template-rows: 1fr 1fr;
   padding-top: 2em;
   gap: 1em;
-
   grid-template-areas:
     ". lcontent1 rcontent1 ."
     ". lcontent2 rcontent2 ."
 }
 
+/* remove underline and change text colour*/
 .thearea-links>a {
   text-decoration: none;
   color: var(--color-text-secondary);
 }
 
+/* changes the size of the icons on the area page and color*/
 .thearea-icons {
   font-size: 10rem;
   color: var(--color-text-secondary);
@@ -439,9 +392,10 @@ footer {
 /* Change the color of links on hover */
 .thearea-links a:hover {
   background-color: var(--color-background-secondary);
-  color: var(--color-background-primary)
+  color: var(--color-background-primary);
 }
 
+/*Defines the grid template by referencing the names of the grid areas which are specified with the grid-area property above in barn features*/
 div.barn-feature1 {
   grid-area: barn-feature1;
 }
@@ -482,6 +436,11 @@ div.rcontent3 {
   grid-area: rcontent3;
 }
 
+/* CONTACT US FORM */
+
+.contactus-text {
+  padding: 1em;
+}
 /* Style inputs, select elements and textareas */
 input[type=text],
 input[type=email],
@@ -507,7 +466,6 @@ label {
 }
 
 /* Style the submit button */
-
 input[type=submit],
 input[type=reset] {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
@@ -519,21 +477,18 @@ input[type=reset] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-
   text-transform: uppercase;
 }
 
+/* align the buttons within the container */
 .btn-group {
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }
 
-
-
-/* Style the container */
+/* Style the container of the enquiry form*/
+/* I used the following tutorial for the Responsive Contact us form ( https://www.w3schools.com/howto/howto_css_responsive_form.asp)*/
 .contact-wrapper {
   box-shadow: 0 0 20px var(--color-text);
   box-sizing: border-box;
@@ -543,18 +498,16 @@ input[type=reset] {
   border-radius: 5px;
   width: 40%;
   margin: 0 auto;
-
-
 }
 
-/* Floating column for labels: 25% width */
+/* column for labels: 25% width */
 .col-25 {
   float: left;
   width: 25%;
   margin-top: 6px;
 }
 
-/* Floating column for inputs: 75% width */
+/* column for inputs: 75% width */
 .col-75 {
   float: left;
   width: 75%;
@@ -568,59 +521,61 @@ input[type=reset] {
   clear: both;
 }
 
+/* change colours when user hovers over button*/
 input[type=reset]:hover {
-
   background-color: var(--color-text-secondary);
   color: var(--color-background-button)
 }
 
+/* change colours when user hovers over button*/
 input[type=submit]:hover {
-
   background-color: var(--color-text-secondary);
   color: var(--color-background-button)
 }
+
+/*SUBMIT FORM*/
+/* logo padding for submit form */
+.logo {
+  display: block;
+  margin: 4em auto;
+  width: 50%;
+}
+
 
 /*Media Queries */
-/* For medium screen sizes from 1600px wide and down */
+/* For Large screen sizes with a  1600px wide and down */
 @media only screen and (max-width: 1600px) {
   .background-feature-section {
     margin: 2em 6em;
-
   }
 }
 
 /*Media Queries */
-/* For medium screen sizes from 1300px wide and down */
+/* For large screen sizes from 1300px wide and down */
 
 @media only screen and (max-width: 1300px) {
   .contact-wrapper {
-
     width: 60%;
-
   }
+
   .logo {
     margin: 3em auto;
-
-}
-
-
+  }
 }
 
 /*Media Queries */
 /* For medium screen sizes from 1200px wide and down */
-
 @media only screen and (max-width: 1200px) {
   .cta-button {
     left: 0em;
     bottom: 0em;
   }
 
-
   .background-section-dark {
     margin: 2em 5em;
-
   }
 
+  /* changes the grid from 4 columns to 2*/
   .grid-wrapper-barnfeatures {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 1fr;
@@ -631,9 +586,9 @@ input[type=submit]:hover {
 
   .background-feature-section {
     margin: 2em 1em;
-
   }
 
+  /* changes the grid from 4 columns to 2*/
   .grid-wrapper-barn {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
@@ -642,6 +597,7 @@ input[type=submit]:hover {
       "lcontent3 rcontent3"
   }
 
+  /* changes the grid from 4 columns to 2*/
   .grid-wrapper-thearea {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
@@ -650,9 +606,8 @@ input[type=submit]:hover {
   }
 }
 
-
-
-
+/*Media Queries */
+/* For medium screen sizes from 900px wide and down */
 @media only screen and (max-width: 900px) {
   .ft-main {
     justify-content: space-around;
@@ -661,8 +616,8 @@ input[type=submit]:hover {
     text-align: center;
   }
 
+  /* reduce font size*/
   .ft-social li a {
-
     font-size: 1em;
   }
 
@@ -674,8 +629,7 @@ input[type=submit]:hover {
     padding: 0px 1em !important;
   }
 
-
-
+  /* changes the grid from 2 columns to 1*/
   .grid-wrapper-barn {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
@@ -687,6 +641,7 @@ input[type=submit]:hover {
       "rcontent3"
   }
 
+  /* changes the grid from 2 columns to 1*/
   .grid-wrapper-thearea {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
@@ -694,6 +649,7 @@ input[type=submit]:hover {
       "lcontent2 rcontent2"
   }
 
+  /*contact us form change attribute to 100% width*/
   .col-25,
   .col-75,
   input[type=submit] {
@@ -701,23 +657,24 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 
+  /*width of the contact form on the page set to 90%*/
   .contact-wrapper {
-
     width: 90%;
 
   }
-
+/*styling for the buttons*/
   input[type=submit],
   input[type=reset] {
     width: auto;
     padding: 12px 20px;
     margin-right: 0px;
-
   }
 
-  
+
 }
 
+/*Media Queries */
+/* For small screen sizes from 640px wide and down */
 @media only screen and (max-width: 640px) {
   .main-head {
     font-size: 0.75rem;
@@ -731,9 +688,9 @@ input[type=submit]:hover {
     padding: 0em 0.5em !important;
   }
 
+  /* Barn features -grid layout from 2 colums to 1*/
   .grid-wrapper-barnfeatures {
     grid-template-columns: repeat(1, 1fr);
-
     grid-template-areas:
       "barn-feature1"
       "barn-feature2"
@@ -741,6 +698,7 @@ input[type=submit]:hover {
       "barn-feature4"
   }
 
+    /* The area grid layout from 2 colums to 1*/
   .grid-wrapper-thearea {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
@@ -754,21 +712,19 @@ input[type=submit]:hover {
   .logo {
     margin: 4em auto;
 
+  }
 }
 
+/*Media Queries */
+/* For small screen sizes from 400px wide and down */
 @media only screen and (max-width: 400px) {
+  /*change width from 30 to 20em */
   .grid-images {
     width: 20em;
-
   }
 
+  /*reduce font-size of navbar to ensure it shows on small devices*/
   .navbar {
     font-size: 70%;
   }
-
-  /* logo padding for submit form */
-  /*.logo {
-    padding:0em 2em;*/
-}
-
 }

@@ -85,6 +85,7 @@ h1 {
   display: block;
   text-align: center;
   margin-top: 1em;
+  margin-bottom:1em;
 }
 
 /*Call to action button Styling - positioning, rounded corners, shadow and color styling*/
@@ -95,6 +96,11 @@ h1 {
   color: var(--color-text-button);
   padding: 0.4em;
   text-decoration: none;
+}
+/* Change the color of links on hover */
+.cta-button:hover {
+  background-color:var(--color-text-secondary);
+  color: var(--color-text-button);
 }
 
 /* Styling for sub-header in header  */
@@ -303,7 +309,7 @@ Fixed image to full frame, 100% width with some padding*/
     "rcontent2 lcontent3 rcontent3 "
 }
 
-* centers in the images in the grid with height and width */
+/* centers in the images in the grid with height and width */
 .grid-images {
   text-align: center;
   height: 15em;

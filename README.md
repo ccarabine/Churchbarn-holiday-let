@@ -161,7 +161,11 @@ I used <a href="https://balsamiq.com/">Balsamiq</a> to create wireframes for my 
 
 A coastal palette has been chosen to correlate and appear aesthetically pleasing against the coastal/property imagery. The relevance of the coastal colour palette will appeal to all demographics and users and invoke positive first impressions/associations/emotions. 
 
+![ Colour palette](assets/uxd/color-palette-v2.PNG)
+
 ![ Colour palette](assets/uxd/color-palette.PNG)
+
+
 
 
 ### 2. Typography <a name="typography"></a>

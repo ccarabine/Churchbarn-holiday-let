@@ -29,8 +29,8 @@
 </head>
 
 <body>
-       <!-- Header with clickable link back to home page -->
-       <header class="main-head">
+    <!-- Header with clickable link back to home page -->
+    <header class="main-head">
         <div class="background-header">
             <a href="index.html" aria-label="Home page">
                 <h1>Church Barn Holiday Cottage</h1>
@@ -38,7 +38,7 @@
             <h2 class="sub-header">Perranuthnoe, Cornwall</h2>
         </div>
     </header>
-    
+
     <!-- Nav bar -->
     <nav class="navbar">
         <ul>
@@ -51,8 +51,7 @@
 
     </nav>
 
-
-
+    <!--Section Introduction to the area-->
     <section class="intro-text">
         <p> Perranuthnoe sits on Mounts Bay, a stunning stretch of coast, home to some of the area’s most iconic
             beaches, seaside towns, walks and attractions. The bay stretches from Lizard Point to Gwennap Head on
@@ -60,25 +59,23 @@
             eateries, and pubs, providing a plethora of options to refresh and fuel, catering to all budgets and
             tastes.
         </P>
-
     </section>
 
-
+    <!--Section Video of West Cornwall muted when loaded-->
     <section>
         <div class="iframecontainer">
             <iframe src="https://www.youtube.com/embed/D1Im2tWWNfs?showinfo=0&rel=0&autohide=0&mute=1" width="560"
                 height="315"></iframe>
         </div>
-
     </section>
 
+    <!--Main section - Heading Useful Links, 4 sections using grid layout displayiig places to go with clickable links to the website and location displayed. Aria labels noted-->
     <main>
         <h1 class="titles background-section">Useful links</h1>
         <div class="grid-wrapper-thearea">
-
             <div class="lcontent1 background-section">
                 <h2 class="titles">Attractions</h2>
-                <div class="thearea-icons"> <i class="fas fa-map-marked-alt"></i>
+                <div class="thearea-icons"> <i aria-hidden="true" class="fas fa-map-marked-alt" title="Map icon"></i>
                 </div>
                 <div class="thearea-links"><a href="https://www.nationaltrust.org.uk/st-michaels-mount"
                         aria-label="St Michaels Mount page" target="_blank">St Michael's Mount
@@ -93,11 +90,10 @@
                         Gweek</span>
                 </div>
             </div>
-
             <div class="rcontent1 background-section">
-
                 <h2 class="titles">Food</h2>
-                <div class="thearea-icons"><i class="fas fa-utensils"></i>
+                <div class="thearea-icons"><i aria-hidden="true" class="fas fa-utensils"
+                        title="Food & drink icon-utentsils"></i>
                 </div>
                 <div class="thearea-links" aria-label="Victoria Inn page"><a
                         href="http://www.victoriainn-penzance.co.uk" target="_blank">Victoria
@@ -113,12 +109,10 @@
                         Stein</a> <span class="text-colour"> Porthleven</span>
                 </div>
             </div>
-
             <div class="lcontent2 background-section">
                 <h2 class="titles">Beaches</h2>
-                <div class="thearea-icons"><i class="fa fa-umbrella-beach"></i>
+                <div class="thearea-icons"><i aria-hidden="true" class="fa fa-umbrella-beach" title="Umbrella Icon"></i>
                 </div>
-
                 <div class="thearea-links"><a
                         href="https://www.cornwallbeachguide.co.uk/westcornwall/perranuthnoe/perranuthnoe.htm"
                         target="_blank" aria-label="Perranuthnoe page">Perranuthnoe Beach</a> <span
@@ -132,13 +126,11 @@
                     <a href="https://www.cornwallbeachguide.co.uk/westcornwall/sennen/sennen.htm" target="_blank"
                         aria-label="Sennen Beach page">Sennen
                         Beach</a> <span class="text-colour"> Sennen</span><br />
-
                 </div>
             </div>
-
             <div class="rcontent2 background-section">
                 <h2 class="titles">Activities</h2>
-                <div class="thearea-icons"><i class="fas fa-hiking"></i></div>
+                <div class="thearea-icons"><i aria-hidden="true" class="fas fa-hiking" title="Hiking icon"></i></div>
 
                 <div class="thearea-links">
                     <a href="http://www.pastyadventures.co.uk" target="_blank"
@@ -152,17 +144,14 @@
                         Sightings</a> <span class="text-colour"> Cornwall</span><br />
                     <a href="http://cornwallboattrips.co.uk" target="_blank" aria-label="Fishing trips page">Fishing
                         Trips</a> <span class="text-colour">Penzance</span>
-
                 </div>
-
             </div>
         </div>
+        <!-- call to action button for user to click and directed to contact us page -->
         <span class="cta-button-wrapper">
             <a class="cta-button cta-button-thearea" href="contactus.html" aria-label="Contactus page">Book Now</a>
         </span>
     </main>
-
-
 
     <!--footer -->
     <footer class="ft-container">
@@ -183,7 +172,6 @@
             </div>
             <div class="ft-content">
                 <!-- display Address on the center of the footer-->
-
                 <p>Church Barn, Perranuthnoe</p>
                 <p>Penzance, TR20 9NR </p>
             </div>
@@ -195,7 +183,6 @@
             </div>
         </div>
     </footer>
-
 
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>

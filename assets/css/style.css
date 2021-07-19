@@ -75,7 +75,7 @@ h1 {
   padding: 2em;
   margin-bottom: 1em;
   border-bottom: 4px solid var(--color-background-secondary);
- 
+
 }
 
 a {
@@ -95,11 +95,15 @@ a {
 }
 
 .titles {
-  
+
   font-family: 'lato', sans-serif;
   color: var(--color-text-secondary);
   padding-bottom: 0.5em;
   padding-top: 0.5em;
+}
+/* logo padding for submit form */
+.logo {
+  padding:10em 34em;;
 }
 
 .contactus-text {
@@ -234,7 +238,7 @@ footer {
   color: var(--color-text-secondary);
   border-top: 4px solid var(--color-background-secondary);
   margin-top: 1em;
-  
+
 }
 
 .ft-container {
@@ -433,7 +437,6 @@ footer {
 .thearea-links a:hover {
   background-color: var(--color-background-secondary);
   color: var(--color-background-primary)
-
 }
 
 div.barn-feature1 {
@@ -592,6 +595,11 @@ input[type=submit]:hover {
     width: 60%;
 
   }
+  /* logo padding for submit form */
+.logo {
+  padding:8em 28em;;
+}
+
 }
 
 /*Media Queries */
@@ -636,6 +644,11 @@ input[type=submit]:hover {
       "lcontent1 rcontent1"
       "lcontent2 rcontent2"
   }
+}
+
+/* logo padding for submit form */
+.logo {
+  padding:8em 20em;;
 }
 
 
@@ -700,6 +713,10 @@ input[type=submit]:hover {
     margin-right: 0px;
 
   }
+  /* logo padding for submit form */
+.logo {
+  padding:10em 16em;;
+}
 }
 
 @media only screen and (max-width: 640px) {
@@ -733,7 +750,10 @@ input[type=submit]:hover {
       "lcontent2"
       "rcontent2"
   }
-
+  /* logo padding for submit form */
+  .logo {
+    padding:5em 10em;
+  }
 
 }
 
@@ -746,4 +766,9 @@ input[type=submit]:hover {
   .navbar {
     font-size: 70%;
   }
+   /* logo padding for submit form */
+   .logo {
+    padding:2em 6em;;
+  }
+
 }

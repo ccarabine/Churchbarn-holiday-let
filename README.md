@@ -84,7 +84,7 @@ The goal is to build an intuitive and responsive website, achieving the followin
 * Increase online presence and potentially eliminate the need for external 3rd party letting marketplace in the long term/future, managing all bookings, eliminating all agency fees/commission, increase profitability and take full control of Church Barn brand. 
 
 ### Customer Goals
-* Clear and simple layout so the user can easily  find and view information about the property
+* Clear and simple layout so the user can easily find and view information about the property
 * Easy to navigate
 * Easy to find contact details to get in touch
 
@@ -112,7 +112,7 @@ To achieve the strategy goals, I want to implement the following functional spec
 * A navbar fixed at the top centre of the screen which will allow the user to easily navigate and find the relevent pages
 * A footer to display links to the social media, address and contact details
 * A home page that will invoke a position emotion responce when viewing the hero image
-* A page all about the property, with key features, images of rooms and describtion
+* A page all about the property, with key features, images of rooms and description
 * A page about the area with video and links to places to go
 * A contact page which will allow the user to get in contact with the owner
 
@@ -212,7 +212,7 @@ Please refer to further details in credits section for specific images used with
 
 
 ## Current Features (short term objectives): <a name="features-current"></a>
----
+
 ## Main Structure -Header, navigation bar and footer
 Featured on all four pages. 
 * Value: Consistency/aesthetically pleasing
@@ -235,10 +235,10 @@ See below the view on all devices :
 
 * The navbar section is fully responsive. It includes links to home page, the barn, the area, and contact page and is identical on each page to allow for easy navigation.
 * All elements and interactive features are consistent, both in colouring and theming.
-* Header and navbar text reduce on mobile devices to ensure it fits on the screen.
+* Navbar text reduce on mobile devices to ensure it fits on the screen.
 * Feedback – when the cursor hovers over a link, the link will highlight show a border-top line in an color-line (var).
 * Visited and unvisited links will be the same text colour (var) to ensure consistency throughout.
-* Clickable links will highlight in the active colour(var) 
+* Clickable links will highlight in the color-background-primary
 * Active page, the link colour will be in bold.
 
 * Value: The navbar will allow user to easily navigate from page to page, across all devices, eliminating need to use a ‘back button’.
@@ -259,8 +259,7 @@ See below the view on all devices :
 * On mobile devices - the social media links/address/contact details will stack on top of each other.
 * Social media links will open in a separate page.
 * The email address when clicked will open the email browser
-* Feedback – When the cursor hovers over social media symbols, the symbols will highlight in the hover colour(var).
-* Clickable social media links will highlight in the active colour(var) and increase in size
+* Feedback – When the cursor hovers over social media icons, the symbols will in the var(--color-background-secondary and increase in size
 
 * Value: It is crucial to display contact details on footer section for optimized UX and is industry standard. UX across multiple devices will be consistent.
 
@@ -307,7 +306,8 @@ See below the difference between desktop and mobile view:
 ### Mobile
 ![Barn description and image on small devices](assets/uxd/barnhero-intro-smalldevice.PNG)
 
-* Barn Feature List of key features 
+## Barn Feature List of key features 
+* List of Features
 
 ### Desktop
 ![Barn features on large devices](assets/uxd/barnfeatures-largedevice.PNG)
@@ -317,6 +317,9 @@ See below the difference between desktop and mobile view:
 
 ### Mobile
 ![ Barn features on small devices](assets/uxd/barnfeatures-smalldevice.PNG)
+
+
+## Photos of rooms and description
 
 * Six Images and description of the property – kitchen area, living area, bedroom 1, bedroom 2, outdoors and a ‘short stroll away…’.
 
@@ -366,10 +369,10 @@ See below the difference between desktop, tablet and mobile view:
 
 ## Features unique to Contact Us page.
 
-* A contact form with 9 data field inputs, ‘first name’, ‘surname’, ‘email address’, ‘telephone number’,’ number of adults’, ‘number of children’, ‘arrival date’, ‘departure date’, ‘message’ and a submit button and reset button underneath.
+* A contact form with 9 data field inputs, ‘first name’ , ‘surname’ , ‘email address’ , ‘telephone number’ , ’ number of adults’ , ‘number of children’ , ‘arrival date’ , ‘departure date’ , ‘message’ and a submit button and reset button underneath.
 * The contact form is responsive on mobile devices and reduces in height and width as well as the buttons.
 * Feedback - When the cursor hovers over ‘submit’ /’reset’ the links will highlight in the hover colour(var)
-* When clicking on ‘submit’ /’reset’ links, they will highlight in the active colour(var) and repositions button down by 4px
+* When clicking on ‘submit’ /’reset’ links, they will highlight with the following properties background-color: var(--color-text-secondary) and color: var(--color-background-button) 
 
 * Value: This section will allow the user to complete CTA by submitting an enquiry/booking to owner, providing the owner with all the information initially required to connect with user. UX will be consistent on all devices. 
 
@@ -425,11 +428,13 @@ I received the following constructive feedback from friends and family and imple
 
 1.) Colour palette contrast - the blue text on the pale blue background wasn’t easy to see
 
-* Corrective action: change colour palette 
+* Corrective action: changed colour palette  to
+
+![ Colour palette](assets/uxd/color-palette-v2.PNG)
 
 2.) Header
 
-a.) when user tried to click on the header ‘Church Barn’, it did not take the user to the home page, which the user expected.
+a.) When user tried to click on the header ‘Church Barn’, it did not take the user to the home page, which the user expected.
 
 * Corrective action: added a href to the Church Barn text and linked to ‘index.html’
 
@@ -437,11 +442,11 @@ b.) Was not immediately obvious that the home page was a holiday let.
 
 * Corrective action: Changed heading to Church Barn Holiday Cottage
 
-3.) Navbar – when the user scrolled down the page, they needed to scroll all the way back up to use navbarto select another page.
+3.) Navbar – When the user scrolled down the page, they needed to scroll all the way back up to use the navbar in order to select another page.
 
 * Corrective action: I made the navbar sticky, so navbar will always stay in position at the top of the page
 
-4.) The Barn page – The image used on the ‘A short stroll away’ page was incorrect and was a duplication of the ‘outdoors’
+4.) The Barn page – The image used on the ‘A short stroll away’ page was incorrect and was a duplication of the ‘outdoors’ image
 
 * Corrective action: adjusted code to reference the correct image for the ‘A short stroll away’
 
@@ -459,11 +464,11 @@ c.) The video played sound automatically when loaded, rather than on mute.
 
 * Corrective action: adjusted code to incorporate mute and video controls.
 
-d.) Falmouth packet restaurant website was removed
+d.) Falmouth packet restaurant website was removed, which displayed an error.
 
 * Changed to another restaurant 24 Street
 
-e.) Rick stein restaurant ceased trading, website address removed
+e.) Rick Stein restaurant ceased trading, website address removed which displayed an error.
 
 * Changed to another restaurant Artist Residence
 
@@ -495,7 +500,7 @@ e.) When user submitted the enquiry from, there was a warning notification to ad
 
 f.) The text/paragraph above the enquiry form was touching the enquiry form
 
-* Corrective action: added a class.contactus-text to add padding, and therefore a space between the text and enquiry form
+* Corrective action: added a class contactus-text to add padding, and therefore a space between the text and enquiry form
 
 g.) The enquiry form overflowed the page horizontally on the mobile site 
 
@@ -566,9 +571,9 @@ I used [W3C HTML Validator](https://validator.w3.org/) code checking tool to val
 ## Pages initally came up with the following errors:
 
 ### Index.html
-1.) Error- Stray end tag i   -  </i></i>
+1.) Error- Stray end tag i   -  < /i>< /i>
 
-* Corrective action - removed extra </i> from pages
+* Corrective action - removed extra "< /i >" from pages
 
 No Errors outstanding
 
@@ -658,8 +663,9 @@ When it comes to website accessibility, the contrast between the text and the te
 This color contrast tool enables users to comply with website accessibilities regulations.
 
 ## Testing
-
+![ Colour palette](assets/uxd/color-palette.PNG)
 Website colour palette was tested for contrast accessibility validation and failed, cololour contrast issues were found:
+
 
 1. FAILED
 
@@ -801,8 +807,8 @@ I have also utilised the following frameworks  and tools:
 * [GitHub](https://www.github.com/): GitHub has been used to create a repository to host the project and receive updated commits from GitPod.
 * [Balsamiq](https://balsamiq.com/): I used Balsamiq to create the wireframe for the website for the basic structure and layout.
 * [Google Fonts](https://getbootstrap.com/): I have used Google Fonts to import fonts for styling purposes for this project.
-* [Font Awesome](https://fontawesome.com/): Font Awesome was used to apply icons in the Home, Exercises and Footer sections.
-* [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools): Chrome Dev Tools was used to test the site, assist with debugging issues and run reports from Lighthouse.
+* [Font Awesome](https://fontawesome.com/): Font Awesome was used to apply icons in the Footer and the area sections.
+* [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools): Chrome Dev Tools was used to test the site and assist with debugging issues.
 * [W3C Markup Validation Service](https://validator.w3.org/): The W3C Markup Validation Service was used to validate the HTML document for this project and to identify any issues with the code.
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): The W3C CSS Validation Service was used to validate the CSS document for this project and to identify any issues with the code.
 * [Am I Responsive](http://ami.responsivedesign.is/): Am I Responsive was used to create the header image for the README file.
@@ -813,15 +819,12 @@ I have also utilised the following frameworks  and tools:
 ---
 # Credits <a name="credits"></a>
 
-
-## Content
-
 ## Media
 The photos used on the home and the barn pages were taken by the owners
 
 The icons in the footer were taken from Font Awesome
 
-The photos taken for the barn page were taken from [Aspects website](https://www.aspects-holidays.co.uk/cornwall/west-cornwall/perranuthnoe/p/church-barn)  aspects webpage(my project is not a commerical site, so i didn't need permission to use)
+The photos taken for the barn page were taken from [Aspects website](https://www.aspects-holidays.co.uk/cornwall/west-cornwall/perranuthnoe/p/church-barn)  (my project is not a commerical site, so i didn't need permission to use)
 
 I used West Cornwall video [West Cornwall video](https://www.youtube.com/embed/D1Im2tWWNfs)
 
@@ -830,25 +833,26 @@ I took inspiration from this beach colour palete for my colours [color palette](
 I took inspiration from https://www.simpsontravel.com/ for the hover- border top feedback on the navbar 
 
 ## Code
-i used the following websites and videos for inspiration and code for my project
+I used the following websites and videos for inspiration and code for my project
 
-Responsive webpages [https://www.youtube.com/watch?v=zyNhxN6sToM](Coding a responsive webpage from start to finish)
+Responsive webpages [Responsive webpages](https://www.youtube.com/watch?v=zyNhxN6sToM)
 
-Responsive You tube video [Responsive You tube video](  https://www.youtube.com/watch?v=9YffrCViTVk) 
+Responsive You tube video [Responsive You tube video](https://www.youtube.com/watch?v=9YffrCViTVk) 
+
+Responsive Contact us form [Responsive Contact us form](https://www.w3schools.com/howto/howto_css_responsive_form.asp)
 
 Grid [grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
+Flexbox [Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 Sticky navbar [Sticky navbar](https://www.w3schools.com/howto/howto_css_sticky_element.asp)
-
-Responsive Contact us form [Responsive Contact us form]( https://www.w3schools.com/howto/howto_css_responsive_form.asp)
-
-
 
 ## Acknowledgements <a name="acknowledgements"></a>
 A big thank you to my mentor Maria for her help and guidance throughout my first project
-Thank you 
-    to wife for her help and constructive feedback throughout the project
-    my father-in-law, owner of church barn supplying some of the images and copy.
-    the tutors for help and support
+
+Thank you to to the following:
+* My wife for her help and constructive feedback throughout the project. 
+* My father-in-law, owner of church barn in supplying some of the images and copy.
+* The tutors for help and support.
 
 ***

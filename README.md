@@ -44,7 +44,7 @@ Image from  <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, to di
 
 3. [Testing](#testing)
     * [User Stories Testing](#user-feedback)
-    * [Testing Check List ](#testin-check-list)
+    * [Testing Check List ](#testing-check-list) 
     * [Validation Testing -HTML ](#validation-testing-html)
     * [Validation Testing -CSS ](#validation-testing-css)
     * [Validation Testing -A11y Color Contrast Accessibility](#validation-testing-A11y)
@@ -236,9 +236,9 @@ See below the view on all devices :
 * The navbar section is fully responsive. It includes links to home page, the barn, the area, and contact page and is identical on each page to allow for easy navigation.
 * All elements and interactive features are consistent, both in colouring and theming.
 * Navbar text reduce on mobile devices to ensure it fits on the screen.
-* Feedback – when the cursor hovers over a link, the link will highlight show a border-top line in an color-line (var).
+* Feedback – when the cursor hovers over a link, the link will highlight show a border-top line in an color-background-secondary.
 * Visited and unvisited links will be the same text colour (var) to ensure consistency throughout.
-* Clickable links will highlight in the color-background-primary
+* Clickable links will highlight in the color-background-secondary
 * Active page, the link colour will be in bold.
 
 * Value: The navbar will allow user to easily navigate from page to page, across all devices, eliminating need to use a ‘back button’.
@@ -371,7 +371,7 @@ See below the difference between desktop, tablet and mobile view:
 
 * A contact form with 9 data field inputs, ‘first name’ , ‘surname’ , ‘email address’ , ‘telephone number’ , ’ number of adults’ , ‘number of children’ , ‘arrival date’ , ‘departure date’ , ‘message’ and a submit button and reset button underneath.
 * The contact form is responsive on mobile devices and reduces in height and width as well as the buttons.
-* Feedback - When the cursor hovers over ‘submit’ /’reset’ the links will highlight in the hover colour(var)
+* Feedback - When the cursor hovers over ‘submit’ /’reset’ the links will highlight in the hover background-color: var(--color-text-secondary) and color: var(--color-background-button) 
 * When clicking on ‘submit’ /’reset’ links, they will highlight with the following properties background-color: var(--color-text-secondary) and color: var(--color-background-button) 
 
 * Value: This section will allow the user to complete CTA by submitting an enquiry/booking to owner, providing the owner with all the information initially required to connect with user. UX will be consistent on all devices. 
@@ -431,6 +431,10 @@ I received the following constructive feedback from friends and family and imple
 * Corrective action: changed colour palette  to
 
 ![ Colour palette](assets/uxd/color-palette-v2.PNG)
+
+As i used variables it was easy to implement
+
+![ Colour palette](assets/uxd/color-palette-css-v2.PNG)
 
 2.) Header
 
@@ -507,58 +511,82 @@ g.) The enquiry form overflowed the page horizontally on the mobile site
 * Corrective action: changed the width of the wrapper on media queries so the form did not overflow 
 
 ---
-# Testing Check list <a name="testing-check-list"></a> [Contents](#home)
+# My testing Check list <a name="testing-check-list"></a> [Contents](#home)
 
+## I Checked all the following features to ensure they worked
 
 ## Main Structure -Header, navigation bar and footer featured on all four pages. 
-*  Consistency/aesthetically pleasing - PASS
+&#x2611;    Consistency/aesthetically pleasing 
 
 ## Header 
-* At the top centre of the page. This section will let the user know the site they are visiting and the location. -PASS
+&#x2611;    At the top centre of the page. This section will let the user know the site they are visiting and the location. 
 
 
 ## Navigation bar
 
-* The navbar section is fully responsive. It includes links to home page, the barn, the area, and contact page and is identical on each page to allow for easy navigation. -PASS
-* All elements and interactive features are consistent, both in colouring and theming. - PASS
-* Header and navbar text reduce on mobile devices to ensure it fits on the screen. - PASS
-* Feedback – when the cursor hovers over a link, the link will highlight show a border-top line in an color-line (var). - PASS
-* Visited and unvisited links will be the same text colour (var) to ensure consistency throughout. - PASS
-* Clickable links will highlight in the active colour(var) -PASS
-* Active page, the link colour will be in bold. -PASS
+&#x2611;    The navbar section is fully responsive. It includes links to home page, the barn, the area, and contact page and is identical on each page to allow for easy navigation. 
+
+&#x2611;    All elements and interactive features are consistent, both in colouring and theming. 
+
+&#x2611;    Header and navbar text reduce on mobile devices to ensure it fits on the screen. 
+
+&#x2611;    Feedback – when the cursor hovers over a link, the link will highlight show a border-top line in an colour -background-secondary. 
+
+&#x2611;    Visited and unvisited links will be the same  colour-text (var) to ensure consistency throughout. 
+
+&#x2611;    Clickable links will highlight in the colour-background secondary 
+
+&#x2611;    Active page, the link colour will be in bold. 
 
 
 ## Footer 
-* The footer is at the bottom of the page, consistent with industry standard. -PASS
-* On desktops and tablets – the footer will be in three sections with social media links on the left, address in the centre and contact details on the right. -PASS
-* On mobile devices they will the social media links/address/contact details stack on top of each other.  -PASS
-* Social media links will open in a separate page. - PASS
-* The email address when clicked will open the email browser -PASS
-* Feedback – When the cursor hovers over social media symbols, the symbols will highlight in the hover colour(var). PASS
-* Clickable social media links will highlight in the active colour(var) and increase in size -PASS
+&#x2611;    The footer is at the bottom of the page, consistent with industry standard. 
+
+&#x2611;    On desktops and tablets – the footer will be in three sections with social media links on the left, address in the centre and contact details on the right. 
+
+&#x2611;    On mobile devices they will the social media links/address/contact details stack on top of each other. 
+
+&#x2611;    Social media links will open in a separate page.
+
+&#x2611;    The email address when clicked will open the email browser.
+
+&#x2611;    Feedback – When the cursor hovers over social media symbols, the symbols will highlight in the hover colour -text-secondary. 
+
+&#x2611;    Clickable social media links will highlight in the colour -text-secondary and increase in size. 
 
 
 ## Features unique to Home Page
-* Main page will have a large ‘hero’ image to invoke a positive emotional response. -PASS
-* The call to action (CTA) will be prominent to invoke users to book/enquire. - PASS
+
+&#x2611;    Main page will have a large ‘hero’ image to invoke a positive emotional response. 
+
+&#x2611;    The call to action (CTA) will be prominent to invoke users to book/enquire. 
 
 ## Features unique to ‘The Barn’ Page
-* Description of the property -PASS
-* ‘Hero’ Image -PASS
 
-* Six Images and description of the property – kitchen area, living area, bedroom1, bedroom2, outdoors and a ‘short stroll away…’. -PASS
+&#x2611;    Description of the property 
+
+&#x2611;    ‘Hero’ Image 
+
+&#x2611;    Six Images and description of the property – kitchen area, living area, bedroom1, bedroom2, outdoors and a ‘short stroll away…’. 
 
 ## Features unique to ‘The Area’ Page 
-* Overview/introduction to the area  -PASS
-* Video, introducing South West Cornwall -user initiates controls such as sound/play and will be fully responsive on all devices (80% width and height) -PASS
-* Four headings (Attractions, Food, Beaches and Activities) with a ‘icon’ images and clickable links relating to the subject with CTA -PASS
+
+&#x2611;    Overview/introduction to the area
+
+&#x2611;    Video, introducing South West Cornwall -user initiates controls such as sound/play and will be fully responsive on all devices (80% width and height)
+
+&#x2611;    Four headings (Attractions, Food, Beaches and Activities) with a ‘icon’ images and clickable links relating to the subject with CTA 
 
 ## Features unique to 'Contact' Page
 
-* A contact form with 9 data field inputs, ‘first name’, ‘surname’, ‘email address’, ‘telephone number’,’ number of adults’, ‘number of children’, ‘arrival date’, ‘departure date’, ‘message’ and a submit button and reset button underneath.-PASS
-* The contact form is responsive on mobile devices and reduces in height and width as well as the buttons.-PASS
-* Feedback - When the cursor hovers over ‘submit’ /’reset’ the links will highlight  -PASS
-* When clicking on ‘submit’ /’reset’ links, they will highlight and repositions button down by 4px -PASS
+&#x2611;    A contact form with 9 data field inputs, ‘first name’, ‘surname’, ‘email address’, ‘telephone number’,’ number of adults’, ‘number of children’, ‘arrival date’, ‘departure date’, ‘message’ and a submit button and reset button underneath.
+
+&#x2611;    The contact form is responsive on mobile devices and reduces in height and width as well as the buttons.
+
+&#x2611;    Feedback - When the cursor hovers over ‘submit’ /’reset’ the links will highlight  
+
+&#x2611;    When clicking on ‘submit’ /’reset’ links, they will highlight and repositions button down by 4px 
+
 
 
 
@@ -664,6 +692,7 @@ This color contrast tool enables users to comply with website accessibilities re
 
 ## Testing
 ![ Colour palette](assets/uxd/color-palette.PNG)
+
 Website colour palette was tested for contrast accessibility validation and failed, cololour contrast issues were found:
 
 
@@ -779,7 +808,27 @@ For each section on each page, I tested various screen sizes in the development 
 
 # Unfixed Bugs
 
-* No Bugs left to fix
+Just before i was about to submit my project, i noticed the following errors:
+
+1.) The sticky navbar was not working
+
+Corrective action:
+
+I look thought this article <a href="https://www.designcise.com/web/tutorial/how-to-fix-issues-with-css-position-sticky-not-working"> Sticky-not-working</a> and tried different solutions which didn't work
+
+I then went through previous commits and seen that i moved the navbar class within the header. 
+
+* Moved navbar class out of the header and it worked
+
+2.) Submit-form.html - the holiday cottage was pixelated in desktop view
+
+Corrective action:
+
+* Changed image to "hero" image and put the thank you text on top of the image
+
+I used <a href="https://www.w3schools.com/howto/howto_css_image_text.asp"> w3-school-text_over_image</a> to learn how to.
+
+## No Bugs left to fix
 
 
 

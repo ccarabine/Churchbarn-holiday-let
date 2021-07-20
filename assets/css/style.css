@@ -553,7 +553,21 @@ input[type=submit]:hover {
   width: 50%;
 }
 
-
+.submit-form-container{
+  position: relative;
+  text-align:top;
+ ;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  font-size:90%;
+  color: black;
+}
 /*Media Queries */
 /* For Large screen sizes with a  1600px wide and down */
 @media only screen and (max-width: 1600px) {

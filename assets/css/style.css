@@ -85,7 +85,7 @@ h1 {
   display: block;
   text-align: center;
   margin-top: 1em;
-  margin-bottom:1em;
+  margin-bottom: 1em;
 }
 
 /*Call to action button Styling - positioning, rounded corners, shadow and color styling*/
@@ -97,9 +97,10 @@ h1 {
   padding: 0.4em;
   text-decoration: none;
 }
+
 /* Change the color of links on hover */
 .cta-button:hover {
-  background-color:var(--color-text-secondary);
+  background-color: var(--color-text-secondary);
   color: var(--color-text-button);
 }
 
@@ -140,6 +141,7 @@ i used this tutorial Sticky navbar [Sticky navbar](https://www.w3schools.com/how
   color: var(--color-background-primary);
 
 }
+
 /* the page on the user is on. name on page pn the navbar is bold */
 .selected {
   font-weight: bold;
@@ -156,7 +158,7 @@ i used this tutorial Sticky navbar [Sticky navbar](https://www.w3schools.com/how
   margin-bottom: 30px;
   border-top: 1px solid var(--color-background-primary);
   border-bottom: 1px solid var(--color-background-primary);
-  
+
 }
 
 .navbar a {
@@ -387,14 +389,14 @@ this is to center it. the 1st and 4th column are blank so we use 2 and 3*/
 /* remove underline and change text colour*/
 .thearea-links a {
   text-decoration: none;
-    color: var(--color-text-secondary);
+  color: var(--color-text-secondary);
 }
 
 /*remove bullet from list*/
 .thearea-links li {
   list-style-type: none;
- }
- 
+}
+
 /* changes the size of the icons on the area page and color*/
 .thearea-icons {
   font-size: 10rem;
@@ -453,6 +455,7 @@ div.rcontent3 {
 .contactus-text {
   padding: 1em;
 }
+
 /* Style inputs, select elements and textareas */
 input[type=text],
 input[type=email],
@@ -553,21 +556,22 @@ input[type=submit]:hover {
   width: 50%;
 }
 
-.submit-form-container{
+.submit-form-container {
   position: relative;
-  text-align:top;
- 
+  text-align: top;
+
 }
+
 /* Centered text */
 .submit-form-center {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
-  font-size:90%;
+  font-size: 90%;
   color: black;
 }
+
 /*Media Queries */
 /* For Large screen sizes with a  1600px wide and down */
 @media only screen and (max-width: 1600px) {
@@ -688,7 +692,8 @@ input[type=submit]:hover {
     width: 90%;
 
   }
-/*styling for the buttons*/
+
+  /*styling for the buttons*/
   input[type=submit],
   input[type=reset] {
     width: auto;
@@ -724,7 +729,7 @@ input[type=submit]:hover {
       "barn-feature4"
   }
 
-    /* The area grid layout from 2 colums to 1*/
+  /* The area grid layout from 2 colums to 1*/
   .grid-wrapper-thearea {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
@@ -734,17 +739,17 @@ input[type=submit]:hover {
       "rcontent2"
   }
 
+  /*Media Queries */
+  /* For small screen sizes from 400px wide and down */
+  @media only screen and (max-width: 400px) {
 
-/*Media Queries */
-/* For small screen sizes from 400px wide and down */
-@media only screen and (max-width: 400px) {
-  /*change width from 30 to 20em */
-  .grid-images {
-    width: 20em;
-  }
+    /*change width from 30 to 20em */
+    .grid-images {
+      width: 20em;
+    }
 
-  /*reduce font-size of navbar to ensure it shows on small devices*/
-  .navbar {
-    font-size: 70%;
+    /*reduce font-size of navbar to ensure it shows on small devices*/
+    .navbar {
+      font-size: 70%;
+    }
   }
-}

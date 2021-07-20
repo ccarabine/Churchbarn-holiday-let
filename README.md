@@ -29,7 +29,7 @@ Image from  <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, to di
     * [Strategy](#strategy)
         * [Project Objectives & Goals](#goals)
         * [User Stories](#userstories)
-        * [Strategy Tradeoffs](tradeoffs)
+        * [Strategy Tradeoffs](#tradeoffs)
     * [Scope](#scope)
     * [Skeleton](#skeleton)
         * [Wireframes](#wireframes)
@@ -126,41 +126,50 @@ The website needed to be fully responsive, taking into account that 55% of websi
 I used <a href="https://balsamiq.com/">Balsamiq</a> to create wireframes for my project in order to plan out the layout of the interface, navigation and information design of the webpage on  desktop, tablets and mobile devices.
 
 ## Wireframes for Home Page. 
-
+### Desktop
 ![Home Page Desktop](assets/uxd/wireframes/home-desktop.png)
 
+### Tablet
 ![Home Page Tablet](assets/uxd/wireframes/home-tablet-sml.png)
 
+### Mobile
 ![Home Page Mobile](assets/uxd/wireframes/home-mobile.png)
 
 
 
 ## Wireframes for The Barn Page. 
-
+### Desktop
 ![The Barn Page Desktop](assets/uxd/wireframes/the-barn-desktop.png)
 
+### Tablet
 ![The Barn Page Tablet](assets/uxd/wireframes/the-barn-tablet.png)
 
+### Mobile
 ![The Barn Page Mobile](assets/uxd/wireframes/the-barn-mobile.png)
  
 
 
 ## Wireframes for The Area Page. 
 
+### Desktop
 ![The Area Page Desktop](assets/uxd/wireframes/the-area-desktop.png)
 
+### Tablet
 ![The Area Page Tablet](assets/uxd/wireframes/the-area-tablet.png)
 
+### Mobile 
 ![The Area Page Mobile](assets/uxd/wireframes/the-area-mobile.png)
 
 
 
 ## Wireframes for Contact Page. 
-
+### Desktop
 ![The Contact Page Desktop](assets/uxd/wireframes/contact-desktop.png)
 
+### Tablet
 ![The Contact Page Tablet](assets/uxd/wireframes/contact-tablet.png)
 
+### Mobile
 ![The Contact Page Mobile](assets/uxd/wireframes/contact-mobile.png)
 
 
@@ -213,10 +222,13 @@ At the top centre of the page. This section will let the user know the site they
 * Value: Informs user they have landed on Church Barn website.
 See below the view on all devices :
 
+### Desktop
 ![Header on all devices](assets/uxd/header-largedevice.PNG)
 
+### Tablet
 ![Header on all devices](assets/uxd/header-mediumdevice.PNG)
 
+### Mobile
 ![Header on all devices](assets/uxd/header-smalldevice.PNG)
 
 ## Navigation bar
@@ -232,10 +244,13 @@ See below the view on all devices :
 * Value: The navbar will allow user to easily navigate from page to page, across all devices, eliminating need to use a ‘back button’.
 See below the view on all devices :
 
+### Desktop
 ![Navbar on all largedevice](assets/uxd/navbar-largedevice.PNG)
 
+### Tablet
 ![Navbar on all mediumdevice](assets/uxd/navbar-mediumdevice.PNG)
 
+### Mobile
 ![Navbar on all small device](assets/uxd/navbar-smalldevice.PNG)
 
 ## Footer 
@@ -251,10 +266,13 @@ See below the view on all devices :
 
 See below the view on all devices :
 
+### Desktop
 ![Footer on large devices](assets/uxd/footer-largedevice.PNG)
 
+### Tablet
 ![Footer on medium devices](assets/uxd/footer-mediumdevice.PNG)
 
+### Mobile
 ![Footer on small devices](assets/uxd/footer-smalldevices.PNG)
 
 ## Features unique to home page. 
@@ -265,10 +283,13 @@ See below the view on all devices :
 
 See below the difference between desktop and mobile view:
 
+### Desktop
 ![Home page on large devices](assets/uxd/home-cta-largedevice.PNG)
 
+### Tablet
 ![Home page on medium devices](assets/uxd/home-cta-mediumdevice.PNG)
 
+### Mobile
 ![Home page on small devices](assets/uxd/home-cta-smalldevice.PNG)
 
 ## Features unique to ‘The Barn’ Page
@@ -277,18 +298,24 @@ See below the difference between desktop and mobile view:
 
 See below the difference between desktop and mobile view:
 
+### Desktop
 ![Barn description and image on large devices](assets/uxd/barnhero-intro-largedevice.PNG)
 
+### Tablet
 ![Barn description and image on medium devices](assets/uxd/barnhero-intro-mediumdevice.PNG)
 
+### Mobile
 ![Barn description and image on small devices](assets/uxd/barnhero-intro-smalldevice.PNG)
 
 * Barn Feature List of key features 
 
+### Desktop
 ![Barn features on large devices](assets/uxd/barnfeatures-largedevice.PNG)
 
+### Tablet
 ![ Barn features on Medium devices](assets/uxd/barnfeatures-mediumdevice.PNG)
 
+### Mobile
 ![ Barn features on small devices](assets/uxd/barnfeatures-smalldevice.PNG)
 
 * Six Images and description of the property – kitchen area, living area, bedroom 1, bedroom 2, outdoors and a ‘short stroll away…’.
@@ -297,10 +324,13 @@ See below the difference between desktop and mobile view:
 
 See below the difference between desktop and mobile view:
 
+### Desktop
 ![ Barn Images on large devices](assets/uxd/barnimages-largedevice.PNG)
 
+### Tablet
 ![ Barn Images on medium devices](assets/uxd/barnimages-mediumdevice.PNG)
 
+### Mobile
 ![ Barn Images on small devices](assets/uxd/barnimages-smalldevice.PNG)
 
 
@@ -310,10 +340,13 @@ See below the difference between desktop and mobile view:
 
 See below the difference between desktop, tablet and mobile view:
 
+### Desktop
 ![ Introduction and video on large device](assets/uxd/area-intro-video-largedevice.PNG)
 
+### Tablet
 ![ Introduction and video on medium device](assets/uxd/area-intro-video-mediumdevice.PNG)
 
+### Mobile
 ![ Introduction and video on small device](assets/uxd/area-intro-video-smalldevice.PNG)
 
 * Four headings (Attractions, Food, Beaches and Activities) with a ‘icon’ images and clickable links relating to the subject with CTA
@@ -322,10 +355,13 @@ See below the difference between desktop, tablet and mobile view:
 
 * Value: This section provides user with an overview of local area, beaches, places to eat/drink, and things to do with relevant imagery, invoking response to enquire/book with CTA. UX is consistent across all devices.
 
+### Desktop
 ![ Useful links and clickable links on large device](assets/uxd/area-useful-links-largedevice.PNG)
 
+### Tablet
 ![ Useful links and clickable links on large device](assets/uxd/area-useful-links-mediumdevice.PNG)
 
+### Mobile
 ![ Useful links and clickable links on large device](assets/uxd/area-useful-links-smalldevice.PNG)
 
 ## Features unique to Contact Us page.
@@ -339,10 +375,13 @@ See below the difference between desktop, tablet and mobile view:
 
 See below the difference between desktop, tablet and mobile view:
 
+### Desktop
 ![ Contact us form on large device](assets/uxd/contactus-largedevice.PNG)
 
+### Tablet
 ![ Contact us form on medium device](assets/uxd/contactus-mediumdevice.PNG)
 
+### Mobile
 ![ Contact us form on small device](assets/uxd/contactus-smalldevice.PNG)
 
 ## Features unique to Submit form page.
@@ -353,10 +392,13 @@ See below the difference between desktop, tablet and mobile view:
 
 See below the difference between desktop, tablet and mobile view:
 
+### Desktop
 ![ Contact us form on large device](assets/uxd/submitform-largedevice.PNG)
 
+### Tablet
 ![ Contact us form on medium device](assets/uxd/submitform-mediumdevice.PNG)
 
+### Mobile
 ![ Contact us form on small device](assets/uxd/submitform-smalldevice.PNG)
 ---
 # Features remaining to implement (long term objectives): <a name="features-toimplement"></a>

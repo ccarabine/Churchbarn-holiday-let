@@ -131,14 +131,15 @@ h1 {
 
 /* to keep the navbar at the top when the user scrolls down
 i used this tutorial Sticky navbar [Sticky navbar](https://www.w3schools.com/howto/howto_css_sticky_element.asp)*/
+
 .navbar {
   position: sticky;
   top: 0;
   background-color: white;
   z-index: 1;
   color: var(--color-background-primary);
-}
 
+}
 /* the page on the user is on. name on page pn the navbar is bold */
 .selected {
   font-weight: bold;
@@ -155,6 +156,7 @@ i used this tutorial Sticky navbar [Sticky navbar](https://www.w3schools.com/how
   margin-bottom: 30px;
   border-top: 1px solid var(--color-background-primary);
   border-bottom: 1px solid var(--color-background-primary);
+  
 }
 
 .navbar a {

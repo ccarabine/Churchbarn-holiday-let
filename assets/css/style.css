@@ -384,11 +384,16 @@ this is to center it. the 1st and 4th column are blank so we use 2 and 3*/
 }
 
 /* remove underline and change text colour*/
-.thearea-links>a {
+.thearea-links a {
   text-decoration: none;
-  color: var(--color-text-secondary);
+    color: var(--color-text-secondary);
 }
 
+/*remove bullet from list*/
+.thearea-links li {
+  list-style-type: none;
+ }
+ 
 /* changes the size of the icons on the area page and color*/
 .thearea-icons {
   font-size: 10rem;

@@ -375,7 +375,6 @@ this is to center it. the 1st and 4th column are blank so we use 2 and 3*/
 .grid-wrapper-thearea {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 1fr;
   padding-top: 2em;
   gap: 1em;
   grid-template-areas:

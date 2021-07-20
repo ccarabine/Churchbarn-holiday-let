@@ -15,9 +15,9 @@ The owners core goals for the website are:
 * Increase margins / profitability by reducing the need for 3rd party letting agency
 
 
-## [Link to Church Barn live site]("https://ccarabine.github.io/Churchbarn-holiday-let/") 
+## Link to Church Barn live site <a href="https://ccarabine.github.io/Churchbarn-holiday-let/"> Church Barn </a>
 
-![Responsive image of front page on all devices](assets/uxd/responsive-design-mockup.PNG)
+![Responsive image of front page on all devices](assets/uxd/responsive-design-mockupv2.PNG)
 
 Image from  <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, to display the websites home page across mobile, tablet and desktop.
 
@@ -116,7 +116,7 @@ To achieve the strategy goals, I want to implement the following functional spec
 * A page about the area with video and links to places to go
 * A contact page which will allow the user to get in contact with the owner
 
-The website needed to be fully responsive, taking into account that 55% of websites are viewed from mobiles and knowing the client is using social media advertising to target possible users.
+The website needs to be fully responsive, taking into account that 55% of websites are viewed from mobiles and knowing the client is using social media advertising to target possible users.
 
 ---
 # 3. Skelton <a name="skeleton"></a> [Contents](#home)
@@ -190,7 +190,7 @@ A coastal palette has been chosen to correlate and appear aesthetically pleasing
 
 ## 2. Typography <a name="typography"></a>
 
-The following font Roboto have been selected to ensure the text is easy to read, add value to the text, and invoke user to perceive a positive emotion from the text. The fonts chosen are generic and therefore should appeal to any demographic/user. It is rated as Google best font. I chose font Lato to compliment some of the heading.
+The following font Roboto have been selected to ensure the text is easy to read, add value to the text, and invoke user to perceive a positive emotion from the text. The fonts chosen are generic and therefore should appeal to any demographic/user. It is rated as Google's best font. I chose font Lato to compliment the heading.
 
 ![ Roboto font](assets/uxd/font-roboto.PNG)
 
@@ -203,7 +203,7 @@ The following font Roboto have been selected to ensure the text is easy to read,
 
 I used the images with the colours in mind.... blues , sandy colors and bright
 
-Please use further details in credits section for specific images used within the project
+Please refer to further details in credits section for specific images used within the project
 
 
 ---

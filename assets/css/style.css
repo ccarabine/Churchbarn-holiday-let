@@ -556,10 +556,10 @@ input[type=submit]:hover {
 .submit-form-container{
   position: relative;
   text-align:top;
- ;
+ 
 }
 /* Centered text */
-.centered {
+.submit-form-center {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -734,12 +734,6 @@ input[type=submit]:hover {
       "rcontent2"
   }
 
-  /* logo padding for submit form */
-  .logo {
-    margin: 4em auto;
-
-  }
-}
 
 /*Media Queries */
 /* For small screen sizes from 400px wide and down */

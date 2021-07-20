@@ -8,14 +8,14 @@ The website has been developed to market/sell a holiday property let.
 
 The owners core goals for the website are:
 
-* To market property and create bookings directly with consumers
+* To market the property and create bookings directly with consumers
 
 * To manage bookings himself
 
 * Increase margins / profitability by reducing the need for 3rd party letting agency
 
 
-## [Church Barn live site]("https://ccarabine.github.io/Churchbarn-holiday-let/") 
+## [Link to Church Barn live site]("https://ccarabine.github.io/Churchbarn-holiday-let/") 
 
 ![Responsive image of front page on all devices](assets/uxd/responsive-design-mockup.PNG)
 
@@ -23,7 +23,7 @@ Image from  <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, to di
 
 
 ***
-# Table of Contents
+# Table of Contents <a name="Home"></a>
 
 1. [User Experience (UX)](#ux)
     * [Strategy](#strategy)
@@ -59,9 +59,9 @@ Image from  <a href="http://ami.responsivedesign.is/">Am I Responsive</a>, to di
 
 
 
-# User Experience (UX) <a name="ux"></a>
+# User Experience (UX) <a name="ux"></a> [Contents](#home)
 
-## 1. Strategy <a name="strategy"></a>
+## 1. Strategy <a name="strategy"></a> 
 
 ***
 
@@ -84,7 +84,7 @@ The goal is to build an intuitive and responsive website, achieving the followin
 * Increase online presence and potentially eliminate the need for external 3rd party letting marketplace in the long term/future, managing all bookings, eliminating all agency fees/commission, increase profitability and take full control of Church Barn brand. 
 
 ### Customer Goals
-* Clear and simple layout so the user can easily  find and view information about the 
+* Clear and simple layout so the user can easily  find and view information about the property
 * Easy to navigate
 * Easy to find contact details to get in touch
 
@@ -119,7 +119,7 @@ To achieve the strategy goals, I want to implement the following functional spec
 The website needed to be fully responsive, taking into account that 55% of websites are viewed from mobiles and knowing the client is using social media advertising to target possible users.
 
 ---
-# 3. Skelton <a name="skeleton"></a>
+# 3. Skelton <a name="skeleton"></a> [Contents](#home)
 
 ## Wireframe <a name="wireframes"></a>
 
@@ -164,7 +164,7 @@ I used <a href="https://balsamiq.com/">Balsamiq</a> to create wireframes for my 
 ![The Contact Page Mobile](assets/uxd/wireframes/contact-mobile.png)
 
 
-# 4. Surface <a name="surface"></a>
+# 4. Surface <a name="surface"></a> [Contents](#home)
 
 ## Visual Design
 
@@ -198,7 +198,7 @@ Please use further details in credits section for specific images used within th
 
 
 ---
-# Features <a name="features"></a>
+# Features <a name="features"></a> [Contents](#home)
 
 
 
@@ -375,7 +375,7 @@ See below the difference between desktop, tablet and mobile view:
 7.) Pricing information
 
 ---
-# Testing <a name="testing"></a>
+# Testing <a name="testing"></a> [Contents](#home)
 
 ## User Feedback <a name="user-feedback"></a>
 
@@ -385,9 +385,15 @@ I received the following constructive feedback from friends and family and imple
 
 * Corrective action: change colour palette 
 
-2.) Header – when user tried to click on the header ‘Church Barn’, it did not take the user to the home page, which the user expected.
+2.) Header
+
+a.) when user tried to click on the header ‘Church Barn’, it did not take the user to the home page, which the user expected.
 
 * Corrective action: added a href to the Church Barn text and linked to ‘index.html’
+
+b.) Was not immediately obvious that the home page was a holiday let.
+
+* Corrective action: Changed heading to Church Barn Holiday Cottage
 
 3.) Navbar – when the user scrolled down the page, they needed to scroll all the way back up to use navbarto select another page.
 
@@ -399,7 +405,7 @@ I received the following constructive feedback from friends and family and imple
 
 5.) The Area Page
 
-a.) The botoom of the video frame was touching the heading underneath on the mobile site. 
+a.) The bottom of the video frame was touching the heading underneath on the mobile site. 
 
 * Corrective action: adjusted margin to resolve gap between video and heading
 
@@ -411,9 +417,17 @@ c.) The video played sound automatically when loaded, rather than on mute.
 
 * Corrective action: adjusted code to incorporate mute and video controls.
 
+d.) Falmouth packet restaurant website was removed
+
+* Changed to another restaurant 24 Street
+
+e.) Rick stein restaurant ceased trading, website address removed
+
+* Changed to another restaurant Artist Residence
+
 6.) Call to action (CTA) button on the mobile site was wrongly positioned in the middle of ’attractions’ grid section.
 
-* Corrective action: removed the barn wrapper out of the div class and moved code out of the div 
+* Corrective action: removed the barn wrapper out of the div class and moved code out of the div so the button was underneath the section
 
 7.) Contact Page  
 
@@ -446,7 +460,7 @@ g.) The enquiry form overflowed the page horizontally on the mobile site
 * Corrective action: changed the width of the wrapper on media queries so the form did not overflow 
 
 ---
-# Testing Check list <a name="testing-check-list"></a>
+# Testing Check list <a name="testing-check-list"></a> [Contents](#home)
 
 
 ## Main Structure -Header, navigation bar and footer featured on all four pages. 
@@ -672,7 +686,7 @@ Changed colour palette to :
 
 
 ---
-# Design Responsiveness Testing <a name="testing-responsiveness"></a>
+# Design Responsiveness Testing <a name="testing-responsiveness"></a> [Contents](#home)
 
 ## Simulated Testing <a name="testing-simulated"></a>
 For each section on each page, I tested various screen sizes in the development environment. Using the Google Developer tools I tested the responsiveness throughout the development process and all tests passed.
@@ -722,7 +736,7 @@ For each section on each page, I tested various screen sizes in the development 
 
 
 ---
-# Deployment <a name="deployment"></a>
+# Deployment <a name="deployment"></a> [Contents](#home)
 This is the process i took to deploy my project to the hosting platform GitHub
 1.	Open Github page up in browser
 2.	Log in using your username and password
@@ -735,7 +749,7 @@ This is the process i took to deploy my project to the hosting platform GitHub
 The live link can be found here <a href="https://ccarabine.github.io/Churchbarn-holiday-let/">Church-Barn-Holiday-Let</a>
 
 ---
-# Technologies Used <a name="technology-used"></a>
+# Technologies Used <a name="technology-used"></a>  <a name="Home"></a>
 
 For this project the main languages used are __HTML5__ and __CSS3__.
 

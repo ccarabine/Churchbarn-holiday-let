@@ -558,14 +558,14 @@ input[type=submit]:hover {
 
 .submit-form-container {
   position: relative;
-  text-align: top;
+  vertical-align: text-top;
 
 }
 
 /* Centered text */
 .submit-form-center {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 90%;
@@ -596,7 +596,12 @@ input[type=submit]:hover {
 /*Media Queries */
 /* For medium screen sizes from 1200px wide and down */
 @media only screen and (max-width: 1200px) {
-  .cta-button {
+ 
+  .submit-form-center {
+    position: absolute;
+    top: 30%;
+  }
+   .cta-button {
     left: 0em;
     bottom: 0em;
   }
@@ -639,6 +644,10 @@ input[type=submit]:hover {
 /*Media Queries */
 /* For medium screen sizes from 900px wide and down */
 @media only screen and (max-width: 900px) {
+  .submit-form-center {
+    position: absolute;
+    top: 40%;
+  }
   .ft-main {
     justify-content: space-around;
     display: flex;
@@ -707,6 +716,11 @@ input[type=submit]:hover {
 /*Media Queries */
 /* For small screen sizes from 640px wide and down */
 @media only screen and (max-width: 640px) {
+  .submit-form-center {
+    position: absolute;
+    top: 50%;
+  }
+
   .main-head {
     font-size: 0.75rem;
   }
@@ -738,7 +752,7 @@ input[type=submit]:hover {
       "lcontent2"
       "rcontent2"
   }
-
+}
   /*Media Queries */
   /* For small screen sizes from 400px wide and down */
   @media only screen and (max-width: 400px) {
@@ -752,4 +766,10 @@ input[type=submit]:hover {
     .navbar {
       font-size: 70%;
     }
+    
+      .submit-form-center {
+        position: absolute;
+        top: 60%;
+      }
   }
+ 

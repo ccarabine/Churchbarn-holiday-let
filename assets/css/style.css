@@ -565,7 +565,7 @@ input[type=submit]:hover {
 /* Centered text */
 .submit-form-center {
   position: absolute;
-  top: 80%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 90%;
@@ -597,10 +597,7 @@ input[type=submit]:hover {
 /* For medium screen sizes from 1200px wide and down */
 @media only screen and (max-width: 1200px) {
  
-  .submit-form-center {
-    position: absolute;
-    top: 30%;
-  }
+  
    .cta-button {
     left: 0em;
     bottom: 0em;
@@ -644,10 +641,7 @@ input[type=submit]:hover {
 /*Media Queries */
 /* For medium screen sizes from 900px wide and down */
 @media only screen and (max-width: 900px) {
-  .submit-form-center {
-    position: absolute;
-    top: 40%;
-  }
+ 
   .ft-main {
     justify-content: space-around;
     display: flex;
@@ -716,10 +710,7 @@ input[type=submit]:hover {
 /*Media Queries */
 /* For small screen sizes from 640px wide and down */
 @media only screen and (max-width: 640px) {
-  .submit-form-center {
-    position: absolute;
-    top: 50%;
-  }
+  
 
   .main-head {
     font-size: 0.75rem;
@@ -767,9 +758,6 @@ input[type=submit]:hover {
       font-size: 70%;
     }
     
-      .submit-form-center {
-        position: absolute;
-        top: 60%;
-      }
+     
   }
  
